@@ -1,9 +1,9 @@
 name: Autonomous YouTube Shorts Engine
 
 on:
-  # Daily automated run at 11:55 PM IST (18:25 UTC) to schedule the next 24-hour cycle (48 slots)
+  # Daily automated run at 6:00 PM IST (12:30 UTC)
   schedule:
-    - cron: '25 18 * * *'
+    - cron: '30 12 * * *'
 
   # Manual on-demand trigger from GitHub Mobile App or Web
   workflow_dispatch:
@@ -22,12 +22,13 @@ on:
       start_at:
         description: 'Schedule starting slot'
         required: true
-        default: 'midnight'
+        default: 'tomorrow'
         type: choice
         options:
+          - 'tomorrow'
+          - '6pm'
           - 'midnight'
           - 'now'
-          - 'tomorrow'
       interval:
         description: 'Minutes between each Short release'
         required: true
@@ -101,7 +102,7 @@ jobs:
         run: |
           COUNT="${{ github.event.inputs.count || '48' }}"
           INTERVAL="${{ github.event.inputs.interval || '30' }}"
-          START_AT="${{ github.event.inputs.start_at || 'midnight' }}"
+          START_AT="${{ github.event.inputs.start_at || 'tomorrow' }}"
 
           echo "=========================================================="
           echo "  Launching Autonomous Shorts Engine"

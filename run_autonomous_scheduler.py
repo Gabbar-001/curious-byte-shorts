@@ -56,15 +56,19 @@ def run_pipeline(count: int = 48, interval_minutes: int = 30, start_at: str = "m
     ist_tz = timezone(timedelta(hours=5, minutes=30))
     now_local = datetime.now(ist_tz)
 
-    if start_at and start_at.lower() in ["midnight", "12:00am", "00:00", "today_midnight"]:
-        if now_local.hour >= 20:
-            # If running late evening (e.g. 23:00 / 11 PM), schedule for tomorrow's 00:00 AM -> 11:30 PM
+    if start_at and start_at.lower() in ["tomorrow"]:
+        base_start = (now_local + timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
+    elif start_at and start_at.lower() in ["6pm", "18:00", "evening"]:
+        base_start = now_local.replace(hour=18, minute=0, second=0, microsecond=0)
+        if base_start < now_local - timedelta(minutes=5):
+            base_start = base_start + timedelta(days=1)
+    elif start_at and start_at.lower() in ["midnight", "12:00am", "00:00", "today_midnight"]:
+        if now_local.hour >= 12:
+            # If running in afternoon or evening (like 6 PM), schedule for tomorrow's 00:00 AM -> 11:30 PM
             base_start = (now_local + timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
         else:
             # If running earlier in the day or catch-up, schedule starting from today's midnight
             base_start = now_local.replace(hour=0, minute=0, second=0, microsecond=0)
-    elif start_at and start_at.lower() in ["tomorrow"]:
-        base_start = (now_local + timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
     elif start_at and start_at.lower() in ["now", "immediate", "auto"]:
         base_start = now_local + timedelta(minutes=start_delay_minutes)
     else:

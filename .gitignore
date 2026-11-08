@@ -1,0 +1,55 @@
+# Credentials & Secrets (CRITICAL: NEVER COMMIT TO GIT)
+config/token.json
+config/client_secrets.json
+config/.env
+.env
+client_secret*.json
+*.token.json
+*.key
+github_secrets_to_copy.txt
+
+# Generated video, audio & temporary media files
+output/videos/*
+output/audio/*
+output/subtitles/*
+output/thumbnails/*
+output/temp_clips/
+output/temp_*/
+output/preview_frames/
+output/stills/
+output/invideo_prompts/
+output/metadata/*.json
+test_10_scenes/
+test_ai_anim/
+scratch/
+*.mp4
+*.mp3
+*.wav
+*.srt
+*.ass
+debug_frame_*.jpg
+test_*.jpg
+test_*.mp4
+test_*.ass
+
+# Keep directory structure
+!output/videos/.gitkeep
+!output/audio/.gitkeep
+!output/subtitles/.gitkeep
+!output/thumbnails/.gitkeep
+!output/metadata/.gitkeep
+
+# Ensure uploads ledger is tracked for smart-resume
+!output/uploads_history.json
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini

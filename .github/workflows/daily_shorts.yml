@@ -1,0 +1,127 @@
+name: Autonomous YouTube Shorts Engine
+
+on:
+  # Daily automated run at 11:55 PM IST (18:25 UTC) to schedule the next 24-hour cycle (48 slots)
+  schedule:
+    - cron: '25 18 * * *'
+
+  # Manual on-demand trigger from GitHub Mobile App or Web
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'Number of Shorts to schedule'
+        required: true
+        default: '48'
+        type: choice
+        options:
+          - '48'
+          - '24'
+          - '12'
+          - '6'
+          - '1'
+      start_at:
+        description: 'Schedule starting slot'
+        required: true
+        default: 'midnight'
+        type: choice
+        options:
+          - 'midnight'
+          - 'now'
+          - 'tomorrow'
+      interval:
+        description: 'Minutes between each Short release'
+        required: true
+        default: '30'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  run-shorts-engine:
+    name: Generate & Schedule Shorts
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    env:
+      TZ: 'Asia/Kolkata'
+      PYTHONUNBUFFERED: '1'
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install System FFmpeg and Linux Typography Fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-dejavu-core fonts-liberation fonts-freefont-ttf
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Restore Cloud Credentials from GitHub Secrets
+        env:
+          GEMINI_KEY: ${{ secrets.GEMINI_API_KEY }}
+          YOUTUBE_TOKEN_B64: ${{ secrets.YOUTUBE_TOKEN_BASE64 }}
+          CLIENT_SECRETS_B64: ${{ secrets.CLIENT_SECRETS_BASE64 }}
+        run: |
+          mkdir -p config
+          echo "Restoring Gemini configuration..."
+          echo "GEMINI_API_KEY=$GEMINI_KEY" > config/.env
+          echo "YOUTUBE_CLIENT_SECRETS_FILE=config/client_secrets.json" >> config/.env
+          echo "YOUTUBE_TOKEN_FILE=config/token.json" >> config/.env
+
+          echo "Decoding YouTube OAuth Token..."
+          python -c "import os, base64; open('config/token.json', 'wb').write(base64.b64decode(os.environ['YOUTUBE_TOKEN_B64'].strip()))"
+
+          echo "Decoding YouTube Client Secrets..."
+          python -c "import os, base64; open('config/client_secrets.json', 'wb').write(base64.b64decode(os.environ['CLIENT_SECRETS_B64'].strip()))"
+
+          # Sanity check
+          if [ ! -s config/token.json ]; then
+            echo "::error::config/token.json is empty or invalid! Please check YOUTUBE_TOKEN_BASE64 secret."
+            exit 1
+          fi
+          if [ ! -s config/client_secrets.json ]; then
+            echo "::error::config/client_secrets.json is empty or invalid! Please check CLIENT_SECRETS_BASE64 secret."
+            exit 1
+          fi
+          echo "Credentials successfully verified."
+
+      - name: Run Autonomous Scheduler
+        run: |
+          COUNT="${{ github.event.inputs.count || '48' }}"
+          INTERVAL="${{ github.event.inputs.interval || '30' }}"
+          START_AT="${{ github.event.inputs.start_at || 'midnight' }}"
+
+          echo "=========================================================="
+          echo "  Launching Autonomous Shorts Engine"
+          echo "  • Count     : $COUNT"
+          echo "  • Interval  : $INTERVAL minutes"
+          echo "  • Start At  : $START_AT"
+          echo "=========================================================="
+
+          python run_autonomous_scheduler.py --count "$COUNT" --interval "$INTERVAL" --start-at "$START_AT"
+
+      - name: Persist Upload Ledger to Repository
+        if: always()
+        run: |
+          git config --global user.name "Curious Byte Engine"
+          git config --global user.email "bot@curiousbyte.local"
+          git add output/uploads_history.json
+          if ! git diff --staged --quiet; then
+            git commit -m "🤖 Update YouTube upload history [skip ci]"
+            git push
+            echo "Upload ledger updated in Git."
+          else
+            echo "No new upload history to record."
+          fi

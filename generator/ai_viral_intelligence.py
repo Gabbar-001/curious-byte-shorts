@@ -71,10 +71,13 @@ CORE MANDATES:
    Score the topic from 1 to 100 based on Curiosity (25%), Emotion (20%), Shareability (20%), Uniqueness (15%), Relevance (10%), Visuals (10%).
 6. EMOJI RESTRAINT:
    Pick only 1 or 2 high-impact emojis for the entire video (placed on the climax or payoff words).
+7. VIRAL HASHTAG & TREND DISCOVERY (MAX REACH):
+   Include "trending_viral_hashtags": 8 to 12 hyper-trending YouTube Shorts discovery hashtags directly relevant to this specific topic and current internet search interest (e.g. ["#SpaceFacts", "#Cosmos", "#Astronomy", "#BlackHole", "#ViralShorts", "#FYP", "#Trending"]).
 
 Respond ONLY with valid JSON matching this schema:
 {
   "topic": "...",
+  "trending_viral_hashtags": ["#Tag1", "#Tag2"],
   "pillar": "...",
   "viral_score": 88,
   "scoring_breakdown": {
@@ -171,6 +174,49 @@ def extract_word_hashtags(text: str, max_tags: int = 40) -> list[str]:
             if len(tags) >= max_tags:
                 break
     return tags
+
+NICHE_VIRAL_HASHTAGS = {
+    'space': ['#SpaceFacts', '#Astronomy', '#Cosmos', '#Universe', '#NASA', '#BlackHole', '#Astrophysics', '#DeepSpace', '#SolarSystem'],
+    'physics': ['#QuantumPhysics', '#PhysicsFacts', '#QuantumMechanics', '#TheoreticalPhysics', '#ScienceExperiment', '#Relativity', '#TimeDilation'],
+    'biology': ['#HumanBody', '#BrainHacks', '#PsychologyFacts', '#BiologyFacts', '#Neuroscience', '#HumanAnatomy', '#CellularBiology'],
+    'nature': ['#NatureMysteries', '#EarthFacts', '#DeepSea', '#OceanMysteries', '#CatastrophicEarth', '#PlanetEarth', '#WildNature'],
+    'history': ['#AncientHistory', '#Archaeology', '#LostCivilizations', '#AncientEngineering', '#HistoricalMysteries', '#ForgottenHistory'],
+    'global_viral': ['#Shorts', '#YouTubeShorts', '#Viral', '#Trending', '#CuriousByte', '#DidYouKnow', '#MindBlowing', '#FYP', '#ExplorePage']
+}
+
+def build_ultimate_viral_hashtags(title: str, script: str, topic: str = "", pillar: str = "", ai_hashtags: list = None, max_tags: int = 38) -> list[str]:
+    seen = set()
+    result = []
+    for tag in NICHE_VIRAL_HASHTAGS['global_viral']:
+        k = tag.replace('#', '').lower()
+        if k not in seen:
+            seen.add(k)
+            result.append(tag)
+    if ai_hashtags:
+        for tag in ai_hashtags:
+            t = tag.strip() if tag.strip().startswith('#') else f'#{tag.strip()}'
+            k = t.replace('#', '').lower()
+            if k not in seen and len(k) >= 3:
+                seen.add(k)
+                result.append(t)
+    combined_ctx = f'{topic} {pillar} {title}'.lower()
+    for niche_key, niche_tags in NICHE_VIRAL_HASHTAGS.items():
+        if niche_key in combined_ctx or (niche_key == 'biology' and any(k in combined_ctx for k in ['brain', 'body', 'cell', 'sleep', 'dream', 'mind', 'eye'])):
+            for tag in niche_tags:
+                k = tag.replace('#', '').lower()
+                if k not in seen:
+                    seen.add(k)
+                    result.append(tag)
+    clean = re.sub(r'https?://\S+|@\S+|#\S+', ' ', f'{title} {script}')
+    clean = re.sub(r'[^a-zA-Z\s]', ' ', clean)
+    for w in clean.split():
+        wl = w.lower()
+        if len(wl) >= 3 and wl not in HASHTAG_STOP_WORDS and wl not in seen:
+            seen.add(wl)
+            result.append(f'#{wl}')
+            if len(result) >= max_tags:
+                break
+    return result[:max_tags]
 
 def get_gemini_client():
     api_key = os.getenv("GEMINI_API_KEY")
@@ -278,14 +324,24 @@ Enforce fact verification and the strict 10-scene matched structure (zero human 
         # Save topic to avoid repeats
         save_topic_history(concept_data.get("topic", "Unknown"), fact_id)
 
-        # Build SEO description with every spoken word converted to individual hashtags
+        # Build SEO description with trending viral hashtags + word-by-word hashtags
         debate_q = concept_data.get("debate_question", "What is your theory on this?")
-        combined_text = f"{concept_data.get('title', '')} {concept_data.get('full_voiceover_script', '')}"
-        word_hashtags = extract_word_hashtags(combined_text, max_tags=40)
-        hashtag_line = " ".join(word_hashtags)
+        ai_hashtags = concept_data.get("trending_viral_hashtags", [])
+        topic = concept_data.get("topic", "")
+        pillar = concept_data.get("pillar", "")
+
+        all_hashtags = build_ultimate_viral_hashtags(
+            title=concept_data.get("title", ""),
+            script=concept_data.get("full_voiceover_script", ""),
+            topic=topic,
+            pillar=pillar,
+            ai_hashtags=ai_hashtags,
+            max_tags=38
+        )
+        hashtag_line = " ".join(all_hashtags)
 
         # Build video tags array (up to 500 characters)
-        raw_tags = ["Shorts", "Curious Byte", "Facts"] + [h.replace("#", "") for h in word_hashtags]
+        raw_tags = ["Shorts", "Curious Byte", "Facts"] + [h.replace("#", "") for h in all_hashtags]
         final_tags = []
         cur_len = 0
         for t in raw_tags:

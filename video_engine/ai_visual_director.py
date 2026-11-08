@@ -297,12 +297,24 @@ def synthesize_scene_visuals(story_beats: list, short_id: str, topic: str = "", 
     used_urls_lock = threading.Lock()
     print(f"\n[Visual Director] Synthesizing {len(story_beats)} matched 3D CGI scenes IN PARALLEL ({max_workers} Threads)...")
 
+    total_beats = len(story_beats)
     def fetch_scene(item):
         idx, beat = item
         scene_num = beat.get("scene", idx)
         out_file = os.path.join(base_dir, f"scene_{scene_num:02d}.jpg")
         beat_name = beat.get("beat_name", f"Scene {scene_num}")
         keyword = beat.get("search_keyword", "")
+
+        # Mandatory Branded Channel Logo Outro for final scene (Like, Subscribe & Share)
+        narration = beat.get("narration", "").lower()
+        is_outro = (idx == total_beats) or (scene_num == total_beats) or ("subscribe" in narration and "like" in narration)
+        if is_outro:
+            from video_engine.ai_visualizer import ensure_promo_card
+            promo_png = ensure_promo_card()
+            if os.path.exists(promo_png):
+                with Image.open(promo_png) as im:
+                    im.convert("RGB").save(out_file, "JPEG", quality=95)
+                return scene_num, out_file, "Channel Logo Outro (CTA)", "Curious Byte Logo"
 
         asset_path = generate_single_scene_asset(
             beat=beat,

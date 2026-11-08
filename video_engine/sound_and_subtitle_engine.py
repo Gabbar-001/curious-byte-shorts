@@ -28,7 +28,22 @@ if sys.platform == "win32":
     except Exception:
         pass
 
-DEFAULT_VOICE = "en-US-ChristopherNeural"
+DEFAULT_VOICE = "en-IN-NeerjaExpressiveNeural"
+
+def get_voice_and_rate() -> tuple[str, str]:
+    settings_file = os.path.join(os.path.dirname(__file__), "..", "config", "settings.json")
+    voice = DEFAULT_VOICE
+    rate = "+0%"
+    if os.path.exists(settings_file):
+        try:
+            import json
+            with open(settings_file, "r", encoding="utf-8") as f:
+                cfg = json.load(f)
+                voice = cfg.get("voice", DEFAULT_VOICE)
+                rate = cfg.get("voice_rate", "+0%")
+        except Exception:
+            pass
+    return voice, rate
 
 def to_ass_time(seconds: float) -> str:
     hrs = int(seconds // 3600)
@@ -47,19 +62,39 @@ def parse_srt_to_seconds(srt_time_str: str) -> float:
         return float(m) * 60 + float(s)
     return 0.0
 
-async def synthesize_audio_and_srt(text: str, audio_path: str, srt_path: str, voice: str = DEFAULT_VOICE, rate: str = "+4%"):
+async def synthesize_audio_and_srt(text: str, audio_path: str, srt_path: str, voice: str = None, rate: str = None):
     os.makedirs(os.path.dirname(audio_path), exist_ok=True)
-    communicate = edge_tts.Communicate(text, voice, rate=rate)
-    submaker = edge_tts.SubMaker()
-    with open(audio_path, "wb") as audio_file:
-        async for chunk in communicate.stream():
-            if chunk["type"] == "audio":
-                audio_file.write(chunk["data"])
-            elif chunk["type"] in ("WordBoundary", "SentenceBoundary"):
-                submaker.feed(chunk)
+    cfg_voice, cfg_rate = get_voice_and_rate()
+    chosen_voice = voice or cfg_voice
+    chosen_rate = rate or cfg_rate
 
-    with open(srt_path, "w", encoding="utf-8") as srt_file:
-        srt_file.write(submaker.get_srt())
+    voices_to_try = [chosen_voice]
+    if chosen_voice == "en-IN-NeerjaExpressiveNeural":
+        voices_to_try.append("en-IN-NeerjaNeural")
+
+    last_exc = None
+    for v in voices_to_try:
+        try:
+            communicate = edge_tts.Communicate(text, v, rate=chosen_rate)
+            submaker = edge_tts.SubMaker()
+            with open(audio_path, "wb") as audio_file:
+                async for chunk in communicate.stream():
+                    if chunk["type"] == "audio":
+                        audio_file.write(chunk["data"])
+                    elif chunk["type"] in ("WordBoundary", "SentenceBoundary"):
+                        submaker.feed(chunk)
+
+            srt_content = submaker.get_srt()
+            if os.path.exists(audio_path) and os.path.getsize(audio_path) > 1000 and len(srt_content) > 10:
+                with open(srt_path, "w", encoding="utf-8") as srt_file:
+                    srt_file.write(srt_content)
+                return
+        except Exception as e:
+            last_exc = e
+            continue
+
+    if last_exc:
+        raise last_exc
 
 def generate_voice_assets(text: str, audio_path: str, srt_path: str) -> tuple[str, str]:
     if not (os.path.exists(audio_path) and os.path.exists(srt_path) and os.path.getsize(audio_path) > 1000):

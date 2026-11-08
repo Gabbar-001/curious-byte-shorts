@@ -8,7 +8,7 @@ import os
 import asyncio
 import edge_tts
 
-DEFAULT_VOICE = "en-US-ChristopherNeural"  # Professional, deep, engaging documentary narrator
+DEFAULT_VOICE = "en-IN-NeerjaExpressiveNeural"  # Expressive, natural, warm Indian female narrator
 
 async def generate_speech(text: str, output_audio_path: str, output_vtt_path: str = None, voice: str = DEFAULT_VOICE, rate: str = "+4%", pitch: str = "+0Hz"):
     """

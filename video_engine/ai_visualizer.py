@@ -56,15 +56,18 @@ def ensure_promo_card(channel_name: str = "CURIOUS BYTE", handle: str = "@Curiou
     draw = ImageDraw.Draw(card)
 
     # Ambient radial glow behind the logo
-    for r in range(480, 150, -20):
-        alpha = int(24 * (1 - r / 480))
-        draw.ellipse((W//2 - r, 720 - r, W//2 + r, 720 + r), fill=(56, 189, 248, alpha))
+    for r in range(500, 180, -20):
+        alpha = int(28 * (1 - r / 500))
+        draw.ellipse((W//2 - r, 580 - r, W//2 + r, 580 + r), fill=(56, 189, 248, alpha))
 
     # Channel Logo (High-resolution square with rounded corners)
-    logo_path = os.path.join("assets", "channel_logo.png")
+    logo_path = os.path.join(os.path.dirname(__file__), "..", "assets", "channel_logo.png")
+    if not os.path.exists(logo_path):
+        logo_path = os.path.join("assets", "channel_logo.png")
+
     if os.path.exists(logo_path):
         logo = Image.open(logo_path).convert("RGBA")
-        logo_size = 420
+        logo_size = 400
         logo = logo.resize((logo_size, logo_size), Image.Resampling.LANCZOS)
         
         logo_mask = Image.new("L", (logo_size, logo_size), 0)
@@ -72,10 +75,10 @@ def ensure_promo_card(channel_name: str = "CURIOUS BYTE", handle: str = "@Curiou
         mask_draw.rounded_rectangle((0, 0, logo_size, logo_size), radius=35, fill=255)
         
         logo_x = (W - logo_size) // 2
-        logo_y = 520
+        logo_y = 380
         
         # Outer glowing neon cyan border
-        draw.rounded_rectangle((logo_x - 6, logo_y - 6, logo_x + logo_size + 6, logo_y + logo_size + 6), radius=40, outline=(56, 189, 248, 255), width=5)
+        draw.rounded_rectangle((logo_x - 6, logo_y - 6, logo_x + logo_size + 6, logo_y + logo_size + 6), radius=40, outline=(56, 189, 248, 255), width=6)
         card.paste(logo, (logo_x, logo_y), mask=logo_mask)
 
     # Fonts (Cross-platform resolution for Windows & Linux)
@@ -97,41 +100,50 @@ def ensure_promo_card(channel_name: str = "CURIOUS BYTE", handle: str = "@Curiou
         "Arial",
         "DejaVuSans"
     ]
+    font_title = None
     font_btn = None
     for cand in candidates_bold:
         try:
             if cand.startswith("C:") or cand.startswith("/"):
                 if os.path.exists(cand):
-                    font_btn = ImageFont.truetype(cand, 44)
+                    font_title = ImageFont.truetype(cand, 52)
+                    font_btn = ImageFont.truetype(cand, 42)
                     break
             else:
-                font_btn = ImageFont.truetype(cand, 44)
+                font_title = ImageFont.truetype(cand, 52)
+                font_btn = ImageFont.truetype(cand, 42)
                 break
         except Exception:
             continue
     if not font_btn:
         font_btn = ImageFont.load_default()
+        font_title = font_btn
 
     font_sub = None
     for cand in candidates_sub:
         try:
             if cand.startswith("C:") or cand.startswith("/"):
                 if os.path.exists(cand):
-                    font_sub = ImageFont.truetype(cand, 36)
+                    font_sub = ImageFont.truetype(cand, 34)
                     break
             else:
-                font_sub = ImageFont.truetype(cand, 36)
+                font_sub = ImageFont.truetype(cand, 34)
                 break
         except Exception:
             continue
     if not font_sub:
         font_sub = font_btn
 
+    # Channel Name Headline
+    title_text = channel_name.upper()
+    tb = draw.textbbox((0, 0), title_text, font=font_title)
+    draw.text(((W - (tb[2] - tb[0])) // 2, 820), title_text, font=font_title, fill=(255, 255, 255))
+
     # Red Subscribe Button
-    btn_w, btn_h = 740, 100
+    btn_w, btn_h = 700, 96
     btn_x = (W - btn_w) // 2
-    btn_y = 1000
-    draw.rounded_rectangle((btn_x, btn_y, btn_x + btn_w, btn_y + btn_h), radius=50, fill=(225, 29, 72, 255))
+    btn_y = 910
+    draw.rounded_rectangle((btn_x, btn_y, btn_x + btn_w, btn_y + btn_h), radius=48, fill=(225, 29, 72, 255))
 
     btn_text = "SUBSCRIBE • LIKE • SHARE"
     b_bbox = draw.textbbox((0, 0), btn_text, font=font_btn)
@@ -141,7 +153,7 @@ def ensure_promo_card(channel_name: str = "CURIOUS BYTE", handle: str = "@Curiou
     # Channel Handle
     h_bbox = draw.textbbox((0, 0), handle, font=font_sub)
     h_w = h_bbox[2] - h_bbox[0]
-    draw.text(((W - h_w)//2, 1130), handle, font=font_sub, fill=(148, 163, 184))
+    draw.text(((W - h_w)//2, 1030), handle, font=font_sub, fill=(148, 163, 184))
 
     card.save(out_path)
     return out_path

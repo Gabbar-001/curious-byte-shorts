@@ -151,10 +151,17 @@ def upload_short(video_file_path: str, title: str, description: str, tags: list,
     if publish_at:
         status_dict["publishAt"] = publish_at
 
+    # Ensure description contains rich word-level hashtags
+    final_description = description
+    if "#" not in final_description or len(final_description.split("#")) < 5:
+        from generator.ai_viral_intelligence import extract_word_hashtags
+        word_tags = extract_word_hashtags(f"{title} {description}")
+        final_description = f"{final_description.strip()}\n\n{' '.join(word_tags)}"
+
     body = {
         "snippet": {
             "title": final_title,
-            "description": description,
+            "description": final_description,
             "tags": tags,
             "categoryId": "27"  # Education
         },

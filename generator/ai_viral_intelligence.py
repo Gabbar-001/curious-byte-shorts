@@ -12,6 +12,7 @@ Evolves the autonomous pipeline into a high-retention media engine:
 
 import os
 import sys
+import re
 import json
 import random
 from datetime import datetime
@@ -137,6 +138,40 @@ def save_topic_history(topic_name: str, fact_id: str):
     with open(HISTORY_TOPICS_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2)
 
+HASHTAG_STOP_WORDS = {
+    'a', 'an', 'the', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with',
+    'by', 'from', 'up', 'about', 'into', 'over', 'after', 'is', 'are', 'was', 'were',
+    'be', 'been', 'being', 'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would',
+    'shall', 'should', 'may', 'might', 'must', 'can', 'could', 'it', 'its',
+    'this', 'that', 'these', 'those', 'i', 'you', 'he', 'she', 'we', 'they', 'me',
+    'him', 'her', 'us', 'them', 'my', 'your', 'his', 'their', 'our', 'what', 'which',
+    'who', 'whom', 'whose', 'where', 'when', 'why', 'how', 'all', 'any', 'both',
+    'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor', 'not', 'only',
+    'own', 'same', 'so', 'than', 'too', 'very', 's', 't', 'just', 'like', 'share',
+    'subscribe', 'curious', 'byte', 'shorts'
+}
+
+def extract_word_hashtags(text: str, max_tags: int = 40) -> list[str]:
+    """
+    Extracts every meaningful spoken word in the video and formats each as an individual hashtag.
+    Example: 'The sun rises in the east' -> ['#sun', '#rises', '#east']
+    """
+    clean = re.sub(r'https?://\S+|@\S+|#\S+', ' ', text)
+    clean = re.sub(r'[^a-zA-Z\s]', ' ', clean)
+    raw_words = clean.split()
+    seen = set()
+    tags = ['#Shorts', '#CuriousByte', '#Facts']
+    for t in tags:
+        seen.add(t.replace('#', '').lower())
+    for w in raw_words:
+        wl = w.lower()
+        if len(wl) >= 3 and wl not in HASHTAG_STOP_WORDS and wl not in seen:
+            seen.add(wl)
+            tags.append(f'#{wl}')
+            if len(tags) >= max_tags:
+                break
+    return tags
+
 def get_gemini_client():
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
@@ -243,15 +278,30 @@ Enforce fact verification and the strict 10-scene matched structure (zero human 
         # Save topic to avoid repeats
         save_topic_history(concept_data.get("topic", "Unknown"), fact_id)
 
-        # Build SEO description
+        # Build SEO description with every spoken word converted to individual hashtags
         debate_q = concept_data.get("debate_question", "What is your theory on this?")
+        combined_text = f"{concept_data.get('title', '')} {concept_data.get('full_voiceover_script', '')}"
+        word_hashtags = extract_word_hashtags(combined_text, max_tags=40)
+        hashtag_line = " ".join(word_hashtags)
+
+        # Build video tags array (up to 500 characters)
+        raw_tags = ["Shorts", "Curious Byte", "Facts"] + [h.replace("#", "") for h in word_hashtags]
+        final_tags = []
+        cur_len = 0
+        for t in raw_tags:
+            if t.lower() not in [x.lower() for x in final_tags]:
+                if cur_len + len(t) + 1 < 480:
+                    final_tags.append(t)
+                    cur_len += len(t) + 1
+        concept_data["tags"] = final_tags
+
         seo_description = (
             f"💬 QUESTION OF THE DAY:\n{debate_q}\n"
             f"👇 Drop your opinion below! We reply to the top comments!\n\n"
-            f"{concept_data.get('full_voiceover_script', '')[:200]}...\n\n"
-            f"🔔 Subscribe to Curious Byte Unique for daily mind-blowing facts:\n"
+            f"{concept_data.get('full_voiceover_script', '')}\n\n"
+            f"🔔 Subscribe to Curious Byte for daily mind-blowing facts:\n"
             f"https://www.youtube.com/@CuriousByteShort?sub_confirmation=1\n\n"
-            f"#CuriousByte #Shorts #Facts #Science #MindBlowing"
+            f"{hashtag_line}"
         )
         concept_data["description"] = seo_description
 

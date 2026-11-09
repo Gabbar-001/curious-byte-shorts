@@ -73,7 +73,7 @@ CORE MANDATES:
    - Scene 7 [0:27-0:32]: Beat 4A - The Astonishing Revelation
    - Scene 8 [0:32-0:37]: Beat 4B - Deep-time / Universal perspective
    - Scene 9 [0:37-0:42]: Beat 5A - The Payoff (Direct answer to the opening hook)
-   - Scene 10 [0:42-0:45]: Beat 5B - Mandatory Outro CTA: You MUST explicitly say: "If your mind was blown, like, subscribe to Curious Byte, and share this with a friend!"
+   - Scene 10 [0:42-0:45]: Beat 5B - Mandatory Outro CTA: You MUST explicitly say: "Hit subscribe to Curious Byte right now so you don't miss tomorrow's mystery, and drop a like if your mind was blown!"
 4. INFINITE LOOP RE-WATCH MECHANISM:
    The transition from Scene 9 through Scene 10 must lead logically and tonally back into the opening words of Scene 1, encouraging re-watches.
 5. DEBATE-BAIT PINNED COMMENT:
@@ -114,7 +114,7 @@ Respond ONLY with valid JSON matching this schema:
     {"scene": 7, "timecode": "0:27-0:32", "beat_name": "Astonishing Revelation", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "...", "sound_cue": "cinematic_impact"},
     {"scene": 8, "timecode": "0:32-0:37", "beat_name": "Deep-Time Perspective", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "...", "sound_cue": "whoosh_transition"},
     {"scene": 9, "timecode": "0:37-0:42", "beat_name": "Payoff", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "...", "sound_cue": "whoosh_transition"},
-    {"scene": 10, "timecode": "0:42-0:45", "beat_name": "CTA Outro", "narration": "If your mind was blown, like, subscribe to Curious Byte, and share this with a friend!", "visual_prompt": "Stylized 3D CGI Curious Byte branded neon brain outro card with glowing energy...", "search_keyword": "Futuristic neon brain", "sound_cue": "soft_riser"}
+    {"scene": 10, "timecode": "0:42-0:45", "beat_name": "CTA Outro", "narration": "Hit subscribe to Curious Byte right now so you don't miss tomorrow's mystery, and drop a like if your mind was blown!", "visual_prompt": "Stylized 3D CGI Curious Byte branded neon brain outro card with glowing energy...", "search_keyword": "Futuristic neon brain", "sound_cue": "soft_riser"}
   ],
   "full_voiceover_script": "Full continuous narration combining scenes 1 through 10...",
   "fact_verification": {
@@ -345,7 +345,7 @@ Enforce all 6 Hook Archetypes, the 5-Beat Micro-Story Structure across 10 scenes
             continue
 
         # Programmatic Guarantee: Enforce Scene 10 Branded CTA Outro & voiceover
-        cta_outro = "If your mind was blown, like, subscribe to Curious Byte, and share this with a friend!"
+        cta_outro = "Hit subscribe to Curious Byte right now so you don't miss tomorrow's mystery, and drop a like if your mind was blown!"
         if beats:
             last_beat = beats[-1]
             last_text = last_beat.get("narration", "").strip()
@@ -398,7 +398,7 @@ Enforce all 6 Hook Archetypes, the 5-Beat Micro-Story Structure across 10 scenes
             f"💬 PINNED COMMENT / TOP DEBATE:\n{debate_q}\n"
             f"👇 Drop your answer below! We reply to the top comments!\n\n"
             f"{concept_data.get('full_voiceover_script', '')}\n\n"
-            f"🔔 Subscribe to Curious Byte for daily mind-blowing facts:\n"
+            f"🔴 HIT SUBSCRIBE to Curious Byte for daily mind-blowing facts:\n"
             f"https://www.youtube.com/@CuriousByteShort?sub_confirmation=1\n\n"
             f"{hashtag_line}"
         )

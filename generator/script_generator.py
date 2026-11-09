@@ -231,7 +231,7 @@ def get_next_short():
             chosen = FACTS_DATABASE[0]
 
     # Promotional Call to Action
-    promo_cta = "Please subscribe, like, and share Curious Byte for more mind-blowing facts like this!"
+    promo_cta = "Hit subscribe to Curious Byte right now so you don't miss tomorrow's mystery, and drop a like if your mind was blown!"
 
     # 1. A/B Hook Split-Testing (+30% Views)
     hook_a, hook_b, debate_question = derive_enhancements(chosen)
@@ -271,7 +271,7 @@ def get_next_short():
         f"💬 QUESTION OF THE DAY:\n{debate_question}\n"
         f"👇 Drop your opinion below! We reply to the top comments!\n\n"
         f"{chosen.get('description', '')}\n\n"
-        f"🔔 Subscribe to Curious Byte Unique for daily mind-blowing facts:\n"
+        f"🔴 HIT SUBSCRIBE to Curious Byte for daily mind-blowing facts:\n"
         f"https://www.youtube.com/@CuriousByteShort?sub_confirmation=1\n\n"
         f"{hashtag_line}"
     )

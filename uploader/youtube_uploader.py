@@ -94,7 +94,7 @@ def post_discussion_comment(youtube, video_id: str, debate_question: str):
 
     comment_text = (
         f"💬 QUESTION OF THE DAY:\n{debate_question}\n\n"
-        f"👇 Drop your answer below! Don't forget to like and subscribe for more mind-blowing facts!"
+        f"👇 Drop your answer below! Hit subscribe to Curious Byte right now so you never miss a revelation!"
     )
 
     try:

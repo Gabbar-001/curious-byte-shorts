@@ -151,11 +151,14 @@ def upload_short(video_file_path: str, title: str, description: str, tags: list,
     if publish_at:
         status_dict["publishAt"] = publish_at
 
-    # Ensure description contains rich viral discovery hashtags
+    # Ensure description contains rich viral discovery + word-level hashtags
     final_description = description
-    if "#" not in final_description or len(final_description.split("#")) < 8:
+    old_tag_pattern = r"#CuriousByte\s+#Shorts\s+#Facts\s+#Science\s+#MindBlowing"
+    final_description = re.sub(old_tag_pattern, "", final_description).strip()
+
+    if len(re.findall(r'#\w+', final_description)) < 15:
         from generator.ai_viral_intelligence import build_ultimate_viral_hashtags
-        word_tags = build_ultimate_viral_hashtags(title=title, script=description, max_tags=35)
+        word_tags = build_ultimate_viral_hashtags(title=title, script=description, max_tags=38)
         final_description = f"{final_description.strip()}\n\n{' '.join(word_tags)}"
 
     body = {

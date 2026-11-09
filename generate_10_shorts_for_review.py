@@ -61,13 +61,22 @@ def prepare_fact_data(fact_item: dict, date_str: str = "2026-11-07") -> dict:
         f"{promo_cta}"
     )
 
+    from generator.ai_viral_intelligence import build_ultimate_viral_hashtags
+    all_hashtags = build_ultimate_viral_hashtags(
+        title=fact_item["title"],
+        script=f"{fact_item.get('description', '')} {full_script}",
+        topic=fact_item.get("topic", fact_item["title"]),
+        max_tags=38
+    )
+    hashtag_line = " ".join(all_hashtags)
+
     enhanced_description = (
         f"💬 QUESTION OF THE DAY:\n{debate_question}\n"
         f"👇 Drop your opinion below! We reply to the top comments!\n\n"
         f"{fact_item.get('description', '')}\n\n"
         f"🔔 Subscribe to Curious Byte Unique for daily mind-blowing facts:\n"
         f"https://www.youtube.com/@CuriousByteShort?sub_confirmation=1\n\n"
-        f"#CuriousByte #Shorts #Facts #Science #MindBlowing"
+        f"{hashtag_line}"
     )
 
     short_data = {

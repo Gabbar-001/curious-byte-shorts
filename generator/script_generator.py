@@ -257,14 +257,23 @@ def get_next_short():
 
     date_str = datetime.now().strftime("%Y-%m-%d")
 
-    # High-engagement SEO description template with Pinned Debate Question (+200% comments)
+    from generator.ai_viral_intelligence import build_ultimate_viral_hashtags
+    all_hashtags = build_ultimate_viral_hashtags(
+        title=chosen["title"],
+        script=f"{chosen.get('description', '')} {full_script}",
+        topic=chosen.get("topic", chosen["title"]),
+        max_tags=38
+    )
+    hashtag_line = " ".join(all_hashtags)
+
+    # High-engagement SEO description template with Pinned Debate Question & Word-Level Viral Hashtags
     enhanced_description = (
         f"💬 QUESTION OF THE DAY:\n{debate_question}\n"
         f"👇 Drop your opinion below! We reply to the top comments!\n\n"
         f"{chosen.get('description', '')}\n\n"
         f"🔔 Subscribe to Curious Byte Unique for daily mind-blowing facts:\n"
         f"https://www.youtube.com/@CuriousByteShort?sub_confirmation=1\n\n"
-        f"#CuriousByte #Shorts #Facts #Science #MindBlowing"
+        f"{hashtag_line}"
     )
 
     short_data = {

@@ -1,14 +1,15 @@
 """
-AI Viral Shorts Intelligence Engine 3.0 (Self-Learning Edition) for Curious Byte Unique.
-Evolves the autonomous pipeline into a self-improving, data-driven viral media engine:
-1. Dynamic Channel Brain Directive Ingestion (output/channel_brain.json)
-2. Live Trend Candidates & Audience Inquiries Ingestion (output/candidate_topics.json, output/audience_insights.json)
-3. 6-Archetype Hook Tournament (Shock, Curiosity, Paradox, Negation, Micro-Story, Time-Pressure)
-4. Connected 5-Beat Micro-Story Structure (Hook -> Mystery Setup -> Conflict -> Revelation -> Payoff + Outro CTA)
-5. Dynamic Weighted Pillar Allocation based on live YouTube view velocities
-6. A/B Title Testing Package (3-5 alternative high-CTR titles)
-7. Dual Hashtag Engine (8-12 trending hashtags + spoken word-level hashtags)
-8. 100% Stylized 3D CGI Scene Prompts (Zero real faces, zero text, 8k digital art)
+AI Viral Shorts Intelligence Engine 4.0 (Autonomous Executive Producer Edition) for Curious Byte Unique.
+Features:
+1. Ingests Daily Autonomous Strategy Plan (output/daily_strategy_plan.json)
+2. Ingests Competitor Viral Breakouts (output/competitor_viral_trends.json)
+3. Ingests Channel Brain & Audience Cravings (output/channel_brain.json, output/audience_insights.json)
+4. 6-Archetype Hook Tournament (Shock, Curiosity, Paradox, Negation, Micro-Story, Time-Pressure)
+5. 5-Beat Micro-Story Retention Framework (10 Cinematic 3D CGI Scenes)
+6. Infinite Loop Architecture (Scene 10 seamlessly loops back into Scene 1)
+7. Debate-Bait Pinned Comment Engine (Forces comment section arguments for algorithmic push)
+8. High-Contrast Dopamine Visual Palettes (Molten Amber, Electric Cyan, Abyssal Obsidian)
+9. Dual Hashtag Engine (8-12 trending hashtags + spoken word-level hashtags)
 """
 
 import os
@@ -34,8 +35,9 @@ HISTORY_TOPICS_FILE = os.path.join("output", "history_topics.json")
 CHANNEL_BRAIN_FILE = os.path.join("output", "channel_brain.json")
 AUDIENCE_INSIGHTS_FILE = os.path.join("output", "audience_insights.json")
 CANDIDATE_TOPICS_FILE = os.path.join("output", "candidate_topics.json")
+COMPETITOR_FILE = os.path.join("output", "competitor_viral_trends.json")
+STRATEGY_PLAN_FILE = os.path.join("output", "daily_strategy_plan.json")
 
-# 5 Core Content Pillars
 CONTENT_PILLARS = [
     "Dark Science & Human Body Mysteries (Bizarre biological glitches, extreme resilience, cellular marvels)",
     "Ancient Wonders & Archaeological Enigmas (Lost Roman concrete, subterranean cities, impossible engineering)",
@@ -72,84 +74,71 @@ CORE MANDATES:
    - Scene 8 [0:32-0:37]: Beat 4B - Deep-time / Universal perspective
    - Scene 9 [0:37-0:42]: Beat 5A - The Payoff (Direct answer to the opening hook)
    - Scene 10 [0:42-0:45]: Beat 5B - Mandatory Outro CTA: You MUST explicitly say: "If your mind was blown, like, subscribe to Curious Byte, and share this with a friend!"
-4. A/B TITLE TESTING SUITE:
+4. INFINITE LOOP RE-WATCH MECHANISM:
+   The transition from Scene 9 through Scene 10 must lead logically and tonally back into the opening words of Scene 1, encouraging re-watches.
+5. DEBATE-BAIT PINNED COMMENT:
+   Include "pinned_debate_comment": A controversial, thought-provoking question designed to start a battle of opinions in the comment section.
+6. A/B TITLE TESTING SUITE:
    Generate 3 to 5 high-CTR alternative titles (under 60 characters each, including '#Shorts').
-5. SCENE PROMPTS & SEARCH KEYWORDS (100% STYLIZED 3D CGI - ZERO FACES, ZERO TEXT):
-   Write exactly 10 distinct, matched visual prompts and concise search keywords for each scene beat.
-   EVERY prompt MUST adhere to this strict formula:
-   "Stylized 3D CGI digital art, [Specific Subject matching narration beat], Unreal Engine 5 aesthetic, volumetric [color] cinematic lighting, dark atmospheric depth, no human faces, no real people, no text, no letters, no words, 8k digital art"
-   In addition, provide "search_keyword": a concise 1-3 word primary subject noun for instant visual retrieval.
-6. VIRAL POTENTIAL SCORE:
-   Score the topic from 1 to 100 based on Curiosity (25%), Emotion (20%), Shareability (20%), Uniqueness (15%), Relevance (10%), Visuals (10%).
-7. EMOJI RESTRAINT: Pick 1 or 2 high-impact emojis for the entire video (placed on the climax or payoff words).
-8. VIRAL HASHTAG & TREND DISCOVERY:
-   Include "trending_viral_hashtags": 8 to 12 hyper-trending YouTube Shorts discovery hashtags directly relevant to this specific topic.
+7. SCENE PROMPTS (100% STYLIZED 3D CGI - ZERO FACES, ZERO TEXT):
+   Write exactly 10 distinct, matched visual prompts with Dopamine High-Contrast lighting (e.g. volumetric molten amber, bioluminescent cyan, abyssal obsidian).
+   EVERY prompt MUST adhere to this formula:
+   "Stylized 3D CGI digital art, [Specific Subject matching narration beat], Unreal Engine 5 aesthetic, volumetric [color] cinematic lighting, dark atmospheric depth, high contrast, no human faces, no real people, no text, no letters, no words, 8k digital art"
+   In addition, provide "search_keyword": concise 1-3 word primary subject noun.
+8. VIRAL POTENTIAL SCORE: Score from 1 to 100 based on Curiosity, Emotion, Shareability, and Visuals.
+9. VIRAL HASHTAG & TREND DISCOVERY: Include "trending_viral_hashtags" (8 to 12 relevant hashtags).
 
 Respond ONLY with valid JSON matching this schema:
 {
   "topic": "...",
   "title": "... #Shorts",
-  "title_variations": [
-    "... #Shorts",
-    "... #Shorts",
-    "... #Shorts"
-  ],
+  "title_variations": ["... #Shorts", "... #Shorts", "... #Shorts"],
   "trending_viral_hashtags": ["#Tag1", "#Tag2"],
   "pillar": "...",
   "viral_score": 88,
   "scoring_breakdown": {
-    "curiosity": 23,
-    "emotion": 18,
-    "shareability": 18,
-    "uniqueness": 14,
-    "relevance": 8,
-    "visual_potential": 9
+    "curiosity": 23, "emotion": 18, "shareability": 18, "uniqueness": 14, "relevance": 8, "visual_potential": 9
   },
   "hooks": {
-    "shock_hook": "...",
-    "curiosity_hook": "...",
-    "paradox_hook": "...",
-    "negation_hook": "...",
-    "micro_story_hook": "...",
-    "time_pressure_hook": "...",
+    "shock_hook": "...", "curiosity_hook": "...", "paradox_hook": "...", "negation_hook": "...", "micro_story_hook": "...", "time_pressure_hook": "...",
     "selected_hook": "...",
     "winning_archetype": "Shock Hook|Curiosity Hook|Paradox Hook|High-Stakes Negation|Micro-Story Mystery|Time-Pressure Curiosity"
   },
   "story_beats": [
-    {"scene": 1, "timecode": "0:00-0:03", "beat_name": "Hook", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "Ancient Roman concrete", "sound_cue": "sub_bass_impact"},
-    {"scene": 2, "timecode": "0:03-0:07", "beat_name": "Mystery Setup", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "Pantheon dome", "sound_cue": "atmospheric_drone"},
-    {"scene": 3, "timecode": "0:07-0:12", "beat_name": "Phenomenon Intro", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "Volcanic ash Pozzuoli", "sound_cue": "whoosh_transition"},
-    {"scene": 4, "timecode": "0:12-0:17", "beat_name": "Micro Mechanism", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "Lime clasts microscope", "sound_cue": "whoosh_transition"},
-    {"scene": 5, "timecode": "0:17-0:22", "beat_name": "Scientific Conflict", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "Seawater ocean wave", "sound_cue": "whoosh_transition"},
-    {"scene": 6, "timecode": "0:22-0:27", "beat_name": "Macro Visual Shift", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "Ancient Roman harbor", "sound_cue": "whoosh_transition"},
-    {"scene": 7, "timecode": "0:27-0:32", "beat_name": "Astonishing Revelation", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "Self healing concrete crack", "sound_cue": "cinematic_impact"},
-    {"scene": 8, "timecode": "0:32-0:37", "beat_name": "Deep-Time Perspective", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "Roman colosseum ruins", "sound_cue": "whoosh_transition"},
-    {"scene": 9, "timecode": "0:37-0:42", "beat_name": "Payoff", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "Modern architectural concrete", "sound_cue": "whoosh_transition"},
+    {"scene": 1, "timecode": "0:00-0:03", "beat_name": "Hook", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "...", "sound_cue": "sub_bass_impact"},
+    {"scene": 2, "timecode": "0:03-0:07", "beat_name": "Mystery Setup", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "...", "sound_cue": "atmospheric_drone"},
+    {"scene": 3, "timecode": "0:07-0:12", "beat_name": "Phenomenon Intro", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "...", "sound_cue": "whoosh_transition"},
+    {"scene": 4, "timecode": "0:12-0:17", "beat_name": "Micro Mechanism", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "...", "sound_cue": "whoosh_transition"},
+    {"scene": 5, "timecode": "0:17-0:22", "beat_name": "Scientific Conflict", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "...", "sound_cue": "whoosh_transition"},
+    {"scene": 6, "timecode": "0:22-0:27", "beat_name": "Macro Visual Shift", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "...", "sound_cue": "whoosh_transition"},
+    {"scene": 7, "timecode": "0:27-0:32", "beat_name": "Astonishing Revelation", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "...", "sound_cue": "cinematic_impact"},
+    {"scene": 8, "timecode": "0:32-0:37", "beat_name": "Deep-Time Perspective", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "...", "sound_cue": "whoosh_transition"},
+    {"scene": 9, "timecode": "0:37-0:42", "beat_name": "Payoff", "narration": "...", "visual_prompt": "Stylized 3D CGI...", "search_keyword": "...", "sound_cue": "whoosh_transition"},
     {"scene": 10, "timecode": "0:42-0:45", "beat_name": "CTA Outro", "narration": "If your mind was blown, like, subscribe to Curious Byte, and share this with a friend!", "visual_prompt": "Stylized 3D CGI Curious Byte branded neon brain outro card with glowing energy...", "search_keyword": "Futuristic neon brain", "sound_cue": "soft_riser"}
   ],
   "full_voiceover_script": "Full continuous narration combining scenes 1 through 10...",
   "fact_verification": {
-    "primary_claim": "...",
-    "source_evidence": "...",
-    "verified_scientific_basis": "...",
-    "is_verified": true
+    "primary_claim": "...", "source_evidence": "...", "verified_scientific_basis": "...", "is_verified": true
   },
   "debate_question": "...",
+  "pinned_debate_comment": "...",
   "highlight_emojis": {"WORD": "EMOJI"}
 }
 """
 
-def load_topic_history() -> list:
-    if os.path.exists(HISTORY_TOPICS_FILE):
+def load_json_safe(path: str, default=None):
+    if default is None:
+        default = {}
+    if os.path.exists(path):
         try:
-            with open(HISTORY_TOPICS_FILE, "r", encoding="utf-8") as f:
+            with open(path, "r", encoding="utf-8") as f:
                 return json.load(f)
         except Exception:
-            return []
-    return []
+            pass
+    return default
 
 def save_topic_history(topic_name: str, fact_id: str):
-    history = load_topic_history()
+    history = load_json_safe(HISTORY_TOPICS_FILE, [])
     history.append({
         "topic": topic_name,
         "id": fact_id,
@@ -159,52 +148,26 @@ def save_topic_history(topic_name: str, fact_id: str):
     with open(HISTORY_TOPICS_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2)
 
-def load_channel_brain() -> dict:
-    if os.path.exists(CHANNEL_BRAIN_FILE):
-        try:
-            with open(CHANNEL_BRAIN_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            pass
-    return {}
+def select_intelligent_pillar(brain: dict, strategy: dict) -> str:
+    """Selects pillar dynamically weighted by AI Executive Producer strategy."""
+    strat_weights = strategy.get("strategic_pillar_weights", {})
+    if strat_weights:
+        pillars = list(strat_weights.keys())
+        weights = [float(w) for w in strat_weights.values()]
+        # Match to CONTENT_PILLARS if possible
+        matched_pillars = []
+        for p in pillars:
+            m = next((cp for cp in CONTENT_PILLARS if p.lower() in cp.lower()), None)
+            matched_pillars.append(m if m else p)
+        return random.choices(matched_pillars, weights=weights, k=1)[0]
 
-def load_audience_insights() -> dict:
-    if os.path.exists(AUDIENCE_INSIGHTS_FILE):
-        try:
-            with open(AUDIENCE_INSIGHTS_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            pass
-    return {}
-
-def load_candidate_topics() -> list:
-    if os.path.exists(CANDIDATE_TOPICS_FILE):
-        try:
-            with open(CANDIDATE_TOPICS_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                return data.get("candidates", [])
-        except Exception:
-            pass
-    return []
-
-def select_intelligent_pillar(brain: dict) -> str:
-    """
-    Selects content pillar dynamically weighted by real channel performance.
-    """
     pillar_perf = brain.get("pillar_performance", [])
     if pillar_perf:
-        # Build weights proportional to average views (with minimum floor)
-        pillars = []
-        weights = []
-        for p in pillar_perf:
-            p_name = p.get("pillar", "")
-            if p_name:
-                pillars.append(p_name)
-                # Square view ratio to strongly bias towards breakout performers
-                avg_v = max(p.get("avg_views", 10), 10)
-                weights.append(avg_v ** 1.3)
+        pillars = [p.get("pillar", "") for p in pillar_perf if p.get("pillar")]
+        weights = [max(p.get("avg_views", 10), 10) ** 1.3 for p in pillar_perf if p.get("pillar")]
         if pillars and len(pillars) == len(weights):
             return random.choices(pillars, weights=weights, k=1)[0]
+
     return random.choice(CONTENT_PILLARS)
 
 HASHTAG_STOP_WORDS = {
@@ -221,12 +184,12 @@ HASHTAG_STOP_WORDS = {
 }
 
 NICHE_VIRAL_HASHTAGS = {
-    'space': ['#SpaceFacts', '#Astronomy', '#Cosmos', '#Universe', '#NASA', '#BlackHole', '#Astrophysics', '#DeepSpace', '#SolarSystem'],
-    'physics': ['#QuantumPhysics', '#PhysicsFacts', '#QuantumMechanics', '#TheoreticalPhysics', '#ScienceExperiment', '#Relativity', '#TimeDilation'],
-    'biology': ['#HumanBody', '#BrainHacks', '#PsychologyFacts', '#BiologyFacts', '#Neuroscience', '#HumanAnatomy', '#CellularBiology'],
-    'nature': ['#NatureMysteries', '#EarthFacts', '#DeepSea', '#OceanMysteries', '#CatastrophicEarth', '#PlanetEarth', '#WildNature'],
-    'history': ['#AncientHistory', '#Archaeology', '#LostCivilizations', '#AncientEngineering', '#HistoricalMysteries', '#ForgottenHistory'],
-    'global_viral': ['#Shorts', '#YouTubeShorts', '#Viral', '#Trending', '#CuriousByte', '#DidYouKnow', '#MindBlowing', '#FYP', '#ExplorePage']
+    'space': ['#SpaceFacts', '#Astronomy', '#Cosmos', '#Universe', '#NASA', '#BlackHole', '#Astrophysics', '#DeepSpace'],
+    'physics': ['#QuantumPhysics', '#PhysicsFacts', '#QuantumMechanics', '#TheoreticalPhysics', '#ScienceExperiment'],
+    'biology': ['#HumanBody', '#BrainHacks', '#PsychologyFacts', '#BiologyFacts', '#Neuroscience', '#HumanAnatomy'],
+    'nature': ['#DeepSea', '#OceanMysteries', '#CatastrophicEarth', '#EarthFacts', '#PlanetEarth', '#WildNature'],
+    'history': ['#AncientHistory', '#Archaeology', '#LostCivilizations', '#AncientEngineering', '#HistoricalMysteries'],
+    'global_viral': ['#Shorts', '#YouTubeShorts', '#Viral', '#Trending', '#CuriousByte', '#DidYouKnow', '#MindBlowing', '#FYP']
 }
 
 def build_ultimate_viral_hashtags(title: str, script: str, topic: str = "", pillar: str = "", ai_hashtags: list = None, max_tags: int = 38) -> list[str]:
@@ -246,7 +209,7 @@ def build_ultimate_viral_hashtags(title: str, script: str, topic: str = "", pill
                 result.append(t)
     combined_ctx = f'{topic} {pillar} {title}'.lower()
     for niche_key, niche_tags in NICHE_VIRAL_HASHTAGS.items():
-        if niche_key in combined_ctx or (niche_key == 'biology' and any(k in combined_ctx for k in ['brain', 'body', 'cell', 'sleep', 'dream', 'mind', 'eye'])):
+        if niche_key in combined_ctx or (niche_key == 'nature' and any(k in combined_ctx for k in ['sea', 'ocean', 'trench', 'abyss', 'crater', 'fire'])):
             for tag in niche_tags:
                 k = tag.replace('#', '').lower()
                 if k not in seen:
@@ -276,50 +239,57 @@ def get_gemini_client():
 
 def generate_viral_short_concept(pillar: str = None, min_score: int = 75, max_attempts: int = 3) -> dict:
     """
-    Discovers, scores, fact-checks, and structures a complete 10-scene Short with Self-Learning AI.
+    Discovers, scores, fact-checks, and structures a complete 10-scene Short guided by the AI Executive Producer.
     """
     client = get_gemini_client()
     if not client:
         raise RuntimeError("GEMINI_API_KEY is not configured in config/.env!")
 
-    # Load persistent channel memory & live intelligence
-    brain = load_channel_brain()
-    audience = load_audience_insights()
-    candidates = load_candidate_topics()
-    history = load_topic_history()
+    # Ingest persistent memory & strategic plans
+    strategy = load_json_safe(STRATEGY_PLAN_FILE, {})
+    brain = load_json_safe(CHANNEL_BRAIN_FILE, {})
+    audience = load_json_safe(AUDIENCE_INSIGHTS_FILE, {})
+    competitors = load_json_safe(COMPETITOR_FILE, {})
+    candidates = load_json_safe(CANDIDATE_TOPICS_FILE, {}).get("candidates", [])
+    history = load_json_safe(HISTORY_TOPICS_FILE, [])
 
-    recent_topics = [h.get("topic", "") for h in history[-30:]]
+    recent_topics = [h.get("topic", "") for h in history[-35:]]
     recent_topics_str = ", ".join(f'"{t}"' for t in recent_topics if t)
 
-    # Dynamic pillar selection if not provided
+    # Dynamic pillar selection
     if not pillar:
-        pillar = select_intelligent_pillar(brain)
+        pillar = select_intelligent_pillar(brain, strategy)
 
-    # Ingest strategic directive from Channel Brain
-    directive = brain.get("ai_strategic_directive", "Maximize curious retention and scientific rigor.")
+    # Ingest AI Executive Plan directives
+    exec_summary = strategy.get("ai_executive_summary", brain.get("ai_strategic_directive", "Maximize curious retention."))
+    loop_directive = strategy.get("infinite_loop_directive", "Ensure the final sentence seamlessly flows into the first hook.")
+    debate_directive = strategy.get("debate_bait_strategy", "Pose a polarising open question in the pinned comment.")
+    
+    # Ingest topic inspirations
+    rec_topics = strategy.get("recommended_topics_to_produce", [])
+    comp_hits = [c.get("proven_title") for c in competitors.get("curated_intercept_pool", [])[:4]]
+    candidate_sample = [c.get("topic") for c in candidates[:4] if c.get("topic")]
 
-    # Ingest candidate inspiration
-    candidate_sample = [c.get("topic") for c in candidates[:6] if c.get("topic")]
-    candidate_str = "; ".join(candidate_sample) if candidate_sample else "Explore fresh unexplained phenomena"
+    inspiration_block = []
+    if rec_topics:
+        inspiration_block.append(f"AI Executive Recommended Topics for Today: {rec_topics}")
+    if comp_hits:
+        inspiration_block.append(f"Breakout Competitor Hit Signals (>15M views): {comp_hits}")
+    if candidate_sample:
+        inspiration_block.append(f"Live Emerging Scientific Discoveries: {candidate_sample}")
 
-    # Ingest sequel recommendations if matching
-    sequels = audience.get("recommended_sequel_concepts", [])
-    sequel_str = ""
-    if sequels:
-        sq = random.choice(sequels)
-        sequel_str = f"Sequel Opportunity from Breakout Hit: '{sq.get('base_hit')}' -> Concept: '{sq.get('sequel_title')}' (Hook: '{sq.get('hook')}')"
-
-    directive_block = f"""=== CHANNEL BRAIN & AUDIENCE INTELLIGENCE DIRECTIVE ===
-{directive}
-{sequel_str}
-Live Emerging Topic Candidates from Research Feeds: [{candidate_str}]"""
+    directive_block = f"""=== AI EXECUTIVE PRODUCER STRATEGIC MANDATE ===
+• Strategic Directive: {exec_summary}
+• Infinite Loop Mandate: {loop_directive}
+• Debate Bait Mandate: {debate_directive}
+• Target Inpirations: {'; '.join(inspiration_block)}"""
 
     system_prompt = SYSTEM_PROMPT_TEMPLATE.replace("{AI_DIRECTIVE_BLOCK}", directive_block)
 
     user_prompt = f"""Discover a viral Short concept for pillar: '{pillar}'.
 Avoid recently covered topics: [{recent_topics_str}].
 Ensure the Viral Potential Score is >= {min_score}/100.
-Enforce all 6 Hook Archetypes, the 5-Beat Micro-Story Structure across 10 scenes, and fact verification."""
+Enforce all 6 Hook Archetypes, the 5-Beat Micro-Story Structure across 10 scenes, Infinite Loop transition, and pinned debate comment."""
 
     candidate_models = ["gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-3.8-flash"]
 
@@ -388,17 +358,18 @@ Enforce all 6 Hook Archetypes, the 5-Beat Micro-Story Structure across 10 scenes
         concept_data["id"] = fact_id
         concept_data["date_created"] = date_str
         concept_data["learned_intelligence_applied"] = {
-            "channel_brain_active": bool(brain),
+            "ai_executive_plan_active": bool(strategy),
             "top_pillar_selected": pillar,
             "winning_hook_archetype": concept_data.get("hooks", {}).get("winning_archetype", "Shock Hook"),
-            "tested_title_variations": concept_data.get("title_variations", [])
+            "tested_title_variations": concept_data.get("title_variations", []),
+            "infinite_loop_enabled": True
         }
 
         # Save topic to avoid repeats
         save_topic_history(concept_data.get("topic", "Unknown"), fact_id)
 
         # Build SEO description with trending viral hashtags + word-by-word hashtags
-        debate_q = concept_data.get("debate_question", "What is your theory on this?")
+        debate_q = concept_data.get("pinned_debate_comment") or concept_data.get("debate_question", "What is your theory on this?")
         ai_hashtags = concept_data.get("trending_viral_hashtags", [])
         topic = concept_data.get("topic", "")
 
@@ -424,8 +395,8 @@ Enforce all 6 Hook Archetypes, the 5-Beat Micro-Story Structure across 10 scenes
         concept_data["tags"] = final_tags
 
         seo_description = (
-            f"🧠 QUESTION OF THE DAY:\n{debate_q}\n"
-            f"💬 Drop your opinion below! We reply to the top comments!\n\n"
+            f"💬 PINNED COMMENT / TOP DEBATE:\n{debate_q}\n"
+            f"👇 Drop your answer below! We reply to the top comments!\n\n"
             f"{concept_data.get('full_voiceover_script', '')}\n\n"
             f"🔔 Subscribe to Curious Byte for daily mind-blowing facts:\n"
             f"https://www.youtube.com/@CuriousByteShort?sub_confirmation=1\n\n"
@@ -441,7 +412,7 @@ Enforce all 6 Hook Archetypes, the 5-Beat Micro-Story Structure across 10 scenes
 
         print(f"  ✅ Concept Verified & Locked: \"{concept_data.get('title')}\"")
         print(f"  🎯 Winning Hook ({concept_data.get('hooks', {}).get('winning_archetype')}): \"{concept_data.get('hooks', {}).get('selected_hook')}\"")
-        print(f"  🔬 Evidence: {verification.get('source_evidence', 'Verified scientific research')[:60]}...")
+        print(f"  💬 Pinned Debate Bait: \"{debate_q[:60]}...\"")
         return concept_data
 
     raise RuntimeError("Failed to generate a high-scoring, verified concept after multiple attempts.")
@@ -453,7 +424,7 @@ if __name__ == "__main__":
     print("Topic:", concept["topic"])
     print("Title:", concept["title"])
     print("Title Variations:", concept.get("title_variations", []))
-    print("Viral Score:", concept["viral_score"])
+    print("Pinned Debate:", concept.get("pinned_debate_comment"))
     print("Winning Hook Archetype:", concept.get("hooks", {}).get("winning_archetype"))
     print("Winning Hook:", concept.get("hooks", {}).get("selected_hook"))
     print("Beats Count:", len(concept["story_beats"]))

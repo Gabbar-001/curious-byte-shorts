@@ -47,6 +47,9 @@ test_*.ass
 !output/candidate_topics.json
 !output/title_healing_recommendations.json
 !output/history_topics.json
+!output/competitor_viral_trends.json
+!output/daily_strategy_plan.json
+!output/decision_memory_ledger.json
 
 # Python bytecode & cache
 __pycache__/

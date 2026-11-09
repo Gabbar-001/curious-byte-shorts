@@ -67,21 +67,35 @@ def execute_self_learning_cycle():
     except Exception as e:
         print(f"  [Analytics Warning] Performance analysis: {e}")
 
-    # 2. Audience Comment Miner
+    # 2. Competitor Viral Radar
+    try:
+        from analytics.competitor_radar import run_competitor_radar
+        run_competitor_radar()
+    except Exception as e:
+        print(f"  [Analytics Warning] Competitor radar: {e}")
+
+    # 3. Audience Comment Miner
     try:
         from analytics.audience_comment_miner import mine_audience_insights
         mine_audience_insights()
     except Exception as e:
         print(f"  [Analytics Warning] Audience mining: {e}")
 
-    # 3. Trend Explorer
+    # 4. Trend Explorer
     try:
         from analytics.trend_explorer import mine_trending_topics
         mine_trending_topics()
     except Exception as e:
         print(f"  [Analytics Warning] Trend mining: {e}")
 
-    # 4. Channel Brain
+    # 5. Autonomous Decision Agent & Persistent Memory Ledger
+    try:
+        from analytics.autonomous_decision_agent import run_autonomous_decision_agent
+        run_autonomous_decision_agent()
+    except Exception as e:
+        print(f"  [Analytics Warning] Autonomous decision agent: {e}")
+
+    # 6. Channel Brain
     try:
         from analytics.channel_brain import update_channel_brain
         update_channel_brain()

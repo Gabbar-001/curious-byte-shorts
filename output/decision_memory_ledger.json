@@ -1,0 +1,39 @@
+{
+  "updated_at": "2026-11-09T15:45:46.086363",
+  "history": [
+    {
+      "timestamp": "2026-11-09T15:40:45.327131",
+      "date": "2026-11-09",
+      "ai_executive_summary": "We are pivoting to a 'High-Stakes Terrors' strategy, capitalizing on the proven audience appetite for deep-sea mysteries and subterranean anomalies that outperformed our space content. By doubling down on the 'Unexplained' aspect of Earth's crust and oceans, we will leverage the same viral triggers currently dominating our top-tier competitors.",
+      "primary_hook_archetype": "Shock Hook",
+      "recommended_topics": [
+        "The 'Bloop' and the massive entities living in the Hadal Zone that sonar can't identify.",
+        "The Mariana Trench 'Warning': Why researchers were told to stop digging.",
+        "Out-of-place artifacts (OOPARTS) that prove ancient civilizations had superior electricity technology."
+      ],
+      "pillar_weights": {
+        "Catastrophic Earth & Natural Anomalies": 45,
+        "Ancient Wonders & Archaeological Enigmas": 30,
+        "Space & Universal Paradoxes": 15,
+        "Dark Science & Human Body Mysteries": 10
+      }
+    },
+    {
+      "timestamp": "2026-11-09T15:45:46.086068",
+      "date": "2026-11-09",
+      "ai_executive_summary": "We will exploit the 'Deep Sea Mystery' viral trend by blending high-stakes existential dread with visual evidence of unexplained anomalies, focusing on the cognitive gap between scientific explanation and terrifying reality. This strategy leverages the proven engagement patterns of our top performers while aligning with the massive viewership volume seen in competitor deep-sea content.",
+      "primary_hook_archetype": "High-Stakes Negation",
+      "recommended_topics": [
+        "The 1997 'Bloop' wasn't a whale: Why NOAA scrubbed the original frequency logs.",
+        "The Kola Superdeep Borehole 'Hell' audio: Why drilling stopped at 12km (and what they recorded).",
+        "The Baghdad Battery mystery: Why archeologists are terrified by evidence of ancient electroplating."
+      ],
+      "pillar_weights": {
+        "Catastrophic Earth & Natural Anomalies": 45,
+        "Ancient Wonders & Archaeological Enigmas": 30,
+        "Space & Universal Paradoxes": 15,
+        "Dark Science & Human Body Mysteries": 10
+      }
+    }
+  ]
+}

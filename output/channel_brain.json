@@ -1,56 +1,56 @@
 {
-  "last_updated": "2026-11-09T09:53:09.103696+00:00",
-  "total_videos_analyzed": 67,
-  "total_channel_views": 2186,
-  "median_views": 0,
+  "last_updated": "2026-11-09T10:15:46.317833+00:00",
+  "total_videos_analyzed": 113,
+  "total_channel_views": 4120,
+  "median_views": 2,
   "pillar_analytics": {
     "General Science & Curiosities": {
-      "video_count": 11,
-      "total_views": 0,
-      "avg_views_per_video": 0.0,
-      "avg_velocity_per_hour": 0.0,
-      "raw_performance_score": 1.0,
+      "video_count": 56,
+      "total_views": 615,
+      "avg_views_per_video": 11.0,
+      "avg_velocity_per_hour": 1.03,
+      "raw_performance_score": 28.3,
       "recommended_allocation_pct": 10.0
     },
     "Ancient Wonders & Archaeological Enigmas": {
       "video_count": 13,
-      "total_views": 917,
-      "avg_views_per_video": 70.5,
-      "avg_velocity_per_hour": 2.11,
-      "raw_performance_score": 91.5,
-      "recommended_allocation_pct": 35.8
+      "total_views": 1190,
+      "avg_views_per_video": 91.5,
+      "avg_velocity_per_hour": 2.66,
+      "raw_performance_score": 117.2,
+      "recommended_allocation_pct": 29.2
     },
     "Catastrophic Earth & Natural Anomalies": {
       "video_count": 14,
-      "total_views": 506,
-      "avg_views_per_video": 36.1,
-      "avg_velocity_per_hour": 1.14,
-      "raw_performance_score": 48.1,
-      "recommended_allocation_pct": 18.8
+      "total_views": 1376,
+      "avg_views_per_video": 98.3,
+      "avg_velocity_per_hour": 2.75,
+      "raw_performance_score": 123.8,
+      "recommended_allocation_pct": 30.8
     },
     "Dark Science & Human Body Mysteries": {
       "video_count": 11,
-      "total_views": 296,
-      "avg_views_per_video": 26.9,
-      "avg_velocity_per_hour": 0.85,
-      "raw_performance_score": 35.8,
-      "recommended_allocation_pct": 14.0
+      "total_views": 407,
+      "avg_views_per_video": 37.0,
+      "avg_velocity_per_hour": 1.15,
+      "raw_performance_score": 48.9,
+      "recommended_allocation_pct": 12.2
     },
     "Mind-Bending Physics & Perception Anomalies": {
-      "video_count": 6,
-      "total_views": 217,
-      "avg_views_per_video": 36.2,
-      "avg_velocity_per_hour": 1.11,
-      "raw_performance_score": 47.5,
-      "recommended_allocation_pct": 18.6
+      "video_count": 7,
+      "total_views": 253,
+      "avg_views_per_video": 36.1,
+      "avg_velocity_per_hour": 1.12,
+      "raw_performance_score": 47.7,
+      "recommended_allocation_pct": 11.9
     },
     "Space & Universal Paradoxes": {
       "video_count": 11,
-      "total_views": 250,
-      "avg_views_per_video": 22.7,
-      "avg_velocity_per_hour": 0.74,
-      "raw_performance_score": 30.7,
-      "recommended_allocation_pct": 12.0
+      "total_views": 279,
+      "avg_views_per_video": 25.4,
+      "avg_velocity_per_hour": 0.84,
+      "raw_performance_score": 34.6,
+      "recommended_allocation_pct": 10.0
     },
     "Catastrophic Earth & Natural Anomalies (Deepest boreholes, eternal burning craters, zombie biology)": {
       "video_count": 1,
@@ -63,94 +63,72 @@
   },
   "hook_analytics": {
     "Shock": {
-      "attempts": 61,
-      "avg_views": 34.3,
-      "win_rate_pct": 34.4
+      "attempts": 106,
+      "avg_views": 37.5,
+      "win_rate_pct": 34.0
     },
     "Paradox": {
       "attempts": 4,
-      "avg_views": 24.0,
+      "avg_views": 36.5,
       "win_rate_pct": 75.0
     },
     "Curiosity": {
-      "attempts": 2,
-      "avg_views": 0.0,
+      "attempts": 3,
+      "avg_views": 1.3,
       "win_rate_pct": 0.0
     }
   },
   "breakout_hits": [
     {
+      "title": "Nature's Immortal Secret #Shorts",
+      "topic": "The Immortal Immortal Jellyfish (Turritopsis dohrnii)",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "views": 743,
+      "hook": "Death is technically optional for this creature."
+    },
+    {
       "title": "The Town That Has Been Burning For 60 Years #Shorts",
       "topic": "The Eternal Underground Fire of Centralia: The Coal Seam That Has Been Burning for Over 60 Years",
       "pillar": "Catastrophic Earth & Natural Anomalies",
-      "views": 434,
+      "views": 518,
       "hook": "An entire American town has been burning from beneath for over sixty years."
-    },
-    {
-      "title": "Why Roman Concrete Never Cracks #Shorts",
-      "topic": "The self-healing secret of Ancient Roman concrete",
-      "pillar": "Ancient Wonders & Archaeological Enigmas",
-      "views": 266,
-      "hook": "Modern concrete cracks, but Roman concrete grows stronger over time."
     },
     {
       "title": "The Secret Frequency of the Hypogeum #Shorts",
       "topic": "The Subterranean Acoustic Enigma of the Hal Saflieni Hypogeum",
       "pillar": "Ancient Wonders & Archaeological Enigmas",
-      "views": 249,
+      "views": 296,
       "hook": "The ancient chamber that literally alters your brain waves."
+    },
+    {
+      "title": "Why Roman Concrete Never Cracks #Shorts",
+      "topic": "The self-healing secret of Ancient Roman concrete",
+      "pillar": "Ancient Wonders & Archaeological Enigmas",
+      "views": 279,
+      "hook": "Modern concrete cracks, but Roman concrete grows stronger over time."
     },
     {
       "title": "What Happens If You Fall Into A Black Hole? #Shorts",
       "topic": "The 'Spaghettification' Paradox: Being stretched by a black hole",
       "pillar": "Space & Universal Paradoxes",
-      "views": 240,
+      "views": 249,
       "hook": "You would be stretched into a single atom-wide strand of spaghetti."
-    },
-    {
-      "title": "Why Your Gaze Stops Reality: The Quantum Zeno Effect #Shorts",
-      "topic": "The 'Quantum Zeno Effect': Why watching reality changes its behavior",
-      "pillar": "Mind-Bending Physics & Perception Anomalies",
-      "views": 212,
-      "hook": "Your mere gaze is physically freezing atoms in place."
     }
   ],
-  "underperforming_patterns": [
-    {
-      "title": "Your Eyes Are Freezing Reality! \u26a0\ufe0f #Shorts",
-      "topic": "Your Eyes Are Freezing Reality! \u26a0\ufe0f #Shorts",
-      "pillar": "General Science & Curiosities",
-      "views": 0
-    },
-    {
-      "title": "The Immortal Concrete of Rome #Shorts",
-      "topic": "The self-healing miracle of Roman Concrete",
-      "pillar": "Ancient Wonders & Archaeological Enigmas",
-      "views": 0
-    },
-    {
-      "title": "What happens if you fall into a BLACK HOLE? #Shorts",
-      "topic": "The 'Spaghettification' Paradox: Being stretched by a black hole",
-      "pillar": "Space & Universal Paradoxes",
-      "views": 0
-    },
-    {
-      "title": "Earth's Secret Boiling Ocean #Shorts",
-      "topic": "The 'Supercritical' Water Beneath the Oceanic Crust",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "views": 0
-    },
-    {
-      "title": "Why Your Brain Deletes Reality #Shorts",
-      "topic": "The 'Troxler Effect': Why your brain deletes objects from your sight",
-      "pillar": "Mind-Bending Physics & Perception Anomalies",
-      "views": 0
-    }
-  ],
+  "underperforming_patterns": [],
   "spin_off_recommendations": [
     {
+      "parent_title": "Nature's Immortal Secret #Shorts",
+      "parent_views": 743,
+      "suggested_sequels": [
+        "Part 2: What happened next with The Immortal Immortal Jellyfish (Turritopsis dohrnii)",
+        "The Secret Science Behind The Immortal Immortal Jellyfish (Turritopsis dohrnii)",
+        "3 Things Everyone Missed About The Immortal Immortal Jellyfish (Turritopsis dohrnii)"
+      ]
+    },
+    {
       "parent_title": "The Town That Has Been Burning For 60 Years #Shorts",
-      "parent_views": 434,
+      "parent_views": 518,
       "suggested_sequels": [
         "Part 2: What happened next with The Eternal Underground Fire of Centralia: The Coal Seam That Has Been Burning for Over 60 Years",
         "The Secret Science Behind The Eternal Underground Fire of Centralia: The Coal Seam That Has Been Burning for Over 60 Years",
@@ -158,17 +136,8 @@
       ]
     },
     {
-      "parent_title": "Why Roman Concrete Never Cracks #Shorts",
-      "parent_views": 266,
-      "suggested_sequels": [
-        "Part 2: What happened next with The self-healing secret of Ancient Roman concrete",
-        "The Secret Science Behind The self-healing secret of Ancient Roman concrete",
-        "3 Things Everyone Missed About The self-healing secret of Ancient Roman concrete"
-      ]
-    },
-    {
       "parent_title": "The Secret Frequency of the Hypogeum #Shorts",
-      "parent_views": 249,
+      "parent_views": 296,
       "suggested_sequels": [
         "Part 2: What happened next with The Subterranean Acoustic Enigma of the Hal Saflieni Hypogeum",
         "The Secret Science Behind The Subterranean Acoustic Enigma of the Hal Saflieni Hypogeum",
@@ -176,5 +145,5 @@
       ]
     }
   ],
-  "ai_strategic_directive": "=== REAL-TIME CURIOUS BYTE CHANNEL INTELLIGENCE DIRECTIVE ===\n1. AUDIENCE CRAVING: Your audience generates 3x-5x higher engagement on: Ancient Wonders & Archaeological Enigmas, Mind-Bending Physics & Perception Anomalies. Prioritize these themes.\n2. WINNING HOOK ARCHETYPE: 'Paradox Hook' is your channel's highest-converting opener. Deliver a visceral, high-stakes curiosity gap in the first 2 seconds.\n3. PROVEN BREAKOUT WINNERS (Model your upcoming scripts on these):\n   \u2022 'The Town That Has Been Burning For 60 Years #Shorts' (434 views) / 'Why Roman Concrete Never Cracks #Shorts' (266 views) / 'The Secret Frequency of the Hypogeum #Shorts' (249 views)\n4. UNDERPERFORMING PATTERNS (Avoid these angles):\n   \u2022 'Your Eyes Are Freezing Reality! \u26a0\ufe0f #Shorts', 'The Immortal Concrete of Rome #Shorts'\n5. RETENTION MANDATE: Keep narrative cuts under 4.5 seconds per beat. Never explain academic theory without immediate visual proof."
+  "ai_strategic_directive": "=== REAL-TIME CURIOUS BYTE CHANNEL INTELLIGENCE DIRECTIVE ===\n1. AUDIENCE CRAVING: Your audience generates 3x-5x higher engagement on: Catastrophic Earth & Natural Anomalies, Ancient Wonders & Archaeological Enigmas. Prioritize these themes.\n2. WINNING HOOK ARCHETYPE: 'Paradox Hook' is your channel's highest-converting opener. Deliver a visceral, high-stakes curiosity gap in the first 2 seconds.\n3. PROVEN BREAKOUT WINNERS (Model your upcoming scripts on these):\n   \u2022 'Nature's Immortal Secret #Shorts' (743 views) / 'The Town That Has Been Burning For 60 Years #Shorts' (518 views) / 'The Secret Frequency of the Hypogeum #Shorts' (296 views)\n4. UNDERPERFORMING PATTERNS (Avoid these angles):\n   \u2022 Generic abstract facts without physical stakes\n5. RETENTION MANDATE: Keep narrative cuts under 4.5 seconds per beat. Never explain academic theory without immediate visual proof."
 }

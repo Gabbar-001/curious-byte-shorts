@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-09T15:45:40.241938",
-  "total_candidates": 96,
+  "updated_at": "2026-11-09T23:08:32.202483",
+  "total_candidates": 95,
   "candidates": [
     {
       "source": "ScienceDaily",
@@ -22,6 +22,13 @@
       "topic": "All 5 genetic \u201cletters\u201d of DNA and RNA discovered in a 4.5-billion-year-old asteroid",
       "viral_potential_score": 72,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "DNA on the Shroud of Turin reveals centuries of hidden secrets",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108202703.htm"
     },
     {
       "source": "ScienceDaily",
@@ -101,13 +108,6 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists use sound waves to deliver a new attack on deadly brain cancer",
-      "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/10/261030003017.htm"
-    },
-    {
       "source": "Phys.org Space",
       "pillar": "Space & Universal Paradoxes",
       "topic": "'Stupendously large' primordial black holes ruled out as a dark matter source",
@@ -145,6 +145,20 @@
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "Amazon reportedly paid $200\u2013250 million just for the TV rights to The Lord of the Rings, before spending a cent on writers, actors or production",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xrtv38/til_amazon_reportedly_paid_200250_million_just/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "that earthquake magnitudes are no longer reported using the Richter Scale, but instead use the Moment Magnitude Scale",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xrr6ez/til_that_earthquake_magnitudes_are_no_longer/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
       "topic": "Alsace and Lorraine don't exist as administrative regions anymore. They got merged with Champagne-Ardenne in 2016.",
       "viral_potential_score": 60,
       "source_url": "https://www.reddit.com/r/todayilearned/comments/1xrdtke/til_alsace_and_lorraine_dont_exist_as/"
@@ -159,30 +173,16 @@
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Today I learned there are 6 different cosmic objects nicknamed the \"Eye of Sauron\"",
+      "topic": "the San Marco Bell Tower in Venice, rebuilt after 1902 collapse, uses an automated hammer to ring the bells to avoid damage from vibration",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xrjcze/today_i_learned_there_are_6_different_cosmic/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xrq4w2/til_the_san_marco_bell_tower_in_venice_rebuilt/"
     },
     {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Pel\u00e9 once played as a goalkeeper in four matches for Santos, without conceding a single goal.",
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "NASA reveals bold new plan to return astronauts to the Moon in 2028",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xqvuf0/til_pel\u00e9_once_played_as_a_goalkeeper_in_four/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that Nagasaki holds the oldest Chinese community in Japan. Most were from fujian province of China and were Ming dynasty loyalist who had fled to Japan.",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xqu6fn/til_that_nagasaki_holds_the_oldest_chinese/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that monkeys first reached the Americas by crossing the Atlantic Ocean on floating mats of vegetation.",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xqkh2n/til_that_monkeys_first_reached_the_americas_by/"
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233054.htm"
     },
     {
       "source": "ScienceDaily",
@@ -204,6 +204,13 @@
       "topic": "Mysterious gas leaks suggest Mars may still be volcanically alive",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174525.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists discover a surprising link between acorns and lyme disease",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174518.htm"
     },
     {
       "source": "ScienceDaily",
@@ -236,6 +243,13 @@
     {
       "source": "ScienceDaily",
       "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A quantum breakthrough makes light behave like both a solid and a liquid",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261105224536.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
       "topic": "Scientists discover stunning new Amazon fish that may already be endangered",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084019.htm"
@@ -246,6 +260,13 @@
       "topic": "An anti-aging drug may help protect the brain before Alzheimer's symptoms begin",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084017.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A simple supplement may help clear brain fog after cancer",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084013.htm"
     },
     {
       "source": "ScienceDaily",
@@ -400,27 +421,6 @@
       "topic": "Scientists discover mysterious \u201clonely\u201d brain waves linked to memory loss",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261101010556.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists solve 30-year-old mystery and discover a hidden defense against inflammation",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261101010554.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists trick cancer cells into making the drugs that kill them",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261101010552.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Kids who eat more ultra-processed foods show a troubling brain response",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261101010549.htm"
     }
   ]
 }

@@ -5,6 +5,7 @@ Defaults to 'private' or 'unlisted' so the creator can inspect/review before mak
 """
 
 import os
+import re
 import time
 import json
 import http.client

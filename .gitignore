@@ -39,8 +39,14 @@ test_*.ass
 !output/thumbnails/.gitkeep
 !output/metadata/.gitkeep
 
-# Ensure uploads ledger is tracked for smart-resume
+# Ensure uploads ledger and self-learning intelligence are tracked for smart-resume & cloud learning
 !output/uploads_history.json
+!output/channel_brain.json
+!output/performance_metrics.json
+!output/audience_insights.json
+!output/candidate_topics.json
+!output/title_healing_recommendations.json
+!output/history_topics.json
 
 # Python bytecode & cache
 __pycache__/

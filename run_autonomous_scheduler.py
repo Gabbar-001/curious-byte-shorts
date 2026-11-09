@@ -47,7 +47,57 @@ def load_already_scheduled_slots() -> set:
             pass
     return scheduled_set
 
-def run_pipeline(count: int = 48, interval_minutes: int = 30, start_at: str = "midnight", start_delay_minutes: int = 30, auto_upload: bool = True):
+def execute_self_learning_cycle():
+    """
+    Step 0: Autonomous Channel Intelligence & Self-Learning Cycle.
+    1. Ingests latest views and velocity metrics from YouTube.
+    2. Mines audience comments & inquiry patterns.
+    3. Mines live trending topics from Reddit science RSS, ScienceDaily, and Phys.org.
+    4. Computes channel brain directive & hook/pillar weighting matrix.
+    5. Analyzes underperformers and formulates title healing recommendations.
+    """
+    print("\n" + "=" * 75)
+    print("  🧠 STEP 0: EXECUTING CHANNEL SELF-LEARNING & AUDIENCE INTELLIGENCE CYCLE")
+    print("=" * 75)
+
+    # 1. Performance Analyzer
+    try:
+        from analytics.performance_analyzer import analyze_channel_performance
+        analyze_channel_performance()
+    except Exception as e:
+        print(f"  [Analytics Warning] Performance analysis: {e}")
+
+    # 2. Audience Comment Miner
+    try:
+        from analytics.audience_comment_miner import mine_audience_insights
+        mine_audience_insights()
+    except Exception as e:
+        print(f"  [Analytics Warning] Audience mining: {e}")
+
+    # 3. Trend Explorer
+    try:
+        from analytics.trend_explorer import mine_trending_topics
+        mine_trending_topics()
+    except Exception as e:
+        print(f"  [Analytics Warning] Trend mining: {e}")
+
+    # 4. Channel Brain
+    try:
+        from analytics.channel_brain import update_channel_brain
+        update_channel_brain()
+    except Exception as e:
+        print(f"  [Analytics Warning] Channel brain: {e}")
+
+    # 5. Title Healer
+    try:
+        from analytics.title_healer import analyze_and_heal_underperformers
+        analyze_and_heal_underperformers()
+    except Exception as e:
+        print(f"  [Analytics Warning] Title healing: {e}")
+
+    print("=" * 75 + "\n")
+
+def run_pipeline(count: int = 48, interval_minutes: int = 30, start_at: str = "midnight", start_delay_minutes: int = 30, auto_upload: bool = True, skip_learning: bool = False):
     settings = load_settings()
     channel_name = settings.get("channel_name", "CURIOUS BYTE")
     date_str = datetime.now().strftime("%Y-%m-%d")
@@ -91,6 +141,9 @@ def run_pipeline(count: int = 48, interval_minutes: int = 30, start_at: str = "m
     print(f"  • Release Mode      : 100% PUBLIC at scheduled time")
     print(f"  • Auto-Cleanup      : Yes (Deletes raw files immediately after upload)")
     print("=" * 75 + "\n")
+
+    if not skip_learning:
+        execute_self_learning_cycle()
 
     scheduled_results = []
 
@@ -241,6 +294,7 @@ if __name__ == "__main__":
     parser.add_argument("--start-at", type=str, default="midnight", help="Starting slot ('midnight' for 12:00 AM, or 'now')")
     parser.add_argument("--start-delay", type=int, default=30, help="Minutes before first video goes live if start-at is 'now'")
     parser.add_argument("--no-upload", action="store_true", help="Generate locally without uploading")
+    parser.add_argument("--skip-learning", action="store_true", help="Skip Step 0 self-learning cycle")
     args = parser.parse_args()
 
     run_pipeline(
@@ -248,5 +302,6 @@ if __name__ == "__main__":
         interval_minutes=args.interval,
         start_at=args.start_at,
         start_delay_minutes=args.start_delay,
-        auto_upload=not args.no_upload
+        auto_upload=not args.no_upload,
+        skip_learning=args.skip_learning
     )

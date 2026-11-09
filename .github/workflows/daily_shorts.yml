@@ -118,7 +118,7 @@ jobs:
         run: |
           git config --global user.name "Curious Byte Engine"
           git config --global user.email "bot@curiousbyte.local"
-          git add output/uploads_history.json
+          git add output/uploads_history.json output/channel_brain.json output/performance_metrics.json output/audience_insights.json output/history_topics.json output/candidate_topics.json output/title_healing_recommendations.json output/metadata/*.json
           if ! git diff --staged --quiet; then
             git commit -m "🤖 Update YouTube upload history [skip ci]"
             git push

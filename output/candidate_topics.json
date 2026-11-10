@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T04:06:42.002413",
+  "updated_at": "2026-11-10T22:06:55.959883",
   "total_candidates": 93,
   "candidates": [
     {
@@ -22,6 +22,13 @@
       "topic": "All 5 genetic \u201cletters\u201d of DNA and RNA discovered in a 4.5-billion-year-old asteroid",
       "viral_potential_score": 72,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "After 40 years, CERN finds evidence of a one-in-10-billion particle decay",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233047.htm"
     },
     {
       "source": "ScienceDaily",
@@ -101,11 +108,11 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Ancient ape fossil in Egypt could rewrite the story of human origins",
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "X-ray observations uncover possible jet warning signs in black hole systems",
       "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm"
+      "source_url": "https://phys.org/news/2026-11-ray-uncover-jet-black-hole.html"
     },
     {
       "source": "Phys.org Space",
@@ -159,9 +166,23 @@
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Alsace and Lorraine don't exist as administrative regions anymore. They got merged with Champagne-Ardenne in 2016.",
+      "topic": "Michael Maltese started out as a cel painter and appeared live in a cartoon.",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xrdtke/til_alsace_and_lorraine_dont_exist_as/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xsqopg/til_michael_maltese_started_out_as_a_cel_painter/"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Alzheimer\u2019s may have early warning signs outside the brain",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists finally discover why we learn to love bitter coffee",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233100.htm"
     },
     {
       "source": "ScienceDaily",
@@ -400,27 +421,6 @@
       "topic": "Scientists discover new Alzheimer\u2019s drug that repairs DNA damage and reduces brain inflammation",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261102075806.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists discover mysterious \u201clonely\u201d brain waves linked to memory loss",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261101010556.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists solve 30-year-old mystery and discover a hidden defense against inflammation",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261101010554.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists trick cancer cells into making the drugs that kill them",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261101010552.htm"
     }
   ]
 }

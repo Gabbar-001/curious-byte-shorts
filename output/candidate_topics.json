@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-09T23:08:32.202483",
-  "total_candidates": 95,
+  "updated_at": "2026-11-10T04:06:42.002413",
+  "total_candidates": 93,
   "candidates": [
     {
       "source": "ScienceDaily",
@@ -110,6 +110,13 @@
     {
       "source": "Phys.org Space",
       "pillar": "Space & Universal Paradoxes",
+      "topic": "Our sun's undiscovered stellar nemesis is still out there, says physicist",
+      "viral_potential_score": 66,
+      "source_url": "https://phys.org/news/2026-11-sun-undiscovered-stellar-nemesis-physicist.html"
+    },
+    {
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
       "topic": "'Stupendously large' primordial black holes ruled out as a dark matter source",
       "viral_potential_score": 66,
       "source_url": "https://phys.org/news/2026-11-stupendously-large-primordial-black-holes.html"
@@ -136,18 +143,11 @@
       "source_url": "https://phys.org/news/2026-11-webb-space-telescope-red-dots.html"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Pulsars set first mass limits on supermassive black hole pairs in the early universe",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-pulsars-mass-limits-supermassive-black.html"
-    },
-    {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Amazon reportedly paid $200\u2013250 million just for the TV rights to The Lord of the Rings, before spending a cent on writers, actors or production",
+      "topic": "GM used to ship their Chevy Vegas standing up instead of lying flat on trains",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xrtv38/til_amazon_reportedly_paid_200250_million_just/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xs1gud/til_gm_used_to_ship_their_chevy_vegas_standing_up/"
     },
     {
       "source": "r/todayilearned",
@@ -162,20 +162,6 @@
       "topic": "Alsace and Lorraine don't exist as administrative regions anymore. They got merged with Champagne-Ardenne in 2016.",
       "viral_potential_score": 60,
       "source_url": "https://www.reddit.com/r/todayilearned/comments/1xrdtke/til_alsace_and_lorraine_dont_exist_as/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Ringo Starr doesn't play drums on the album version of The Beatles' first hit \"Love Me Do\"\u2014he plays tambourine.",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xrkh3c/til_ringo_starr_doesnt_play_drums_on_the_album/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "the San Marco Bell Tower in Venice, rebuilt after 1902 collapse, uses an automated hammer to ring the bells to avoid damage from vibration",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xrq4w2/til_the_san_marco_bell_tower_in_venice_rebuilt/"
     },
     {
       "source": "ScienceDaily",
@@ -421,6 +407,20 @@
       "topic": "Scientists discover mysterious \u201clonely\u201d brain waves linked to memory loss",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261101010556.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists solve 30-year-old mystery and discover a hidden defense against inflammation",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261101010554.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists trick cancer cells into making the drugs that kill them",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261101010552.htm"
     }
   ]
 }

@@ -1,45 +1,38 @@
 {
-  "last_updated": "2026-11-09T17:38:34.777548+00:00",
-  "total_videos_analyzed": 113,
-  "total_channel_views": 3064,
+  "last_updated": "2026-11-09T22:36:44.240909+00:00",
+  "total_videos_analyzed": 161,
+  "total_channel_views": 2100,
   "median_views": 0,
   "pillar_analytics": {
     "General Science & Curiosities": {
-      "video_count": 113,
-      "total_views": 3064,
-      "avg_views_per_video": 27.1,
-      "avg_velocity_per_hour": 0.99,
-      "raw_performance_score": 38.8,
+      "video_count": 161,
+      "total_views": 2100,
+      "avg_views_per_video": 13.0,
+      "avg_velocity_per_hour": 0.34,
+      "raw_performance_score": 15.9,
       "recommended_allocation_pct": 45.0
     }
   },
   "hook_analytics": {
     "Shock": {
-      "attempts": 113,
-      "avg_views": 27.1,
-      "win_rate_pct": 41.6
+      "attempts": 161,
+      "avg_views": 13.0,
+      "win_rate_pct": 32.9
     }
   },
   "breakout_hits": [
     {
-      "title": "The Secret Frequency of the Hypogeum #Shorts",
-      "topic": "The Secret Frequency of the Hypogeum #Shorts",
+      "title": "The Stone Chamber That Triggers Your Brain #Shorts",
+      "topic": "The Stone Chamber That Triggers Your Brain #Shorts",
       "pillar": "General Science & Curiosities",
-      "views": 641,
+      "views": 534,
       "hook": ""
     },
     {
-      "title": "The Invisible Monster Pulling Our Galaxy #Shorts",
-      "topic": "The Invisible Monster Pulling Our Galaxy #Shorts",
+      "title": "Why Your Gaze Stops Reality: The Quantum Zeno Effect #Shorts",
+      "topic": "Why Your Gaze Stops Reality: The Quantum Zeno Effect #Shorts",
       "pillar": "General Science & Curiosities",
-      "views": 631,
-      "hook": ""
-    },
-    {
-      "title": "Your Brain is Hallucinating Your Body #Shorts",
-      "topic": "Your Brain is Hallucinating Your Body #Shorts",
-      "pillar": "General Science & Curiosities",
-      "views": 457,
+      "views": 416,
       "hook": ""
     },
     {
@@ -55,37 +48,44 @@
       "pillar": "General Science & Curiosities",
       "views": 289,
       "hook": ""
+    },
+    {
+      "title": "The Haunting Truth: Your Cells After Death #Shorts",
+      "topic": "The Haunting Truth: Your Cells After Death #Shorts",
+      "pillar": "General Science & Curiosities",
+      "views": 286,
+      "hook": ""
     }
   ],
   "underperforming_patterns": [],
   "spin_off_recommendations": [
     {
-      "parent_title": "The Secret Frequency of the Hypogeum #Shorts",
-      "parent_views": 641,
+      "parent_title": "The Stone Chamber That Triggers Your Brain #Shorts",
+      "parent_views": 534,
       "suggested_sequels": [
-        "Part 2: What happened next with The Secret Frequency of the Hypogeum #Shorts",
-        "The Secret Science Behind The Secret Frequency of the Hypogeum #Shorts",
-        "3 Things Everyone Missed About The Secret Frequency of the Hypogeum #Shorts"
+        "Part 2: What happened next with The Stone Chamber That Triggers Your Brain #Shorts",
+        "The Secret Science Behind The Stone Chamber That Triggers Your Brain #Shorts",
+        "3 Things Everyone Missed About The Stone Chamber That Triggers Your Brain #Shorts"
       ]
     },
     {
-      "parent_title": "The Invisible Monster Pulling Our Galaxy #Shorts",
-      "parent_views": 631,
+      "parent_title": "Why Your Gaze Stops Reality: The Quantum Zeno Effect #Shorts",
+      "parent_views": 416,
       "suggested_sequels": [
-        "Part 2: What happened next with The Invisible Monster Pulling Our Galaxy #Shorts",
-        "The Secret Science Behind The Invisible Monster Pulling Our Galaxy #Shorts",
-        "3 Things Everyone Missed About The Invisible Monster Pulling Our Galaxy #Shorts"
+        "Part 2: What happened next with Why Your Gaze Stops Reality: The Quantum Zeno Effect #Shorts",
+        "The Secret Science Behind Why Your Gaze Stops Reality: The Quantum Zeno Effect #Shorts",
+        "3 Things Everyone Missed About Why Your Gaze Stops Reality: The Quantum Zeno Effect #Shorts"
       ]
     },
     {
-      "parent_title": "Your Brain is Hallucinating Your Body #Shorts",
-      "parent_views": 457,
+      "parent_title": "The Temple That Hunts Your Heartbeat #Shorts",
+      "parent_views": 383,
       "suggested_sequels": [
-        "Part 2: What happened next with Your Brain is Hallucinating Your Body #Shorts",
-        "The Secret Science Behind Your Brain is Hallucinating Your Body #Shorts",
-        "3 Things Everyone Missed About Your Brain is Hallucinating Your Body #Shorts"
+        "Part 2: What happened next with The Temple That Hunts Your Heartbeat #Shorts",
+        "The Secret Science Behind The Temple That Hunts Your Heartbeat #Shorts",
+        "3 Things Everyone Missed About The Temple That Hunts Your Heartbeat #Shorts"
       ]
     }
   ],
-  "ai_strategic_directive": "=== REAL-TIME CURIOUS BYTE CHANNEL INTELLIGENCE DIRECTIVE ===\n1. AUDIENCE CRAVING: Your audience generates 3x-5x higher engagement on: General Science & Curiosities. Prioritize these themes.\n2. WINNING HOOK ARCHETYPE: 'Shock Hook' is your channel's highest-converting opener. Deliver a visceral, high-stakes curiosity gap in the first 2 seconds.\n3. PROVEN BREAKOUT WINNERS (Model your upcoming scripts on these):\n   \u2022 'The Secret Frequency of the Hypogeum #Shorts' (641 views) / 'The Invisible Monster Pulling Our Galaxy #Shorts' (631 views) / 'Your Brain is Hallucinating Your Body #Shorts' (457 views)\n4. UNDERPERFORMING PATTERNS (Avoid these angles):\n   \u2022 Generic abstract facts without physical stakes\n5. RETENTION MANDATE: Keep narrative cuts under 4.5 seconds per beat. Never explain academic theory without immediate visual proof."
+  "ai_strategic_directive": "=== REAL-TIME CURIOUS BYTE CHANNEL INTELLIGENCE DIRECTIVE ===\n1. AUDIENCE CRAVING: Your audience generates 3x-5x higher engagement on: General Science & Curiosities. Prioritize these themes.\n2. WINNING HOOK ARCHETYPE: 'Shock Hook' is your channel's highest-converting opener. Deliver a visceral, high-stakes curiosity gap in the first 2 seconds.\n3. PROVEN BREAKOUT WINNERS (Model your upcoming scripts on these):\n   \u2022 'The Stone Chamber That Triggers Your Brain #Shorts' (534 views) / 'Why Your Gaze Stops Reality: The Quantum Zeno Effect #Shorts' (416 views) / 'The Temple That Hunts Your Heartbeat #Shorts' (383 views)\n4. UNDERPERFORMING PATTERNS (Avoid these angles):\n   \u2022 Generic abstract facts without physical stakes\n5. RETENTION MANDATE: Keep narrative cuts under 4.5 seconds per beat. Never explain academic theory without immediate visual proof."
 }

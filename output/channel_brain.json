@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-10T16:37:03.855504+00:00",
+  "last_updated": "2026-11-10T16:55:13.416271+00:00",
   "total_videos_analyzed": 209,
-  "total_channel_views": 5918,
+  "total_channel_views": 5921,
   "median_views": 2,
   "pillar_analytics": {
     "General Science & Curiosities": {
       "video_count": 209,
-      "total_views": 5918,
+      "total_views": 5921,
       "avg_views_per_video": 28.3,
       "avg_velocity_per_hour": 0.53,
       "raw_performance_score": 30.4,

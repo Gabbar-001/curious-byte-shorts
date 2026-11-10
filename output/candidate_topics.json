@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T22:06:55.959883",
-  "total_candidates": 93,
+  "updated_at": "2026-11-10T22:25:12.422302",
+  "total_candidates": 95,
   "candidates": [
     {
       "source": "ScienceDaily",
@@ -152,9 +152,23 @@
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "that only one woman has ever received the Medal of Honor, Dr. Mary Walker for treating patients in battle and across enemy lines during the Civil War.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xsro23/til_that_only_one_woman_has_ever_received_the/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
       "topic": "GM used to ship their Chevy Vegas standing up instead of lying flat on trains",
       "viral_potential_score": 60,
       "source_url": "https://www.reddit.com/r/todayilearned/comments/1xs1gud/til_gm_used_to_ship_their_chevy_vegas_standing_up/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "Michael Maltese started out as a cel painter and appeared live in a cartoon.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xsqopg/til_michael_maltese_started_out_as_a_cel_painter/"
     },
     {
       "source": "r/todayilearned",
@@ -166,9 +180,9 @@
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Michael Maltese started out as a cel painter and appeared live in a cartoon.",
+      "topic": "studies have found monkeys also experience noticeable discomfort when presented with an uncanny valley approximation of monkeys.",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xsqopg/til_michael_maltese_started_out_as_a_cel_painter/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xsrzdx/til_studies_have_found_monkeys_also_experience/"
     },
     {
       "source": "ScienceDaily",
@@ -407,20 +421,6 @@
       "topic": "The brain\u2019s hidden fear mechanism may explain anxiety and PTSD",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202833.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Gene editing could replace a lifetime of medication, but there's a catch",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202829.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists discover new Alzheimer\u2019s drug that repairs DNA damage and reduces brain inflammation",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102075806.htm"
     }
   ]
 }

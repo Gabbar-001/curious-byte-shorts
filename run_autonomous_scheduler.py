@@ -120,29 +120,57 @@ def run_pipeline(count: int = 48, interval_minutes: int = 30, start_at: str = "m
     ist_tz = timezone(timedelta(hours=5, minutes=30))
     now_local = datetime.now(ist_tz)
 
-    if start_at and start_at.lower() in ["tomorrow"]:
+    import re
+    if start_at and re.match(r'^\d{4}-\d{2}-\d{2}$', str(start_at).strip()):
+        try:
+            parsed_dt = datetime.strptime(str(start_at).strip(), "%Y-%m-%d")
+            base_start = parsed_dt.replace(hour=0, minute=0, second=0, microsecond=0, tzinfo=ist_tz)
+        except Exception:
+            base_start = (now_local + timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
+    elif start_at and str(start_at).lower() in ["day_after_tomorrow", "day_after", "+2", "+2days"]:
+        base_start = (now_local + timedelta(days=2)).replace(hour=0, minute=0, second=0, microsecond=0)
+    elif start_at and str(start_at).lower() in ["tomorrow"]:
         base_start = (now_local + timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
-    elif start_at and start_at.lower() in ["6pm", "18:00", "evening"]:
+    elif start_at and str(start_at).lower() in ["6pm", "18:00", "evening"]:
         base_start = now_local.replace(hour=18, minute=0, second=0, microsecond=0)
         if base_start < now_local - timedelta(minutes=5):
             base_start = base_start + timedelta(days=1)
-    elif start_at and start_at.lower() in ["midnight", "12:00am", "00:00", "today_midnight"]:
+    elif start_at and str(start_at).lower() in ["midnight", "12:00am", "00:00", "today_midnight"]:
         if now_local.hour >= 12:
             # If running in afternoon or evening (like 6 PM), schedule for tomorrow's 00:00 AM -> 11:30 PM
             base_start = (now_local + timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
         else:
             # If running earlier in the day or catch-up, schedule starting from today's midnight
             base_start = now_local.replace(hour=0, minute=0, second=0, microsecond=0)
-    elif start_at and start_at.lower() in ["now", "immediate", "auto"]:
+    elif start_at and str(start_at).lower() in ["now", "immediate"]:
         base_start = now_local + timedelta(minutes=start_delay_minutes)
-    else:
-        base_start = now_local + timedelta(minutes=start_delay_minutes)
+    else:  # "auto" or default
+        base_start = (now_local + timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
+
+    already_scheduled = load_already_scheduled_slots()
+
+    # Smart Runway Buffer: If target day is already >= 46/48 slots filled, automatically advance to next available day
+    if str(start_at).lower() in ["auto", "tomorrow", "midnight"]:
+        advance_attempts = 0
+        while advance_attempts < 7:
+            filled_slots = 0
+            for i in range(count):
+                t_loc = base_start + timedelta(minutes=i * interval_minutes)
+                t_utc = t_loc.astimezone(timezone.utc)
+                iso_str = t_utc.strftime("%Y-%m-%dT%H:%M:%S.000Z")
+                if iso_str in already_scheduled:
+                    filled_slots += 1
+            if filled_slots >= count - 2:
+                print(f"  💡 [Runway Intelligence] {base_start.strftime('%d %b %Y')} is already fully scheduled ({filled_slots}/{count} slots on YouTube).")
+                base_start += timedelta(days=1)
+                advance_attempts += 1
+                print(f"     Advancing schedule window to {base_start.strftime('%d %b %Y')} to maintain uninterrupted daily runway...")
+            else:
+                break
 
     first_slot_str = base_start.strftime("%I:%M %p (%d %b)")
     last_slot = base_start + timedelta(minutes=(count - 1) * interval_minutes)
     last_slot_str = last_slot.strftime("%I:%M %p (%d %b)")
-
-    already_scheduled = load_already_scheduled_slots()
 
     print("\n" + "=" * 75)
     print("  🚀 CURIOUS BYTE UNIQUE — HIGH-SPEED PARALLEL PIPELINE 2.0")

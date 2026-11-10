@@ -1,9 +1,11 @@
 name: Autonomous YouTube Shorts Engine
 
 on:
-  # Daily automated run at 6:00 PM IST (12:30 UTC)
+  # Daily automated run: 5:53 PM IST (12:23 UTC) off-peak + 6:23 PM IST (12:53 UTC) secondary safety trigger
+  # Uses off-peak minutes (:23 and :53) to bypass GitHub Actions runner queue congestion on :00 and :30
   schedule:
-    - cron: '30 12 * * *'
+    - cron: '23 12 * * *'
+    - cron: '53 12 * * *'
 
   # Manual on-demand trigger from GitHub Mobile App or Web
   workflow_dispatch:
@@ -22,10 +24,12 @@ on:
       start_at:
         description: 'Schedule starting slot'
         required: true
-        default: 'tomorrow'
+        default: 'auto'
         type: choice
         options:
+          - 'auto'
           - 'tomorrow'
+          - 'day_after_tomorrow'
           - '6pm'
           - 'midnight'
           - 'now'
@@ -102,7 +106,7 @@ jobs:
         run: |
           COUNT="${{ github.event.inputs.count || '48' }}"
           INTERVAL="${{ github.event.inputs.interval || '30' }}"
-          START_AT="${{ github.event.inputs.start_at || 'tomorrow' }}"
+          START_AT="${{ github.event.inputs.start_at || 'auto' }}"
 
           echo "=========================================================="
           echo "  Launching Autonomous Shorts Engine"

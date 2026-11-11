@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T22:25:12.422302",
-  "total_candidates": 95,
+  "updated_at": "2026-11-12T01:24:53.798268",
+  "total_candidates": 101,
   "candidates": [
     {
       "source": "ScienceDaily",
@@ -17,11 +17,32 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm"
     },
     {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "spiders have existed for at least 380 million years, making them more than 100 million years older than the first dinosaurs.",
+      "viral_potential_score": 66,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xthvfp/til_spiders_have_existed_for_at_least_380_million/"
+    },
+    {
       "source": "ScienceDaily",
       "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "All 5 genetic \u201cletters\u201d of DNA and RNA discovered in a 4.5-billion-year-old asteroid",
-      "viral_potential_score": 72,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm"
+      "topic": "Where are all the males? Ancient human fossils reveal a startling mystery",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042558.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists discover a giant 66-pound rodent that lived 34 million years ago",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "237-million-year-old fossils reveal a bizarre armored sea amphibian",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205409.htm"
     },
     {
       "source": "ScienceDaily",
@@ -40,9 +61,30 @@
     {
       "source": "ScienceDaily",
       "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists find deadly virus DNA hidden in 1,000-year-old manuscripts",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174545.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
       "topic": "An ancient ocean full of giant predators reveals a surprising twist in evolution",
       "viral_potential_score": 66,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174535.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A mysterious 93-billion-mile cosmic structure may be the wreckage of colliding worlds",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261105224555.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Comets may have destroyed life's ingredients instead of delivering them to Earth",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261105224553.htm"
     },
     {
       "source": "ScienceDaily",
@@ -80,32 +122,32 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003200.htm"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists turn viruses into weapons against deadly superbugs",
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "Centaurus A in the spotlight: Plasma simulations reproduce black hole jets' mysterious bright edges",
       "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202828.htm"
+      "source_url": "https://phys.org/news/2026-11-centaurus-spotlight-plasma-simulations-black.html"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "IceCube detects ghost particles with 10 billion times the energy of solar neutrinos",
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "Earliest known compact quasar pair poses a black hole growth puzzle",
       "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261101010533.htm"
+      "source_url": "https://phys.org/news/2026-11-earliest-compact-quasar-pair-poses.html"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists just found a loophole that could let black holes split in two",
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "Gravitational waves hint at black holes born from failed supernovae",
       "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261101010525.htm"
+      "source_url": "https://phys.org/news/2026-11-gravitational-hint-black-holes-born.html"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "NASA's Hubble and Webb discover ancient worlds that remember their past",
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "Tiny solar whirlpools may hold the secret to the sun's blistering corona",
       "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm"
+      "source_url": "https://phys.org/news/2026-11-tiny-solar-whirlpools-secret-sun.html"
     },
     {
       "source": "Phys.org Space",
@@ -129,25 +171,67 @@
       "source_url": "https://phys.org/news/2026-11-stupendously-large-primordial-black-holes.html"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Vibrating mirrors of light create analog of a black hole event horizon",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-vibrating-mirrors-analog-black-hole.html"
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "about Children\u2019s Games, a 16th century painting that shows more than 90 different children\u2019s games- many of which are still played by kids at recess today.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xtizhw/til_about_childrens_games_a_16th_century_painting/"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Astronomers deliver the sharpest and deepest view yet of the low-frequency radio sky",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-astronomers-sharpest-deepest-view-frequency.html"
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "that by law every sweepstakes in America can be entered for free.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xtawgx/til_that_by_law_every_sweepstakes_in_america_can/"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Webb Space Telescope's little red dots could hold key to first black holes",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-webb-space-telescope-red-dots.html"
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "that Elton John has publicly performed Candle in the Wind, 1997  only once - at her funeral.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xtpirr/til_that_elton_john_has_publicly_performed_candle/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "Anthem Veterans Memorial is situated to display this at 11:11:11 on Veterans Day each year.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xth3wy/til_anthem_veterans_memorial_is_situated_to/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "Aerosmith made more money from Guitar Hero than from any of their albums.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xssri4/til_aerosmith_made_more_money_from_guitar_hero/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "the catchphrase \"Danger, Will Robinson\" was only said one time in the '65-'68 run of Lost In Space, but is the most well known line.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xt0f19/til_the_catchphrase_danger_will_robinson_was_only/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "Grand Bush, who played Balrog in Street Fighter, and was in Lethal Weapon and Die Hard, retired from acting in 2003 and became a doctor",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xt0sf3/til_grand_bush_who_played_balrog_in_street/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "about the Barreleye - a fish that can rotate its eyes up and see through the top of its head",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xtp2fy/til_about_the_barreleye_a_fish_that_can_rotate/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "studies have found monkeys also experience noticeable discomfort when presented with an uncanny valley approximation of monkeys.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xsrzdx/til_studies_have_found_monkeys_also_experience/"
     },
     {
       "source": "r/todayilearned",
@@ -157,32 +241,39 @@
       "source_url": "https://www.reddit.com/r/todayilearned/comments/1xsro23/til_that_only_one_woman_has_ever_received_the/"
     },
     {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "GM used to ship their Chevy Vegas standing up instead of lying flat on trains",
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "NASA reveals Earth's ozone hole has grown to a size not seen in a decade",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xs1gud/til_gm_used_to_ship_their_chevy_vegas_standing_up/"
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042546.htm"
     },
     {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Michael Maltese started out as a cel painter and appeared live in a cartoon.",
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Why heart attacks can still happen even when bad cholesterol is low",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xsqopg/til_michael_maltese_started_out_as_a_cel_painter/"
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205415.htm"
     },
     {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that earthquake magnitudes are no longer reported using the Richter Scale, but instead use the Moment Magnitude Scale",
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "The mystery of how hair knows where to grow may finally be solved",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xrr6ez/til_that_earthquake_magnitudes_are_no_longer/"
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205413.htm"
     },
     {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "studies have found monkeys also experience noticeable discomfort when presented with an uncanny valley approximation of monkeys.",
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "NASA\u2019s CHAPEA Mars crew finally emerges after more than a year in isolation",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xsrzdx/til_studies_have_found_monkeys_also_experience/"
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205406.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists uncover a 192-year-old mystery hidden in a mangled silver coin",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205359.htm"
     },
     {
       "source": "ScienceDaily",
@@ -204,6 +295,27 @@
       "topic": "NASA reveals bold new plan to return astronauts to the Moon in 2028",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233054.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A radical theory says the universe is twice as old as we thought",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233040.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Astronomers discover hidden alien planet in James Webb images",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233028.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists discover why some mosquitoes love you and others don't",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174541.htm"
     },
     {
       "source": "ScienceDaily",
@@ -271,6 +383,13 @@
     {
       "source": "ScienceDaily",
       "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Paleontologists discover \u201cone-in-a-million\u201d fossil with 450-million-year-old soft tissue",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261105085201.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
       "topic": "Scientists discover stunning new Amazon fish that may already be endangered",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084019.htm"
@@ -302,125 +421,6 @@
       "topic": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261104012329.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists discover hidden brain changes linked to common sleep disorders",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104012303.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "SLAC scientists find conclusive proof of a mysterious third type of magnetism",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104012256.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "NASA is racing against time to save the Hubble Space Telescope",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104012254.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Rubin Observatory discovers two hidden companions of the Milky Way. Hundreds more may be waiting",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104012252.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "A dead star's mysterious rings reveal what could happen when our Sun dies",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104012250.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "AI helps Stanford scientists discover a \u201cnatural Ozempic\u201d with a surprising advantage",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104004909.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists discover that a clogged filter could revolutionize oil refining",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003207.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists accidentally solve a chemistry mystery that lasted 60 years",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003205.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Permanent daylight saving time has a dark side, scientists warn",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003157.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "NASA smashed into an asteroid. Now Hera is closing in to see what happened",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "A hidden star is plowing through Betelgeuse\u2019s atmosphere, new evidence suggests",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003149.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists may have finally explained why our brains and bodies are cross-wired",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003146.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists identify two overlooked skills that predict reading success",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202845.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "A 50-year-old mystery of vanishing frogs reveals a hidden killer",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202838.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "400,000-year-old teeth reveal a stunning twist in human evolution",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202836.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Dead stars could break one of physics' most famous limits",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202835.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "The brain\u2019s hidden fear mechanism may explain anxiety and PTSD",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202833.htm"
     }
   ]
 }

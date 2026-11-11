@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-10T22:25:13.418664",
-  "channel_median_views": 2,
-  "total_underperformers_analyzed": 98,
+  "generated_at": "2026-11-12T01:24:56.041326",
+  "channel_median_views": 3,
+  "total_underperformers_analyzed": 110,
   "recommendations": [
     {
       "video_id": "4jTTEF0IwEY",
@@ -121,15 +121,15 @@
       "recommended_action": "Update title and thumbnail text to create a high-stakes curiosity gap."
     },
     {
-      "video_id": "WVh-7fDoWDM",
-      "current_title": "Nature's Immortal Secret #Shorts",
-      "views": 0,
+      "video_id": "TC4NhIoRwps",
+      "current_title": "The Deepest Hole on Earth: Why We Stopped #Shorts",
+      "views": 2,
       "likes": 0,
       "publish_time": null,
       "recommended_replacement_titles": [
-        "Why Nature's Immortal Secret Confused Every Scientist #Shorts",
-        "The Truth About Nature's Immortal Secret Nobody Told You #Shorts",
-        "What Really Happens With Nature's Immortal Secret? #Shorts"
+        "Why The Deepest Hole on Confused Every Scientist #Shorts",
+        "The Truth About The Deepest Hole on Nobody Told You #Shorts",
+        "What Really Happens With The Deepest Hole on? #Shorts"
       ],
       "recommended_action": "Update title and thumbnail text to create a high-stakes curiosity gap."
     }

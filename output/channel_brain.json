@@ -1,23 +1,23 @@
 {
-  "last_updated": "2026-11-11T19:54:56.038474+00:00",
-  "total_videos_analyzed": 256,
-  "total_channel_views": 7735,
-  "median_views": 3,
+  "last_updated": "2026-11-12T20:01:59.312837+00:00",
+  "total_videos_analyzed": 304,
+  "total_channel_views": 8751,
+  "median_views": 2,
   "pillar_analytics": {
     "General Science & Curiosities": {
-      "video_count": 256,
-      "total_views": 7735,
-      "avg_views_per_video": 30.2,
-      "avg_velocity_per_hour": 0.65,
-      "raw_performance_score": 34.1,
+      "video_count": 304,
+      "total_views": 8751,
+      "avg_views_per_video": 28.8,
+      "avg_velocity_per_hour": 0.51,
+      "raw_performance_score": 30.4,
       "recommended_allocation_pct": 45.0
     }
   },
   "hook_analytics": {
     "Shock": {
-      "attempts": 256,
-      "avg_views": 30.2,
-      "win_rate_pct": 46.1
+      "attempts": 304,
+      "avg_views": 28.8,
+      "win_rate_pct": 47.0
     }
   },
   "breakout_hits": [
@@ -25,14 +25,21 @@
       "title": "The Secret Frequency of the Hypogeum #Shorts",
       "topic": "The Secret Frequency of the Hypogeum #Shorts",
       "pillar": "General Science & Curiosities",
-      "views": 942,
+      "views": 945,
       "hook": ""
     },
     {
       "title": "The Invisible Monster Pulling Our Galaxy #Shorts",
       "topic": "The Invisible Monster Pulling Our Galaxy #Shorts",
       "pillar": "General Science & Curiosities",
-      "views": 691,
+      "views": 695,
+      "hook": ""
+    },
+    {
+      "title": "The Universe Could End Before You Finish This Sentence #Shorts",
+      "topic": "The Universe Could End Before You Finish This Sentence #Shorts",
+      "pillar": "General Science & Curiosities",
+      "views": 631,
       "hook": ""
     },
     {
@@ -46,14 +53,7 @@
       "title": "The Universe Could End Before You Finish This Sentence #Shorts",
       "topic": "The Universe Could End Before You Finish This Sentence #Shorts",
       "pillar": "General Science & Curiosities",
-      "views": 497,
-      "hook": ""
-    },
-    {
-      "title": "The Universe Could End Before You Finish This Sentence #Shorts",
-      "topic": "The Universe Could End Before You Finish This Sentence #Shorts",
-      "pillar": "General Science & Curiosities",
-      "views": 485,
+      "views": 490,
       "hook": ""
     }
   ],
@@ -61,7 +61,7 @@
   "spin_off_recommendations": [
     {
       "parent_title": "The Secret Frequency of the Hypogeum #Shorts",
-      "parent_views": 942,
+      "parent_views": 945,
       "suggested_sequels": [
         "Part 2: What happened next with The Secret Frequency of the Hypogeum #Shorts",
         "The Secret Science Behind The Secret Frequency of the Hypogeum #Shorts",
@@ -70,7 +70,7 @@
     },
     {
       "parent_title": "The Invisible Monster Pulling Our Galaxy #Shorts",
-      "parent_views": 691,
+      "parent_views": 695,
       "suggested_sequels": [
         "Part 2: What happened next with The Invisible Monster Pulling Our Galaxy #Shorts",
         "The Secret Science Behind The Invisible Monster Pulling Our Galaxy #Shorts",
@@ -78,14 +78,14 @@
       ]
     },
     {
-      "parent_title": "The Stone Chamber That Triggers Your Brain #Shorts",
-      "parent_views": 532,
+      "parent_title": "The Universe Could End Before You Finish This Sentence #Shorts",
+      "parent_views": 631,
       "suggested_sequels": [
-        "Part 2: What happened next with The Stone Chamber That Triggers Your Brain #Shorts",
-        "The Secret Science Behind The Stone Chamber That Triggers Your Brain #Shorts",
-        "3 Things Everyone Missed About The Stone Chamber That Triggers Your Brain #Shorts"
+        "Part 2: What happened next with The Universe Could End Before You Finish This Sentence #Shorts",
+        "The Secret Science Behind The Universe Could End Before You Finish This Sentence #Shorts",
+        "3 Things Everyone Missed About The Universe Could End Before You Finish This Sentence #Shorts"
       ]
     }
   ],
-  "ai_strategic_directive": "=== REAL-TIME CURIOUS BYTE CHANNEL INTELLIGENCE DIRECTIVE ===\n1. AUDIENCE CRAVING: Your audience generates 3x-5x higher engagement on: General Science & Curiosities. Prioritize these themes.\n2. WINNING HOOK ARCHETYPE: 'Shock Hook' is your channel's highest-converting opener. Deliver a visceral, high-stakes curiosity gap in the first 2 seconds.\n3. PROVEN BREAKOUT WINNERS (Model your upcoming scripts on these):\n   \u2022 'The Secret Frequency of the Hypogeum #Shorts' (942 views) / 'The Invisible Monster Pulling Our Galaxy #Shorts' (691 views) / 'The Stone Chamber That Triggers Your Brain #Shorts' (532 views)\n4. UNDERPERFORMING PATTERNS (Avoid these angles):\n   \u2022 Generic abstract facts without physical stakes\n5. RETENTION MANDATE: Keep narrative cuts under 4.5 seconds per beat. Never explain academic theory without immediate visual proof."
+  "ai_strategic_directive": "=== REAL-TIME CURIOUS BYTE CHANNEL INTELLIGENCE DIRECTIVE ===\n1. AUDIENCE CRAVING: Your audience generates 3x-5x higher engagement on: General Science & Curiosities. Prioritize these themes.\n2. WINNING HOOK ARCHETYPE: 'Shock Hook' is your channel's highest-converting opener. Deliver a visceral, high-stakes curiosity gap in the first 2 seconds.\n3. PROVEN BREAKOUT WINNERS (Model your upcoming scripts on these):\n   \u2022 'The Secret Frequency of the Hypogeum #Shorts' (945 views) / 'The Invisible Monster Pulling Our Galaxy #Shorts' (695 views) / 'The Universe Could End Before You Finish This Sentence #Shorts' (631 views)\n4. UNDERPERFORMING PATTERNS (Avoid these angles):\n   \u2022 Generic abstract facts without physical stakes\n5. RETENTION MANDATE: Keep narrative cuts under 4.5 seconds per beat. Never explain academic theory without immediate visual proof."
 }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T01:24:53.798268",
-  "total_candidates": 101,
+  "updated_at": "2026-11-13T01:31:55.274580",
+  "total_candidates": 99,
   "candidates": [
     {
       "source": "ScienceDaily",
@@ -15,13 +15,6 @@
       "topic": "Scientists just found dinosaur blood that survived 115 million years",
       "viral_potential_score": 72,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "spiders have existed for at least 380 million years, making them more than 100 million years older than the first dinosaurs.",
-      "viral_potential_score": 66,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xthvfp/til_spiders_have_existed_for_at_least_380_million/"
     },
     {
       "source": "ScienceDaily",
@@ -124,6 +117,20 @@
     {
       "source": "Phys.org Space",
       "pillar": "Space & Universal Paradoxes",
+      "topic": "Space dust particles point to ancient heavy-oxygen water reservoir in the Kuiper belt",
+      "viral_potential_score": 66,
+      "source_url": "https://phys.org/news/2026-11-space-particles-ancient-heavy-oxygen.html"
+    },
+    {
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "A suspected black hole turns out to be a rapidly spinning star",
+      "viral_potential_score": 66,
+      "source_url": "https://phys.org/news/2026-11-black-hole-rapidly-star.html"
+    },
+    {
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
       "topic": "Centaurus A in the spotlight: Plasma simulations reproduce black hole jets' mysterious bright edges",
       "viral_potential_score": 66,
       "source_url": "https://phys.org/news/2026-11-centaurus-spotlight-plasma-simulations-black.html"
@@ -164,11 +171,46 @@
       "source_url": "https://phys.org/news/2026-11-sun-undiscovered-stellar-nemesis-physicist.html"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "'Stupendously large' primordial black holes ruled out as a dark matter source",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-stupendously-large-primordial-black-holes.html"
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "Grand Tour cyclists  burn 5,000-8,000 calories on a mountain stage and up to 10,000 calories in daily expenditure.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xucbaz/til_grand_tour_cyclists_such_the_tour_de_france/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "there is one German and two Italian World War II POWs buried at Arlington National Cemetery",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xuhp6m/til_there_is_one_german_and_two_italian_world_war/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "that former Tsar Simeon II of Bulgaria and the current Dalai Lama are the only two people still living who were heads of state during World War II",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xtx0yl/til_that_former_tsar_simeon_ii_of_bulgaria_and/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "A study by the Federal Trade Commission , analyzing 350 U.S. MLM companies found that at least 99% of participants lose money.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xujv59/til_a_study_by_the_federal_trade_commission_ftc/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "movie directors achieve zero-gravity film sequences by flying aircraft parabolically toward Earth in planes nicknamed vomit comets.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xuad4q/til_movie_directors_achieve_zerogravity_film/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "Canada has the longest coastline in the world",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xttcsv/til_canada_has_the_longest_coastline_in_the_world/"
     },
     {
       "source": "r/todayilearned",
@@ -180,65 +222,23 @@
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that by law every sweepstakes in America can be entered for free.",
+      "topic": "the Greek Parthenon was twice converted to a mosque",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xtawgx/til_that_by_law_every_sweepstakes_in_america_can/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xtyvxc/til_the_greek_parthenon_was_twice_converted_to_a/"
     },
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that Elton John has publicly performed Candle in the Wind, 1997  only once - at her funeral.",
+      "topic": "there are 19 individuals with two US Medals of Honor",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xtpirr/til_that_elton_john_has_publicly_performed_candle/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xu3255/til_there_are_19_individuals_with_two_us_medals/"
     },
     {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Anthem Veterans Memorial is situated to display this at 11:11:11 on Veterans Day each year.",
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Earth's fiery birth may have created hundreds of oceans' worth of water",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xth3wy/til_anthem_veterans_memorial_is_situated_to/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Aerosmith made more money from Guitar Hero than from any of their albums.",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xssri4/til_aerosmith_made_more_money_from_guitar_hero/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "the catchphrase \"Danger, Will Robinson\" was only said one time in the '65-'68 run of Lost In Space, but is the most well known line.",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xt0f19/til_the_catchphrase_danger_will_robinson_was_only/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Grand Bush, who played Balrog in Street Fighter, and was in Lethal Weapon and Die Hard, retired from acting in 2003 and became a doctor",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xt0sf3/til_grand_bush_who_played_balrog_in_street/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "about the Barreleye - a fish that can rotate its eyes up and see through the top of its head",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xtp2fy/til_about_the_barreleye_a_fish_that_can_rotate/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "studies have found monkeys also experience noticeable discomfort when presented with an uncanny valley approximation of monkeys.",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xsrzdx/til_studies_have_found_monkeys_also_experience/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that only one woman has ever received the Medal of Honor, Dr. Mary Walker for treating patients in battle and across enemy lines during the Civil War.",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xsro23/til_that_only_one_woman_has_ever_received_the/"
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm"
     },
     {
       "source": "ScienceDaily",
@@ -246,6 +246,13 @@
       "topic": "NASA reveals Earth's ozone hole has grown to a size not seen in a decade",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042546.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A massive new simulation reveals how the universe emerged from darkness",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm"
     },
     {
       "source": "ScienceDaily",
@@ -260,6 +267,13 @@
       "topic": "The mystery of how hair knows where to grow may finally be solved",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205413.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "NASA\u2019s Parker Solar Probe discovers a hidden pattern in the Sun\u2019s chaotic magnetic fields",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205411.htm"
     },
     {
       "source": "ScienceDaily",
@@ -281,6 +295,13 @@
       "topic": "Alzheimer\u2019s may have early warning signs outside the brain",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists discover that necks didn't evolve for the reason we thought",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233101.htm"
     },
     {
       "source": "ScienceDaily",
@@ -400,27 +421,6 @@
       "topic": "An anti-aging drug may help protect the brain before Alzheimer's symptoms begin",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084017.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "A simple supplement may help clear brain fog after cancer",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084013.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Einstein's equations reveal how gravity could break, reconnect, and release energy",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084011.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104012329.htm"
     }
   ]
 }

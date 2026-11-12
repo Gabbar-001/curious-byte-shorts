@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T01:24:56.034106",
+  "updated_at": "2026-11-13T01:31:59.305250",
   "history": [
     {
       "timestamp": "2026-11-09T15:40:45.327131",
@@ -117,6 +117,23 @@
         "Catastrophic Earth & Natural Anomalies": 50,
         "Ancient Wonders & Archaeological Enigmas": 30,
         "Space & Universal Paradoxes": 10,
+        "Dark Science & Human Body Mysteries": 10
+      }
+    },
+    {
+      "timestamp": "2026-11-13T01:31:59.305103",
+      "date": "2026-11-13",
+      "ai_executive_summary": "We are pivoting toward 'Impossible Science Paradoxes' to mirror the 49M-view Banach-Tarski success, replacing pure mystery with cognitive dissonance to maximize retention and repeat-viewing.",
+      "primary_hook_archetype": "Paradox Hook",
+      "recommended_topics": [
+        "The Zeno's Paradox: Why you can technically never reach the door you are walking toward.",
+        "The 12km Kola Hole: Why we stopped drilling just as we heard 'screams' from the deep crust.",
+        "The 'Ship of Theseus': If every part of you is replaced, are you still the same person?"
+      ],
+      "pillar_weights": {
+        "Catastrophic Earth & Natural Anomalies": 20,
+        "Ancient Wonders & Archaeological Enigmas": 20,
+        "Space & Universal Paradoxes": 50,
         "Dark Science & Human Body Mysteries": 10
       }
     }

@@ -1,20 +1,20 @@
 {
   "ai_executive_summary": "We are pivoting to 'Relatable Shock' by anchoring content in the audience's daily physical experiences and the absurd, often overlooked rules of global sports. This shift minimizes cognitive load and maximizes 'shareability' by validating the viewer's personal experiences.",
-  "self_learning_reflection": "Previous attempts at high-concept physics/ocean mystery suffered from low retention because the barrier to entry was too high; viewers want content that validates their own daily existence or exposes the 'weird' side of sports they watch regularly.",
+  "self_learning_reflection": "Abstract science topics failed to build a loyal community; viewers consistently engage more when they feel 'seen' or 'called out' by content regarding their own bodies or tribal sports knowledge.",
   "strategic_pillar_weights": {
+    "Mind-Blowing Head-to-Head Comparisons & Versus Battles": 25,
     "Crazy Sports Mysteries & Bizarre Rules": 25,
-    "Everyday Human Body Glitches & Quirks": 30,
-    "Hilarious Human Behavior & Everyday Psychology": 25,
-    "Bizarre Secrets Behind Daily Life Objects": 20
+    "Everyday Human Body Glitches & Quirks": 25,
+    "Hilarious Human Behavior & Bizarre Object Secrets": 25
   },
   "primary_hook_archetype": "High-Stakes Negation",
   "recommended_topics_to_produce": [
-    "The 'Hidden' Cricket Rule: Why the 'Mankad' dismissal is 100% legal but makes everyone angry.",
-    "The 'Brain Freeze' Glitch: Why your body tries to kill you just for eating ice cream too fast.",
-    "The 'Aggressive' Shopping Cart: Why store carts are purposely designed to pull to one side."
+    "The 'Rain Shadow' Mystery: Why Mawsynram gets 11,000mm of rain while a town 200km away is a desert.",
+    "The 'Phantom Vibration' Syndrome: Why your thigh lies to you and makes you think your phone is ringing.",
+    "The Bizarre Rule of Football: Why a goalkeeper can\u2019t hold the ball for more than 6 seconds\u2014and what happens if they do."
   ],
-  "infinite_loop_directive": "Ensure the final sentence of the script references the initial hook in a way that implies the 'glitch' or 'secret' is happening to the viewer right now, prompting a re-watch to confirm the feeling.",
-  "debate_bait_strategy": "Pose a 'Rule Ethics' question (e.g., 'Is the Mankad dismissal cheating or just smart play?') and pin a comment asking viewers to choose a side to force algorithmic interaction through conflict.",
+  "infinite_loop_directive": "End the video with: '...and that is exactly why you [hook action], but wait\u2014have you ever wondered if the other side of your brain is doing the same thing? Watch this again to see the sign you missed.'",
+  "debate_bait_strategy": "Intentionally present a controversial take on a sports rule or a 'which is better' comparison (e.g., 'Android cameras are objectively better at skin tones, change my mind') to force users to defend their preferences in the comments.",
   "projected_24h_view_target": 500,
   "date": "2026-11-14"
 }

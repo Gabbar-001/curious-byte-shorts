@@ -82,16 +82,16 @@ def run_autonomous_decision_agent() -> dict:
             "date": datetime.now().strftime("%Y-%m-%d"),
             "ai_executive_summary": "Pivoting 100% to funny, relatable everyday human body glitches, weird daily habits, and funny life mysteries.",
             "strategic_pillar_weights": {
+                "Mind-Blowing Head-to-Head Comparisons & Versus Battles": 25,
                 "Crazy Sports Mysteries & Bizarre Rules": 25,
-                "Everyday Human Body Glitches & Quirks": 30,
-                "Hilarious Human Behavior & Everyday Psychology": 25,
-                "Bizarre Secrets Behind Daily Life Objects": 20
+                "Everyday Human Body Glitches & Quirks": 25,
+                "Hilarious Human Behavior & Bizarre Object Secrets": 25
             },
             "primary_hook_archetype": "Shock Hook",
             "recommended_topics_to_produce": [
-                "The Doorway Effect: Why walking into a room deletes your memory",
-                "The Voice Cringe: Why your skull makes you hate your recorded voice",
-                "The Sleep Twitch: Why your body jerks when falling asleep"
+                "Why Kerala Gets 3,000mm of Rain While Karnataka & Telangana Stay Dry (Western Ghats Rain Shadow)",
+                "Kohli vs. Sachin: The One Chasing Stat That Proves Who Is The Real King",
+                "iPhone 100x Zoom vs Samsung 100x Zoom: The Dirty AI Secret Behind Moon Photos"
             ],
             "infinite_loop_mandate": True,
             "debate_bait_strategy": "Ask viewers if they have experienced this exact daily glitch today."
@@ -102,7 +102,10 @@ You have full autonomous authority over content strategy, topic selection, hook 
 
 CRITICAL EDITORIAL PIVOT DIRECTIVE:
 1. STRICTLY FORBIDDEN: Stop generating abstract deep science, quantum physics, complex biology, and deep ocean abysses. Viewers find these too difficult to understand.
-2. MANDATORY FOCUS: Prioritize facts that are FUNNY, SURPRISING, ENTERTAINING, and directly tied to DAILY HUMAN OPERATIONS (daily habits, funny body glitches, everyday psychology, weird human quirks, household object secrets) AND CRAZY SPORTS SECRETS (massive sports like Football, Cricket, Tennis, referee card origins, bizarre penalty rules, crazy match moments).
+2. MANDATORY FOCUS: Prioritize facts that are FUNNY, SURPRISING, ENTERTAINING, and directly tied to:
+   • HEAD-TO-HEAD COMPARISONS & VERSUS BATTLES: Regional weather contrasts (Kerala rain vs neighboring Karnataka/Telangana rain shadow), sports legends statistical shootouts (Kohli vs Sachin, Ronaldo vs Messi), tech gadget spec shootouts (iPhone vs Samsung real camera/battery truth).
+   • CRAZY SPORTS SECRETS & BIZARRE RULES (Cricket, Football/Soccer, referee secrets, historical match flukes).
+   • DAILY HUMAN OPERATIONS & RELATABLE BODY GLITCHES (doorway forgetting effect, voice cringe, sleep twitches, phantom vibrations).
 3. The content must make normal everyday people laugh and say: 'Wait, I do this every single day and never knew why!'"""
 
         user_prompt = f"""Channel Intelligence Context:
@@ -118,16 +121,16 @@ Output valid JSON ONLY with this schema:
   "ai_executive_summary": "1-2 sentence executive justification of today's strategy",
   "self_learning_reflection": "What we learned from previous days' view patterns and competitor waves",
   "strategic_pillar_weights": {{
+    "Mind-Blowing Head-to-Head Comparisons & Versus Battles": 25,
     "Crazy Sports Mysteries & Bizarre Rules": 25,
-    "Everyday Human Body Glitches & Quirks": 30,
-    "Hilarious Human Behavior & Everyday Psychology": 25,
-    "Bizarre Secrets Behind Daily Life Objects": 20
+    "Everyday Human Body Glitches & Quirks": 25,
+    "Hilarious Human Behavior & Bizarre Object Secrets": 25
   }},
   "primary_hook_archetype": "Shock Hook|Paradox Hook|High-Stakes Negation",
   "recommended_topics_to_produce": [
-    "Specific Topic 1 (crazy cricket or football secret/bizarre rule)",
-    "Specific Topic 2 (funny body glitch)",
-    "Specific Topic 3 (everyday human behavior or object secret)"
+    "Specific Topic 1 (regional comparison like Kerala rain vs Karnataka/Telangana OR Kohli vs Sachin stats OR iPhone vs Samsung)",
+    "Specific Topic 2 (crazy sports secret or weird cricket/football rule)",
+    "Specific Topic 3 (funny human body glitch or everyday object secret)"
   ],
   "infinite_loop_directive": "Specific guidance on connecting the final scene back to the opening hook",
   "debate_bait_strategy": "Formula for provoking heated comment arguments",

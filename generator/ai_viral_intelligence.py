@@ -39,12 +39,12 @@ COMPETITOR_FILE = os.path.join("output", "competitor_viral_trends.json")
 STRATEGY_PLAN_FILE = os.path.join("output", "daily_strategy_plan.json")
 
 CONTENT_PILLARS = [
+    "Mind-Blowing Head-to-Head Comparisons & Versus Battles (Why Kerala gets massive rains while Karnataka/Telangana/Tamil Nadu stay dry via Western Ghats rain shadow; Sports legends stat battles like Kohli vs Sachin or Ronaldo vs Messi; Country-level sports dominance; Tech gadget spec shootouts like iPhone vs Samsung camera/battery truth)",
     "Crazy Sports Mysteries & Bizarre Rules (Mind-blowing football, cricket, and athletic secrets, referee red card traffic light origin, why cricket balls shine on trousers, 5-run helmet penalty, unbelievable match moments)",
     "Everyday Human Body Glitches & Quirks (Phantom vibrations, doorway forgetting effect, hearing your recorded voice cringe, sleep twitch jerk, brain freeze)",
     "Hilarious Human Behavior & Everyday Psychology (Awkward elevator habits, grocery store shopping cart psychology, song earworms stuck in head, contagious yawning mystery)",
     "Bizarre Secrets Behind Daily Life Objects (Why airplane windows have tiny holes, QWERTY keyboard trap, why jeans have that tiny pocket, why price tags end in .99)",
-    "Daily Food & Bodily Operation Mysteries (Why coffee makes you need the bathroom in 4 minutes, airplane food taste changes, knuckle cracking pop sound, cilantro soap gene)",
-    "Weird Habits & Daily Human Mysteries (Waking up 1 minute before alarm, why mosquito bites itch 10x more after scratching, why your nose nostrils switch every 4 hours)"
+    "Daily Food & Bodily Operation Mysteries (Why coffee makes you need the bathroom in 4 minutes, airplane food taste changes, knuckle cracking pop sound, cilantro soap gene)"
 ]
 
 SYSTEM_PROMPT_TEMPLATE = """You are the Senior Viral Content Strategist & Data-Driven Storyteller for "Curious Byte Unique" (@CuriousByteShort).
@@ -54,7 +54,13 @@ Your mission is to produce a 38-to-45-second viral YouTube Short script engineer
 
 EDITORIAL PIVOT MANDATE (HUMAN OPERATIONS & RELATABLE HUMOR FOCUS):
 - STRICTLY FORBIDDEN: Do NOT pick abstract theoretical physics, quantum mechanics, obscure biochemistry, or abyssal deep oceans. Viewers find them too complex and unrelatable.
-- MANDATORY FOCUS: Choose facts that are FUNNY, SURPRISING, ENTERTAINING, and directly connected to DAILY HUMAN OPERATIONS, everyday human habits, and CRAZY SPORTS SECRETS (massive sports like Cricket, Football/Soccer, Tennis, F1, crazy rules, historical sports flukes, player rituals).
+- MANDATORY FOCUS: Choose facts that are FUNNY, SURPRISING, ENTERTAINING, and directly connected to:
+  1. HEAD-TO-HEAD COMPARISONS & VERSUS BATTLES:
+     • Regional & Weather Comparisons: Why Kerala floods with 3,000mm rain while neighboring Karnataka, Telangana, and Tamil Nadu stay dry (Western Ghats rain shadow effect!).
+     • Sports Legends & Country Battles: Real statistical shootouts (Kohli vs Sachin chasing averages, Ronaldo vs Messi knockout records, why China dominates Olympics but not football).
+     • Tech Gadgets & Spec Shootouts: iPhone vs Samsung camera sensors, real battery optimization truth, console processing power.
+  2. CRAZY SPORTS SECRETS & BIZARRE RULES (Cricket, Football/Soccer, referee secrets, historical match flukes).
+  3. DAILY HUMAN OPERATIONS & RELATABLE BODY GLITCHES (doorway forgetting effect, voice cringe, sleep twitches, phantom vibrations).
 - TONE: Funny, witty, relatable, and astonishing! The viewer must instantly think: "OMG, I do this every day and never knew why!"
 
 CORE MANDATES:
@@ -196,6 +202,7 @@ NICHE_VIRAL_HASHTAGS = {
     'nature': ['#DeepSea', '#OceanMysteries', '#CatastrophicEarth', '#EarthFacts', '#PlanetEarth', '#WildNature'],
     'history': ['#AncientHistory', '#Archaeology', '#LostCivilizations', '#AncientEngineering', '#HistoricalMysteries'],
     'sports': ['#Cricket', '#CricketShorts', '#Football', '#FootballShorts', '#Soccer', '#SportsFacts', '#IPL', '#WorldCup', '#SportsHistory', '#CrazyRules', '#SportsTok', '#DidYouKnow'],
+    'comparisons': ['#Comparison', '#Versus', '#DidYouKnow', '#TechComparison', '#SportsBattle', '#GeographyFacts', '#IndiaFacts', '#iPhoneVsSamsung', '#KohliVsSachin', '#CuriousByte'],
     'global_viral': ['#Shorts', '#YouTubeShorts', '#Viral', '#Trending', '#CuriousByte', '#DidYouKnow', '#MindBlowing', '#FYP']
 }
 

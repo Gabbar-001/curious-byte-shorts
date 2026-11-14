@@ -78,12 +78,16 @@ jobs:
           GEMINI_KEY: ${{ secrets.GEMINI_API_KEY }}
           YOUTUBE_TOKEN_B64: ${{ secrets.YOUTUBE_TOKEN_BASE64 }}
           CLIENT_SECRETS_B64: ${{ secrets.CLIENT_SECRETS_BASE64 }}
+          PLAYLIST_ID: ${{ secrets.YOUTUBE_SHORTS_PLAYLIST_ID }}
         run: |
           mkdir -p config
           echo "Restoring Gemini configuration..."
           echo "GEMINI_API_KEY=$GEMINI_KEY" > config/.env
           echo "YOUTUBE_CLIENT_SECRETS_FILE=config/client_secrets.json" >> config/.env
           echo "YOUTUBE_TOKEN_FILE=config/token.json" >> config/.env
+          if [ -n "$PLAYLIST_ID" ]; then
+            echo "YOUTUBE_SHORTS_PLAYLIST_ID=$PLAYLIST_ID" >> config/.env
+          fi
 
           echo "Decoding YouTube OAuth Token..."
           python -c "import os, base64; open('config/token.json', 'wb').write(base64.b64decode(os.environ['YOUTUBE_TOKEN_B64'].strip()))"

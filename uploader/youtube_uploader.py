@@ -157,9 +157,9 @@ def upload_short(video_file_path: str, title: str, description: str, tags: list,
     old_tag_pattern = r"#CuriousByte\s+#Shorts\s+#Facts\s+#Science\s+#MindBlowing"
     final_description = re.sub(old_tag_pattern, "", final_description).strip()
 
-    if len(re.findall(r'#\w+', final_description)) < 15:
+    if len(re.findall(r'#\w+', final_description)) < 8:
         from generator.ai_viral_intelligence import build_ultimate_viral_hashtags
-        word_tags = build_ultimate_viral_hashtags(title=title, script=description, max_tags=38)
+        word_tags = build_ultimate_viral_hashtags(title=title, script=description, max_tags=18)
         final_description = f"{final_description.strip()}\n\n{' '.join(word_tags)}"
 
     body = {

@@ -98,7 +98,13 @@ CORE MANDATES:
    "Stylized 3D CGI digital art, [Specific Subject matching narration beat], Unreal Engine 5 aesthetic, volumetric [color] cinematic lighting, dark atmospheric depth, high contrast, no human faces, no real people, no text, no letters, no words, 8k digital art"
    In addition, provide "search_keyword": concise 1-3 word primary subject noun.
 8. VIRAL POTENTIAL SCORE: Score from 1 to 100 based on Curiosity, Emotion, Shareability, and Visuals.
-9. VIRAL HASHTAG & TREND DISCOVERY: Include "trending_viral_hashtags" (8 to 12 relevant hashtags).
+9. TOPIC-SPECIFIC HASHTAGS (MANDATORY PER-VIDEO MATCH):
+   Generate exactly 10 to 14 high-impact hashtags tailored SPECIFICALLY to the video's exact subject, people, locations, brands, or rules.
+   - For comparisons/geography: Include exact state/country names and weather terms (e.g., #KeralaRains, #WesternGhats, #RainShadow, #Karnataka, #MonsoonFacts, #GeographyFacts, #WeatherComparison).
+   - For sports: Include specific player names, teams, and rules (e.g., #ViratKohli, #SachinTendulkar, #CricketRecords, #TeamIndia, #Football, #Messi, #Ronaldo, #RedCard).
+   - For gadgets: Include exact brand & hardware names (e.g., #iPhone16, #SamsungS24, #CameraTest, #TechComparison, #Smartphones).
+   - For body/psychology: Include the specific phenomenon name (e.g., #DoorwayEffect, #BrainFreeze, #HypnicJerk, #PsychologyFacts).
+   - Do NOT output random generic words like #Small, #Time, #Look. Every hashtag must be a real searchable topic tag!
 
 Respond ONLY with valid JSON matching this schema:
 {
@@ -206,38 +212,63 @@ NICHE_VIRAL_HASHTAGS = {
     'global_viral': ['#Shorts', '#YouTubeShorts', '#Viral', '#Trending', '#CuriousByte', '#DidYouKnow', '#MindBlowing', '#FYP']
 }
 
-def build_ultimate_viral_hashtags(title: str, script: str, topic: str = "", pillar: str = "", ai_hashtags: list = None, max_tags: int = 38) -> list[str]:
+def build_ultimate_viral_hashtags(title: str, script: str = "", topic: str = "", pillar: str = "", ai_hashtags: list = None, max_tags: int = 15) -> list[str]:
+    """Constructs clean, hyper-targeted hashtags strictly tailored to the specific video's topic."""
     seen = set()
     result = []
-    for tag in NICHE_VIRAL_HASHTAGS['global_viral']:
-        k = tag.replace('#', '').lower()
-        if k not in seen:
+
+    def add_tag(tag_str: str):
+        if not tag_str:
+            return
+        t = tag_str.strip()
+        if not t.startswith('#'):
+            t = f'#{t}'
+        clean_tag = re.sub(r'[^\w#]', '', t)
+        k = clean_tag.replace('#', '').lower()
+        if k and k not in seen and len(k) >= 3 and k not in HASHTAG_STOP_WORDS:
             seen.add(k)
-            result.append(tag)
+            result.append(clean_tag)
+
+    # 1. Video-Specific AI Hashtags (First & Foremost - generated exclusively for this exact video)
     if ai_hashtags:
         for tag in ai_hashtags:
-            t = tag.strip() if tag.strip().startswith('#') else f'#{tag.strip()}'
-            k = t.replace('#', '').lower()
-            if k not in seen and len(k) >= 3:
-                seen.add(k)
-                result.append(t)
-    combined_ctx = f'{topic} {pillar} {title}'.lower()
-    for niche_key, niche_tags in NICHE_VIRAL_HASHTAGS.items():
-        if niche_key in combined_ctx or (niche_key == 'nature' and any(k in combined_ctx for k in ['sea', 'ocean', 'trench', 'abyss', 'crater', 'fire'])):
-            for tag in niche_tags:
-                k = tag.replace('#', '').lower()
-                if k not in seen:
-                    seen.add(k)
-                    result.append(tag)
-    clean = re.sub(r'https?://\S+|@\S+|#\S+', ' ', f'{title} {script}')
-    clean = re.sub(r'[^a-zA-Z\s]', ' ', clean)
-    for w in clean.split():
-        wl = w.lower()
-        if len(wl) >= 3 and wl not in HASHTAG_STOP_WORDS and wl not in seen:
-            seen.add(wl)
-            result.append(f'#{wl}')
-            if len(result) >= max_tags:
-                break
+            add_tag(tag)
+
+    # 2. Extract Specific Capitalized Entities from Title & Topic
+    subject_source = f"{topic} {title}"
+    words = re.findall(r'[A-Z][a-zA-Z0-9]+', subject_source)
+    for w in words:
+        if w.lower() not in HASHTAG_STOP_WORDS and len(w) >= 3:
+            add_tag(w)
+
+    # 3. Subject-Specific Relevant Tags based strictly on the topic/title text
+    title_topic_lower = f"{topic} {title}".lower()
+    
+    # Cricket specific
+    if any(k in title_topic_lower for k in ['cricket', 'kohli', 'sachin', 'ipl', 'mankad', 'bowler', 'batsman']):
+        for tag in ['#Cricket', '#CricketShorts', '#CricketRecords', '#IPL']:
+            add_tag(tag)
+            
+    # Football specific
+    if any(k in title_topic_lower for k in ['football', 'soccer', 'messi', 'ronaldo', 'referee', 'fifa', 'red card']):
+        for tag in ['#Football', '#FootballShorts', '#Soccer', '#FIFA']:
+            add_tag(tag)
+            
+    # Rain/Weather comparison specific
+    if any(k in title_topic_lower for k in ['rain', 'kerala', 'karnataka', 'telangana', 'weather', 'monsoon', 'clouds']):
+        for tag in ['#Monsoon', '#KeralaRains', '#WeatherFacts', '#GeographyFacts']:
+            add_tag(tag)
+            
+    # Tech/Phone comparison specific
+    if any(k in title_topic_lower for k in ['iphone', 'samsung', 'camera', 'zoom', 'battery', 'smartphone', 'gadget']):
+        for tag in ['#TechComparison', '#Smartphones', '#Gadgets', '#CameraTest']:
+            add_tag(tag)
+
+    # 4. Mandatory Clean Branding & Discovery Tags
+    add_tag('#CuriousByte')
+    add_tag('#Shorts')
+    add_tag('#DidYouKnow')
+
     return result[:max_tags]
 
 def get_gemini_client():

@@ -1,20 +1,20 @@
 {
-  "ai_executive_summary": "We are pivoting away from abstract existential dread to relatable, high-retention 'human-centric' content that makes viewers feel understood and amused. By focusing on the 'glitches' in their own daily lives, we turn the channel into a daily destination for 'Oh, it's not just me!' moments.",
-  "self_learning_reflection": "Previous attempts at complex paradoxes and deep-sea mysteries yielded high initial interest but failed to convert casual scrollers into repeat viewers because the content was too detached from their personal reality. Our audience wants to feel validated, not confused.",
+  "ai_executive_summary": "We are pivoting to 'Relatable Shock' by anchoring content in the audience's daily physical experiences and the absurd, often overlooked rules of global sports. This shift minimizes cognitive load and maximizes 'shareability' by validating the viewer's personal experiences.",
+  "self_learning_reflection": "Previous attempts at high-concept physics/ocean mystery suffered from low retention because the barrier to entry was too high; viewers want content that validates their own daily existence or exposes the 'weird' side of sports they watch regularly.",
   "strategic_pillar_weights": {
-    "Everyday Human Body Glitches & Quirks": 35,
-    "Hilarious Human Behavior & Everyday Psychology": 30,
-    "Bizarre Secrets Behind Daily Life Objects": 20,
-    "Daily Food & Bodily Operation Mysteries": 15
+    "Crazy Sports Mysteries & Bizarre Rules": 25,
+    "Everyday Human Body Glitches & Quirks": 30,
+    "Hilarious Human Behavior & Everyday Psychology": 25,
+    "Bizarre Secrets Behind Daily Life Objects": 20
   },
   "primary_hook_archetype": "High-Stakes Negation",
   "recommended_topics_to_produce": [
-    "Why you suddenly 'jerk' awake right as you're falling asleep (The Hypnic Jerk Glitch)",
-    "Why you walk into a room and instantly forget why you went in there (The Doorway Effect)",
-    "Why your microwave beep is literally designed to make you feel anxious"
+    "The 'Hidden' Cricket Rule: Why the 'Mankad' dismissal is 100% legal but makes everyone angry.",
+    "The 'Brain Freeze' Glitch: Why your body tries to kill you just for eating ice cream too fast.",
+    "The 'Aggressive' Shopping Cart: Why store carts are purposely designed to pull to one side."
   ],
-  "infinite_loop_directive": "End the video by stating: '...and that is exactly why you're doing it right now.' immediately followed by the opening hook asking: 'Ever wondered why your body does [X]?' to force an instant replay.",
-  "debate_bait_strategy": "Present two common, opposite ways of doing a daily task (e.g., 'Do you put the toilet paper roll over or under?') and pin a comment asking, 'If you do it the wrong way, we aren't friends. Which way are you?'",
+  "infinite_loop_directive": "Ensure the final sentence of the script references the initial hook in a way that implies the 'glitch' or 'secret' is happening to the viewer right now, prompting a re-watch to confirm the feeling.",
+  "debate_bait_strategy": "Pose a 'Rule Ethics' question (e.g., 'Is the Mankad dismissal cheating or just smart play?') and pin a comment asking viewers to choose a side to force algorithmic interaction through conflict.",
   "projected_24h_view_target": 500,
   "date": "2026-11-14"
 }

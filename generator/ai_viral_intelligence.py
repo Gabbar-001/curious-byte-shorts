@@ -39,6 +39,7 @@ COMPETITOR_FILE = os.path.join("output", "competitor_viral_trends.json")
 STRATEGY_PLAN_FILE = os.path.join("output", "daily_strategy_plan.json")
 
 CONTENT_PILLARS = [
+    "Crazy Sports Mysteries & Bizarre Rules (Mind-blowing football, cricket, and athletic secrets, referee red card traffic light origin, why cricket balls shine on trousers, 5-run helmet penalty, unbelievable match moments)",
     "Everyday Human Body Glitches & Quirks (Phantom vibrations, doorway forgetting effect, hearing your recorded voice cringe, sleep twitch jerk, brain freeze)",
     "Hilarious Human Behavior & Everyday Psychology (Awkward elevator habits, grocery store shopping cart psychology, song earworms stuck in head, contagious yawning mystery)",
     "Bizarre Secrets Behind Daily Life Objects (Why airplane windows have tiny holes, QWERTY keyboard trap, why jeans have that tiny pocket, why price tags end in .99)",
@@ -53,7 +54,7 @@ Your mission is to produce a 38-to-45-second viral YouTube Short script engineer
 
 EDITORIAL PIVOT MANDATE (HUMAN OPERATIONS & RELATABLE HUMOR FOCUS):
 - STRICTLY FORBIDDEN: Do NOT pick abstract theoretical physics, quantum mechanics, obscure biochemistry, or abyssal deep oceans. Viewers find them too complex and unrelatable.
-- MANDATORY FOCUS: Choose facts that are FUNNY, SURPRISING, ENTERTAINING, and directly connected to DAILY HUMAN OPERATIONS and relatable daily human experiences (things normal people do, feel, eat, see, and experience every single day).
+- MANDATORY FOCUS: Choose facts that are FUNNY, SURPRISING, ENTERTAINING, and directly connected to DAILY HUMAN OPERATIONS, everyday human habits, and CRAZY SPORTS SECRETS (massive sports like Cricket, Football/Soccer, Tennis, F1, crazy rules, historical sports flukes, player rituals).
 - TONE: Funny, witty, relatable, and astonishing! The viewer must instantly think: "OMG, I do this every day and never knew why!"
 
 CORE MANDATES:
@@ -194,6 +195,7 @@ NICHE_VIRAL_HASHTAGS = {
     'biology': ['#HumanBody', '#BrainHacks', '#PsychologyFacts', '#BiologyFacts', '#Neuroscience', '#HumanAnatomy'],
     'nature': ['#DeepSea', '#OceanMysteries', '#CatastrophicEarth', '#EarthFacts', '#PlanetEarth', '#WildNature'],
     'history': ['#AncientHistory', '#Archaeology', '#LostCivilizations', '#AncientEngineering', '#HistoricalMysteries'],
+    'sports': ['#Cricket', '#CricketShorts', '#Football', '#FootballShorts', '#Soccer', '#SportsFacts', '#IPL', '#WorldCup', '#SportsHistory', '#CrazyRules', '#SportsTok', '#DidYouKnow'],
     'global_viral': ['#Shorts', '#YouTubeShorts', '#Viral', '#Trending', '#CuriousByte', '#DidYouKnow', '#MindBlowing', '#FYP']
 }
 

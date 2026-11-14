@@ -82,10 +82,10 @@ def run_autonomous_decision_agent() -> dict:
             "date": datetime.now().strftime("%Y-%m-%d"),
             "ai_executive_summary": "Pivoting 100% to funny, relatable everyday human body glitches, weird daily habits, and funny life mysteries.",
             "strategic_pillar_weights": {
-                "Everyday Human Body Glitches & Quirks": 35,
-                "Hilarious Human Behavior & Everyday Psychology": 30,
-                "Bizarre Secrets Behind Daily Life Objects": 20,
-                "Daily Food & Bodily Operation Mysteries": 15
+                "Crazy Sports Mysteries & Bizarre Rules": 25,
+                "Everyday Human Body Glitches & Quirks": 30,
+                "Hilarious Human Behavior & Everyday Psychology": 25,
+                "Bizarre Secrets Behind Daily Life Objects": 20
             },
             "primary_hook_archetype": "Shock Hook",
             "recommended_topics_to_produce": [
@@ -102,7 +102,7 @@ You have full autonomous authority over content strategy, topic selection, hook 
 
 CRITICAL EDITORIAL PIVOT DIRECTIVE:
 1. STRICTLY FORBIDDEN: Stop generating abstract deep science, quantum physics, complex biology, and deep ocean abysses. Viewers find these too difficult to understand.
-2. MANDATORY FOCUS: Prioritize facts that are FUNNY, SURPRISING, ENTERTAINING, and directly tied to DAILY HUMAN OPERATIONS (daily habits, funny body glitches, everyday psychology, weird human quirks, household object secrets).
+2. MANDATORY FOCUS: Prioritize facts that are FUNNY, SURPRISING, ENTERTAINING, and directly tied to DAILY HUMAN OPERATIONS (daily habits, funny body glitches, everyday psychology, weird human quirks, household object secrets) AND CRAZY SPORTS SECRETS (massive sports like Football, Cricket, Tennis, referee card origins, bizarre penalty rules, crazy match moments).
 3. The content must make normal everyday people laugh and say: 'Wait, I do this every single day and never knew why!'"""
 
         user_prompt = f"""Channel Intelligence Context:
@@ -118,16 +118,16 @@ Output valid JSON ONLY with this schema:
   "ai_executive_summary": "1-2 sentence executive justification of today's strategy",
   "self_learning_reflection": "What we learned from previous days' view patterns and competitor waves",
   "strategic_pillar_weights": {{
-    "Everyday Human Body Glitches & Quirks": 35,
-    "Hilarious Human Behavior & Everyday Psychology": 30,
-    "Bizarre Secrets Behind Daily Life Objects": 20,
-    "Daily Food & Bodily Operation Mysteries": 15
+    "Crazy Sports Mysteries & Bizarre Rules": 25,
+    "Everyday Human Body Glitches & Quirks": 30,
+    "Hilarious Human Behavior & Everyday Psychology": 25,
+    "Bizarre Secrets Behind Daily Life Objects": 20
   }},
   "primary_hook_archetype": "Shock Hook|Paradox Hook|High-Stakes Negation",
   "recommended_topics_to_produce": [
-    "Specific Topic 1 (funny body glitch)",
-    "Specific Topic 2 (everyday human behavior/habit)",
-    "Specific Topic 3 (secrets behind household object)"
+    "Specific Topic 1 (crazy cricket or football secret/bizarre rule)",
+    "Specific Topic 2 (funny body glitch)",
+    "Specific Topic 3 (everyday human behavior or object secret)"
   ],
   "infinite_loop_directive": "Specific guidance on connecting the final scene back to the opening hook",
   "debate_bait_strategy": "Formula for provoking heated comment arguments",

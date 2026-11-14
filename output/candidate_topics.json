@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-11-14T01:38:00.601633",
-  "total_candidates": 116,
+  "updated_at": "2026-11-14T22:20:33.908423",
+  "total_candidates": 96,
   "candidates": [
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings",
+      "viral_potential_score": 72,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261112025540.htm"
+    },
     {
       "source": "ScienceDaily",
       "pillar": "Catastrophic Earth & Natural Anomalies",
@@ -15,6 +22,20 @@
       "topic": "Scientists just found dinosaur blood that survived 115 million years",
       "viral_potential_score": 72,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "that Elvis Presley did 636 sold out shows in Las Vegas and never once performed his song \u201cViva Las Vegas\u201d",
+      "viral_potential_score": 66,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvqs2h/til_that_elvis_presley_did_636_sold_out_shows_in/"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists capture electrons making seemingly impossible quantum jumps",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261112025523.htm"
     },
     {
       "source": "ScienceDaily",
@@ -122,13 +143,6 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261104012305.htm"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "MIT scientists break a 20-year rule and unlock never-before-seen crystal structures",
-      "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104012248.htm"
-    },
-    {
       "source": "Phys.org Space",
       "pillar": "Space & Universal Paradoxes",
       "topic": "A likely supermassive neutron star might shed light on the mass gap between neutron stars and black holes",
@@ -164,18 +178,18 @@
       "source_url": "https://phys.org/news/2026-11-earliest-compact-quasar-pair-poses.html"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Gravitational waves hint at black holes born from failed supernovae",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-gravitational-hint-black-holes-born.html"
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "Blowing out candles on a cake increases the amount of bacteria on the surface frosting by 1400%",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvj2h3/til_blowing_out_candles_on_a_cake_increases_the/"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Tiny solar whirlpools may hold the secret to the sun's blistering corona",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-tiny-solar-whirlpools-secret-sun.html"
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "owning a pet rabbit is illegal in Queensland, Australia, where rabbits have been a destructive invasive species since being introduced in the 19th century.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvrm0a/til_owning_a_pet_rabbit_is_illegal_in_queensland/"
     },
     {
       "source": "r/todayilearned",
@@ -187,177 +201,37 @@
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Danny DeVito bought the script to Pulp Fiction, before the film was made",
+      "topic": "that chickens produce about a quarter pound of manure per day",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xuw0h6/til_danny_devito_bought_the_script_to_pulp/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvydci/til_that_chickens_produce_about_a_quarter_pound/"
     },
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Director John Ford was at the Battle of Midway, filming it from Midway Island while getting wounded by enemy fire",
+      "topic": "the album Chinese Democracy took fifteen years to make, cost $15 million, involved ten producers, and features nine guitarists.",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xv9z6o/til_director_john_ford_was_at_the_battle_of/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvse5i/til_the_album_chinese_democracy_took_fifteen/"
     },
     {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that only 699 NFL players all time  were born outside the USA.",
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists find a simple daily routine linked to less pain and depression",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvcypw/til_that_only_699_nfl_players_all_time_since_1920/"
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261113231624.htm"
     },
     {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that the first functional gasoline-electric hybrid vehicle was designed by Ferdinand Porsche in 1900. He was 25.",
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A giant icy world hiding beyond Pluto could be our sixth dwarf planet",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvdfj5/til_that_the_first_functional_gasolineelectric/"
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261112230447.htm"
     },
     {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that between the three of them, the Gabor sisters had been married 20 times. Magda 6 times, Zsa Zsa 9 times, Eva 5 times.",
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Stanford scientists discover hidden brain signals that predict Alzheimer\u2019s years before symptoms",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xv1v4y/til_that_between_the_three_of_them_the_gabor/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "hawkmoths zap bats with sonic blasts from their genitals",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvanbp/til_hawkmoths_zap_bats_with_sonic_blasts_from/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that the puppet Lamb Chop is an honorary three-star general in the Marines and that she testified before Congress in 1993.",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xuymjt/til_that_the_puppet_lamb_chop_is_an_honorary/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "45 percent of adults snore occasionally, while 25 percent snore regularly",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xuwhl4/til_45_percent_of_adults_snore_occasionally_while/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Raquel Welch auditioned for the role of farm girl Mary Ann on Gilligan\u2019s Island.",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xv78nn/til_raquel_welch_auditioned_for_the_role_of_farm/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "In 1981 a passenger plane almost hit the transmitting antenna of the North Tower of the World Trade Center.",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvhd0y/til_in_1981_a_passenger_plane_almost_hit_the/"
-    },
-    {
-      "source": "r/space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "All Space Questions thread for week of November 08, 2026",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/space/comments/1xr35ss/all_space_questions_thread_for_week_of_november/"
-    },
-    {
-      "source": "r/space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "The Hubble Space Telescope Is Sinking. NASA Is Looking for Ways to Keep It Afloat",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/space/comments/1xv4fm6/the_hubble_space_telescope_is_sinking_nasa_is/"
-    },
-    {
-      "source": "r/space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "New exhibit featuring the full-sized Space Shuttle Endeavour opens TODAY, 11/13/2026 - at California Science Center!",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/space/comments/1xvce4g/new_exhibit_featuring_the_fullsized_space_shuttle/"
-    },
-    {
-      "source": "r/space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "China\u2019s Tianwen-4 Jupiter mission to attempt Callisto moon landing",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/space/comments/1xv6f11/chinas_tianwen4_jupiter_mission_to_attempt/"
-    },
-    {
-      "source": "r/space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Why is there so much talk about commercial space stations for research and so little for manufacturing?",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/space/comments/1xve6l3/why_is_there_so_much_talk_about_commercial_space/"
-    },
-    {
-      "source": "r/space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "All the time spacecraft have spent transmitting from the surface of Venus adds up to less than 13 hours",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/space/comments/1xue4ef/all_the_time_spacecraft_have_spent_transmitting/"
-    },
-    {
-      "source": "r/space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Astronomers Discover N\u0101p\u014dwaw\u0101\u02bbenakaulua, the Oldest Compact Quasar Pair in the Universe",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/space/comments/1xu97jr/astronomers_discover_n\u0101p\u014dwaw\u0101\u02bbenakaulua_the/"
-    },
-    {
-      "source": "r/space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Pathfinder satellite enters orbit after successful launch",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/space/comments/1xugr8k/pathfinder_satellite_enters_orbit_after/"
-    },
-    {
-      "source": "r/space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "New Planetary Society dataset of NASA mission scientific productivity and impact, by cost",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/space/comments/1xuqfe6/new_planetary_society_dataset_of_nasa_mission/"
-    },
-    {
-      "source": "r/space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "RFA Confirms Inaugural RFA ONE Launch Has Slipped to 2027",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/space/comments/1xuful7/rfa_confirms_inaugural_rfa_one_launch_has_slipped/"
-    },
-    {
-      "source": "r/space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "ESA to Support Industry-Led Reusable Booster Flight Demonstrations",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/space/comments/1xufvlh/esa_to_support_industryled_reusable_booster/"
-    },
-    {
-      "source": "r/space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "'There's tremendous demand': Rocket Lab raises price of Neutron launch from $55 million to $70 million",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/space/comments/1xtszdd/theres_tremendous_demand_rocket_lab_raises_price/"
-    },
-    {
-      "source": "r/space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "A new theory on dark matter looks like a quantum property of gravity",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/space/comments/1xvh60d/a_new_theory_on_dark_matter_looks_like_a_quantum/"
-    },
-    {
-      "source": "r/space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Why are most Gas Giants in fictions green, when no real giants in our solar system is green?",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/space/comments/1xvaf5e/why_are_most_gas_giants_in_fictions_green_when_no/"
-    },
-    {
-      "source": "r/space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "NASA officially planning to reopen inquiry to return samples collected by Perseverance Rover on Mars / One-year study begins Jan \u201827",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/space/comments/1xspun8/nasa_officially_planning_to_reopen_inquiry_to/"
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm"
     },
     {
       "source": "ScienceDaily",
@@ -421,6 +295,132 @@
       "topic": "A massive new simulation reveals how the universe emerged from darkness",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Why heart attacks can still happen even when bad cholesterol is low",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205415.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "The mystery of how hair knows where to grow may finally be solved",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205413.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "NASA\u2019s Parker Solar Probe discovers a hidden pattern in the Sun\u2019s chaotic magnetic fields",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205411.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "NASA\u2019s CHAPEA Mars crew finally emerges after more than a year in isolation",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205406.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists uncover a 192-year-old mystery hidden in a mangled silver coin",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205359.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Alzheimer\u2019s may have early warning signs outside the brain",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists discover that necks didn't evolve for the reason we thought",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233101.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists finally discover why we learn to love bitter coffee",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233100.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "NASA reveals bold new plan to return astronauts to the Moon in 2028",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233054.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A radical theory says the universe is twice as old as we thought",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233040.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Astronomers discover hidden alien planet in James Webb images",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233028.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists discover why some mosquitoes love you and others don't",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174541.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A hidden limit of space and time could unlock electronics 100,000 times faster",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174537.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A nuclear blast could save Earth from an asteroid, but there's a catch",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174532.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Mysterious gas leaks suggest Mars may still be volcanically alive",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174525.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists discover a surprising link between acorns and lyme disease",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174518.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Stronger flu shot linked to nearly 55% lower Alzheimer's risk",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261105224609.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Hidden climate superpower: Why some ocean \u201csnow\u201d carries six times more carbon",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261105224558.htm"
     }
   ]
 }

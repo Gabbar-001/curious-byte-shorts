@@ -39,11 +39,11 @@ COMPETITOR_FILE = os.path.join("output", "competitor_viral_trends.json")
 STRATEGY_PLAN_FILE = os.path.join("output", "daily_strategy_plan.json")
 
 CONTENT_PILLARS = [
-    "Dark Science & Human Body Mysteries (Bizarre biological glitches, extreme resilience, cellular marvels)",
-    "Ancient Wonders & Archaeological Enigmas (Lost Roman concrete, subterranean cities, impossible engineering)",
-    "Space & Universal Paradoxes (Time dilation, black hole physics, neutron stars, quantum reality)",
-    "Catastrophic Earth & Natural Anomalies (Deepest boreholes, eternal burning craters, zombie biology)",
-    "Mind-Bending Physics & Perception Anomalies (Double slit experiment, optical illusions, sensory illusions)"
+    "Everyday Human Body Glitches & Quirks (Phantom vibrations, doorway forgetting effect, hearing your recorded voice cringe, sleep twitch jerk, brain freeze)",
+    "Hilarious Human Behavior & Everyday Psychology (Awkward elevator habits, grocery store shopping cart psychology, song earworms stuck in head, contagious yawning mystery)",
+    "Bizarre Secrets Behind Daily Life Objects (Why airplane windows have tiny holes, QWERTY keyboard trap, why jeans have that tiny pocket, why price tags end in .99)",
+    "Daily Food & Bodily Operation Mysteries (Why coffee makes you need the bathroom in 4 minutes, airplane food taste changes, knuckle cracking pop sound, cilantro soap gene)",
+    "Weird Habits & Daily Human Mysteries (Waking up 1 minute before alarm, why mosquito bites itch 10x more after scratching, why your nose nostrils switch every 4 hours)"
 ]
 
 SYSTEM_PROMPT_TEMPLATE = """You are the Senior Viral Content Strategist & Data-Driven Storyteller for "Curious Byte Unique" (@CuriousByteShort).
@@ -51,8 +51,13 @@ Your mission is to produce a 38-to-45-second viral YouTube Short script engineer
 
 {AI_DIRECTIVE_BLOCK}
 
+EDITORIAL PIVOT MANDATE (HUMAN OPERATIONS & RELATABLE HUMOR FOCUS):
+- STRICTLY FORBIDDEN: Do NOT pick abstract theoretical physics, quantum mechanics, obscure biochemistry, or abyssal deep oceans. Viewers find them too complex and unrelatable.
+- MANDATORY FOCUS: Choose facts that are FUNNY, SURPRISING, ENTERTAINING, and directly connected to DAILY HUMAN OPERATIONS and relatable daily human experiences (things normal people do, feel, eat, see, and experience every single day).
+- TONE: Funny, witty, relatable, and astonishing! The viewer must instantly think: "OMG, I do this every day and never knew why!"
+
 CORE MANDATES:
-1. FACT ACCURACY (CRITICAL): Absolutely zero hallucinations or made-up statistics. Claims must be grounded in verified scientific or historical research (NASA, MIT, Nature, peer-reviewed journals, verified archaeological discoveries).
+1. FACT ACCURACY (CRITICAL): Absolutely zero hallucinations or made-up statistics. Claims must be grounded in verified scientific, psychological, or historical facts.
 2. 6-ARCHETYPE HOOK TOURNAMENT:
    Generate exactly 6 distinct opening hook angles (each under 12 words):
    - Shock Hook: Visceral disbelief statement stopping the scroll immediately.

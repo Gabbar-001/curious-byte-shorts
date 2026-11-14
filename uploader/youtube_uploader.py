@@ -128,6 +128,40 @@ def post_discussion_comment(youtube, video_id: str, debate_question: str):
         print(f"[YouTubeUploader] Note on posting comment: {e}")
         return None
 
+def add_video_to_playlist(youtube, video_id: str, playlist_id: str = None):
+    """
+    Adds an uploaded Short to a specified playlist if playlist_id is provided and authorized.
+    """
+    if not playlist_id:
+        playlist_id = os.getenv("YOUTUBE_SHORTS_PLAYLIST_ID")
+    if not playlist_id or not video_id:
+        return False
+
+    try:
+        youtube.playlistItems().insert(
+            part="snippet",
+            body={
+                "snippet": {
+                    "playlistId": playlist_id,
+                    "resourceId": {
+                        "kind": "youtube#video",
+                        "videoId": video_id
+                    }
+                }
+            }
+        ).execute()
+        print(f"[YouTubeUploader] 📑 Added video {video_id} to playlist {playlist_id}")
+        return True
+    except HttpError as e:
+        if "insufficientPermissions" in str(e) or "403" in str(e):
+            print(f"[YouTubeUploader] ℹ️ Playlist note: Token has 'youtube.upload' scope. Set native 'Auto-add rule' in YouTube Studio for automatic playlist sync.")
+        else:
+            print(f"[YouTubeUploader] Note on playlist auto-add: {e}")
+        return False
+    except Exception as e:
+        print(f"[YouTubeUploader] Note on playlist auto-add: {e}")
+        return False
+
 def upload_short(video_file_path: str, title: str, description: str, tags: list, privacy_status: str = "private", thumbnail_path: str = None, publish_at: str = None, debate_question: str = None):
     """
     Uploads a video to YouTube with Shorts specifications, attaches a custom thumbnail,
@@ -219,6 +253,9 @@ def upload_short(video_file_path: str, title: str, description: str, tags: list,
     # Post Auto-Pinned / Top Creator Discussion Comment (+200% engagement)
     if debate_question:
         post_discussion_comment(youtube, video_id, debate_question)
+
+    # Optional Auto-Add to Playlist
+    add_video_to_playlist(youtube, video_id)
 
     log_upload(video_id, final_title, privacy_status, publish_at=publish_at)
     return video_url

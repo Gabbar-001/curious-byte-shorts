@@ -11,6 +11,7 @@ github_secrets_to_copy.txt
 # Generated video, audio & temporary media files
 output/*.log
 output/*backup*.json
+output/auth_url.txt
 output/videos/*
 output/audio/*
 output/subtitles/*

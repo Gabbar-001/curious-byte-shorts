@@ -32,9 +32,10 @@ from uploader.youtube_uploader import upload_short
 from uploader.cleanup_manager import cleanup_short_assets
 from run_daily import load_settings
 
-def load_already_scheduled_slots() -> set:
+def load_already_scheduled_slots() -> tuple[set, list]:
     history_file = os.path.join("output", "uploads_history.json")
-    scheduled_set = set()
+    scheduled_exact = set()
+    scheduled_dts = []
     if os.path.exists(history_file):
         try:
             with open(history_file, "r", encoding="utf-8") as f:
@@ -42,10 +43,29 @@ def load_already_scheduled_slots() -> set:
                 for r in records:
                     spa = r.get("scheduled_publish_at")
                     if spa:
-                        scheduled_set.add(spa)
+                        scheduled_exact.add(spa)
+                        try:
+                            dt = datetime.fromisoformat(spa.replace("Z", "+00:00")).astimezone(timezone.utc)
+                            scheduled_dts.append(dt)
+                        except Exception:
+                            pass
         except Exception:
             pass
-    return scheduled_set
+    return scheduled_exact, scheduled_dts
+
+def is_slot_already_scheduled(target_dt_utc: datetime, exact_set: set, dt_list: list, tolerance_minutes: int = 12) -> tuple[bool, str]:
+    """Checks if any video is already scheduled at or near target_dt_utc to prevent duplicates."""
+    iso_exact = target_dt_utc.strftime("%Y-%m-%dT%H:%M:%S.000Z")
+    if iso_exact in exact_set:
+        return True, f"Exact slot match ({iso_exact})"
+
+    for existing_dt in dt_list:
+        diff_sec = abs((target_dt_utc - existing_dt).total_seconds())
+        if diff_sec <= tolerance_minutes * 60:
+            diff_m = int(diff_sec / 60)
+            return True, f"Existing video already scheduled within {diff_m}m ({existing_dt.strftime('%H:%M UTC')})"
+
+    return False, ""
 
 def execute_self_learning_cycle():
     """
@@ -147,7 +167,7 @@ def run_pipeline(count: int = 48, interval_minutes: int = 30, start_at: str = "m
     else:  # "auto" or default
         base_start = (now_local + timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
 
-    already_scheduled = load_already_scheduled_slots()
+    already_scheduled, already_scheduled_dts = load_already_scheduled_slots()
 
     # Smart Runway Buffer: If target day is already >= 46/48 slots filled, automatically advance to next available day
     if str(start_at).lower() in ["auto", "tomorrow", "midnight"]:
@@ -196,9 +216,10 @@ def run_pipeline(count: int = 48, interval_minutes: int = 30, start_at: str = "m
         local_time_str = target_time_local.strftime("%I:%M %p (%d %b)")
         now_utc = datetime.now(timezone.utc)
 
-        # Smart Resume: Skip already uploaded slots
-        if publish_at_iso in already_scheduled:
-            print(f"  ⏭️ Slot {i+1:02d}/{count} [{local_time_str}] Already uploaded to YouTube. Skipping...")
+        # Smart Check: If any video is already scheduled at this slot, skip it immediately
+        already_taken, reason = is_slot_already_scheduled(target_time_utc, already_scheduled, already_scheduled_dts)
+        if already_taken:
+            print(f"  ⏭️ Slot {i+1:02d}/{count} [{local_time_str}] Video already scheduled ({reason}). Skipping to prevent duplicate...")
             continue
 
         # Determine if target is in the future (> 2 minutes away)
@@ -263,6 +284,7 @@ def run_pipeline(count: int = 48, interval_minutes: int = 30, start_at: str = "m
                 if video_url:
                     print(f"  ✅ Uploaded & Scheduled on YouTube: {video_url} ({schedule_note})")
                     already_scheduled.add(publish_at_iso)
+                    already_scheduled_dts.append(target_time_utc)
                     scheduled_results.append({
                         "id": short_id,
                         "title": title,

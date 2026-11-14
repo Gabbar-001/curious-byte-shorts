@@ -128,12 +128,54 @@ def post_discussion_comment(youtube, video_id: str, debate_question: str):
         print(f"[YouTubeUploader] Note on posting comment: {e}")
         return None
 
+_CACHED_PLAYLIST_ID = None
+
+def get_target_playlist_id(youtube, preferred_name="Facts"):
+    """
+    Finds the playlist ID matching preferred_name (e.g. 'Facts' or 'shorts')
+    or falls back to YOUTUBE_SHORTS_PLAYLIST_ID environment variable.
+    """
+    global _CACHED_PLAYLIST_ID
+    if _CACHED_PLAYLIST_ID:
+        return _CACHED_PLAYLIST_ID
+
+    env_id = os.getenv("YOUTUBE_SHORTS_PLAYLIST_ID")
+    if env_id:
+        _CACHED_PLAYLIST_ID = env_id
+        return env_id
+
+    try:
+        response = youtube.playlists().list(
+            part="snippet",
+            mine=True,
+            maxResults=50
+        ).execute()
+        items = response.get("items", [])
+        # Exact match first
+        for item in items:
+            title = item.get("snippet", {}).get("title", "").strip().lower()
+            if title == preferred_name.strip().lower():
+                _CACHED_PLAYLIST_ID = item["id"]
+                print(f"[YouTubeUploader] Discovered target playlist '{item.get('snippet', {}).get('title')}': {_CACHED_PLAYLIST_ID}")
+                return _CACHED_PLAYLIST_ID
+        # Substring match next
+        for item in items:
+            title = item.get("snippet", {}).get("title", "").strip().lower()
+            if preferred_name.strip().lower() in title or "fact" in title or "short" in title:
+                _CACHED_PLAYLIST_ID = item["id"]
+                print(f"[YouTubeUploader] Discovered matching playlist '{item.get('snippet', {}).get('title')}': {_CACHED_PLAYLIST_ID}")
+                return _CACHED_PLAYLIST_ID
+    except Exception as e:
+        print(f"[YouTubeUploader] Note looking up playlists: {e}")
+
+    return None
+
 def add_video_to_playlist(youtube, video_id: str, playlist_id: str = None):
     """
-    Adds an uploaded Short to a specified playlist if playlist_id is provided and authorized.
+    Adds an uploaded Short to a specified playlist (defaults to 'Facts' or 'shorts' playlist).
     """
     if not playlist_id:
-        playlist_id = os.getenv("YOUTUBE_SHORTS_PLAYLIST_ID")
+        playlist_id = get_target_playlist_id(youtube, "Facts")
     if not playlist_id or not video_id:
         return False
 
@@ -153,14 +195,47 @@ def add_video_to_playlist(youtube, video_id: str, playlist_id: str = None):
         print(f"[YouTubeUploader] 📑 Added video {video_id} to playlist {playlist_id}")
         return True
     except HttpError as e:
-        if "insufficientPermissions" in str(e) or "403" in str(e):
-            print(f"[YouTubeUploader] ℹ️ Playlist note: Token has 'youtube.upload' scope. Set native 'Auto-add rule' in YouTube Studio for automatic playlist sync.")
+        err_msg = str(e)
+        if "videoAlreadyInPlaylist" in err_msg or "already in playlist" in err_msg.lower():
+            return True
+        elif "insufficientPermissions" in err_msg or "403" in err_msg:
+            print(f"[YouTubeUploader] ℹ️ Playlist note: Token needs full YouTube scope to manage playlist.")
         else:
             print(f"[YouTubeUploader] Note on playlist auto-add: {e}")
         return False
     except Exception as e:
         print(f"[YouTubeUploader] Note on playlist auto-add: {e}")
         return False
+
+def sync_all_videos_to_playlist(youtube, playlist_name="Facts", max_sync=50):
+    """
+    Syncs previously uploaded videos from uploads_history.json into the target playlist.
+    """
+    playlist_id = get_target_playlist_id(youtube, playlist_name)
+    if not playlist_id:
+        print(f"[YouTubeUploader] Playlist '{playlist_name}' not found on channel.")
+        return 0
+
+    if not os.path.exists(UPLOADS_LOG):
+        return 0
+
+    try:
+        with open(UPLOADS_LOG, "r", encoding="utf-8") as f:
+            history = json.load(f)
+    except Exception:
+        return 0
+
+    count = 0
+    for record in reversed(history):
+        vid = record.get("video_id")
+        if vid:
+            if add_video_to_playlist(youtube, vid, playlist_id):
+                count += 1
+                time.sleep(0.3)
+            if count >= max_sync:
+                break
+    print(f"[YouTubeUploader] Synced {count} videos into playlist '{playlist_name}' ({playlist_id})")
+    return count
 
 def upload_short(video_file_path: str, title: str, description: str, tags: list, privacy_status: str = "private", thumbnail_path: str = None, publish_at: str = None, debate_question: str = None):
     """

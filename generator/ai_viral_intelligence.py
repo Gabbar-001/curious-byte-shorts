@@ -76,9 +76,12 @@ CORE MANDATES:
    Score each from 0-100, select the single highest-scoring winner, and note which archetype won.
 3. 5-BEAT MICRO-STORY RETENTION FRAMEWORK (EXACTLY 10 SCENE CUTS):
    Do NOT provide disconnected facts. Structure a seamless 10-beat narrative arc:
-   - Scene 1 [0:00-0:03]: Beat 1A - The Electrifying Hook (Striking visual)
-   - Scene 2 [0:03-0:07]: Beat 1B - The Core Mystery / Question Setup
-   - Scene 3 [0:07-0:12]: Beat 2A - The Phenomenon Introduced
+   - Scene 1 [0:00-0:04]: Beat 1A - BRANDED OPENING QUESTION HOOK:
+     You MUST open with this exact template asking the viewer:
+     "Do you know [Why you hate your own voice]? Welcome to Curious Byte, let's learn something interesting!"
+     (Adapt the question cleanly to the specific topic, always welcoming viewers to Curious Byte!)
+   - Scene 2 [0:04-0:08]: Beat 1B - The Core Mystery / Question Setup
+   - Scene 3 [0:08-0:12]: Beat 2A - The Phenomenon Introduced
    - Scene 4 [0:12-0:17]: Beat 2B - Microscopic / Close-up perspective & mechanism
    - Scene 5 [0:17-0:22]: Beat 3A - The Scientific Conflict / Impossible Evidence
    - Scene 6 [0:22-0:27]: Beat 3B - Macro-scale visual shift & stakes
@@ -92,8 +95,8 @@ CORE MANDATES:
      • "Have you ever felt this weird brain glitch? Comment YES or NO below!"
      • "Why do you think Kerala gets all the clouds while Tamil Nadu stays dry? Drop your theory in the comments!"
      • "Now tell me: Which phone camera would you choose? Comment below!"
-   - Scene 10 [0:41-0:45]: Beat 5B - Mandatory Outro CTA (Comment + Subscribe):
-     You MUST explicitly say: "Drop your answer in the comments right now! Hit subscribe to Curious Byte so you never miss tomorrow's mystery, and drop a like if your mind was blown!"
+   - Scene 10 [0:41-0:45]: Beat 5B - Mandatory Outro CTA (Comment + Subscribe for Next Fact):
+     You MUST explicitly say: "Drop your answer in the comments right now! Hit subscribe to Curious Byte for the next mind-blowing fact, and like this video if your mind was blown!"
 4. INFINITE LOOP RE-WATCH MECHANISM:
    The transition from Scene 9 through Scene 10 must lead logically and tonally back into the opening words of Scene 1, encouraging re-watches.
 5. DEBATE-BAIT QUESTION (BOTH IN-VIDEO & PINNED COMMENT):
@@ -404,6 +407,20 @@ Enforce all 6 Hook Archetypes, the 5-Beat Micro-Story Structure across 10 scenes
             clean_q += "?"
 
         if beats:
+            # Scene 1 (Opening Beat): Enforce Branded Question Hook Template
+            scene1_beat = beats[0]
+            s1_text = scene1_beat.get("narration", "").strip()
+            topic_str = concept_data.get("topic", "").strip()
+            q_phrase = topic_str
+            if q_phrase.lower().startswith("the "):
+                q_phrase = q_phrase[4:]
+            q_phrase = q_phrase.rstrip(".")
+            if not any(k in s1_text.lower() for k in ["welcome to curious byte", "curious byte"]):
+                if not s1_text.lower().startswith("do you know"):
+                    scene1_beat["narration"] = f"Do you know {q_phrase}? Welcome to Curious Byte, let's learn something interesting!".strip()
+                else:
+                    scene1_beat["narration"] = f"{s1_text.rstrip('.')}! Welcome to Curious Byte, let's learn something interesting!".strip()
+
             # Scene 9 (Penultimate Scene): Speak the question directly out loud to the audience
             if len(beats) >= 9:
                 scene9_beat = beats[-2] if len(beats) >= 10 else beats[-1]
@@ -412,14 +429,10 @@ Enforce all 6 Hook Archetypes, the 5-Beat Micro-Story Structure across 10 scenes
                 if not any(k in s9_text.lower() for k in ["comment", "tell me", "what do you", "who do you", "which do you", "?", "yes or no"]):
                     scene9_beat["narration"] = f"{s9_text.rstrip('.')}! Tell me in the comments: {clean_q}".strip()
 
-            # Scene 10 (Final Outro Scene): Re-iterate comment CTA & branded subscribe callout
+            # Scene 10 (Final Outro Scene): Re-iterate comment CTA & branded subscribe callout for the next fact
             scene10_beat = beats[-1]
-            s10_text = scene10_beat.get("narration", "").strip()
-            cta_outro = "Drop your answer in the comments right now! Hit subscribe to Curious Byte so you don't miss tomorrow's mystery, and drop a like if your mind was blown!"
-            if not any(k in s10_text.lower() for k in ["comment", "answer"]):
-                scene10_beat["narration"] = f"{s10_text.rstrip('.')}! {cta_outro}".strip()
-            elif not any(k in s10_text.lower() for k in ["subscribe", "sub"]):
-                scene10_beat["narration"] = f"{s10_text.rstrip('.')}! Hit subscribe to Curious Byte right now, and drop a like if your mind was blown!".strip()
+            cta_outro = "Drop your answer in the comments right now! Hit subscribe to Curious Byte for the next mind-blowing fact, and like this video if your mind was blown!"
+            scene10_beat["narration"] = cta_outro
 
             concept_data["full_voiceover_script"] = " ".join(b.get("narration", "") for b in beats)
 

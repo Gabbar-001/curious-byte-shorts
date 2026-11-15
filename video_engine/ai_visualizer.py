@@ -158,6 +158,170 @@ def ensure_promo_card(channel_name: str = "CURIOUS BYTE", handle: str = "@Curiou
     card.save(out_path)
     return out_path
 
+def ensure_branded_intro_card(question_text: str = "", topic: str = "", channel_name: str = "CURIOUS BYTE", output_path: str = None) -> str:
+    """
+    Creates a high-definition 1080x1920 promotional intro hook card with channel logo and question.
+    """
+    if not output_path:
+        output_path = os.path.join("output", "stills", "branded_intro_card.jpg")
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    W, H = 1080, 1920
+    card = Image.new("RGBA", (W, H), (7, 11, 20, 255))
+    draw = ImageDraw.Draw(card)
+
+    # Ambient radial cyan/amber glow behind the logo
+    for r in range(480, 140, -20):
+        alpha = int(24 * (1 - r / 480))
+        draw.ellipse((W//2 - r, 460 - r, W//2 + r, 460 + r), fill=(56, 189, 248, alpha))
+
+    # Channel Logo
+    logo_path = os.path.join(os.path.dirname(__file__), "..", "assets", "channel_logo.png")
+    if not os.path.exists(logo_path):
+        logo_path = os.path.join("assets", "channel_logo.png")
+
+    if os.path.exists(logo_path):
+        logo = Image.open(logo_path).convert("RGBA")
+        logo_size = 340
+        logo = logo.resize((logo_size, logo_size), Image.Resampling.LANCZOS)
+
+        logo_mask = Image.new("L", (logo_size, logo_size), 0)
+        mask_draw = ImageDraw.Draw(logo_mask)
+        mask_draw.rounded_rectangle((0, 0, logo_size, logo_size), radius=35, fill=255)
+
+        logo_x = (W - logo_size) // 2
+        logo_y = 280
+
+        # Glowing border around logo
+        draw.rounded_rectangle((logo_x - 6, logo_y - 6, logo_x + logo_size + 6, logo_y + logo_size + 6), radius=40, outline=(56, 189, 248, 255), width=6)
+        card.paste(logo, (logo_x, logo_y), mask=logo_mask)
+
+    # Fonts resolution
+    candidates_bold = [
+        "C:/Windows/Fonts/arialbd.ttf",
+        "/usr/share/fonts/truetype/msttcorefonts/Arial_Bold.ttf",
+        "/usr/share/fonts/truetype/msttcorefonts/arialbd.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+        "Arial Bold",
+        "DejaVuSans-Bold"
+    ]
+    candidates_reg = [
+        "C:/Windows/Fonts/arial.ttf",
+        "/usr/share/fonts/truetype/msttcorefonts/Arial.ttf",
+        "/usr/share/fonts/truetype/msttcorefonts/arial.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+        "Arial",
+        "DejaVuSans"
+    ]
+    font_bold_lg = None
+    font_bold_md = None
+    font_bold_sm = None
+    font_badge = None
+    for cand in candidates_bold:
+        try:
+            if cand.startswith("C:") or cand.startswith("/"):
+                if os.path.exists(cand):
+                    font_bold_lg = ImageFont.truetype(cand, 64)
+                    font_bold_md = ImageFont.truetype(cand, 46)
+                    font_bold_sm = ImageFont.truetype(cand, 38)
+                    font_badge = ImageFont.truetype(cand, 30)
+                    break
+            else:
+                font_bold_lg = ImageFont.truetype(cand, 64)
+                font_bold_md = ImageFont.truetype(cand, 46)
+                font_bold_sm = ImageFont.truetype(cand, 38)
+                font_badge = ImageFont.truetype(cand, 30)
+                break
+        except Exception:
+            continue
+    if not font_bold_lg:
+        font_bold_lg = ImageFont.load_default()
+        font_bold_md = font_bold_lg
+        font_bold_sm = font_bold_lg
+        font_badge = font_bold_lg
+
+    font_reg_md = None
+    for cand in candidates_reg:
+        try:
+            if cand.startswith("C:") or cand.startswith("/"):
+                if os.path.exists(cand):
+                    font_reg_md = ImageFont.truetype(cand, 32)
+                    break
+            else:
+                font_reg_md = ImageFont.truetype(cand, 32)
+                break
+        except Exception:
+            continue
+    if not font_reg_md:
+        font_reg_md = font_bold_sm
+
+    # Upper Badge: "DID YOU KNOW?"
+    badge_w, badge_h = 360, 56
+    badge_x = (W - badge_w) // 2
+    badge_y = 660
+    draw.rounded_rectangle((badge_x, badge_y, badge_x + badge_w, badge_y + badge_h), radius=28, fill=(15, 23, 42, 230), outline=(56, 189, 248, 240), width=3)
+    tb_badge = draw.textbbox((0, 0), "⚡ DID YOU KNOW? ⚡", font=font_badge)
+    draw.text(((W - (tb_badge[2] - tb_badge[0])) // 2, badge_y + 12), "⚡ DID YOU KNOW? ⚡", font=font_badge, fill=(56, 189, 248))
+
+    # Clean question text
+    q_text = question_text or topic or "WHY DOES THIS HAPPEN?"
+    q_text = q_text.strip().replace("#Shorts", "").replace("#shorts", "").strip()
+    if not q_text.endswith("?"):
+        q_text += "?"
+    q_text = q_text.upper()
+
+    # Wrap question text across lines
+    words = q_text.split()
+    lines = []
+    curr = []
+    for w in words:
+        curr.append(w)
+        test_str = " ".join(curr)
+        tb = draw.textbbox((0, 0), test_str, font=font_bold_md)
+        if (tb[2] - tb[0]) > (W - 140):
+            if len(curr) > 1:
+                curr.pop()
+                lines.append(" ".join(curr))
+                curr = [w]
+            else:
+                lines.append(test_str)
+                curr = []
+    if curr:
+        lines.append(" ".join(curr))
+
+    # Center question box
+    start_y = 780
+    line_h = 68
+    total_q_h = len(lines) * line_h
+
+    # Subtle glowing backdrop for question
+    q_box_y1 = start_y - 20
+    q_box_y2 = start_y + total_q_h + 20
+    draw.rounded_rectangle((60, q_box_y1, W - 60, q_box_y2), radius=30, fill=(15, 23, 42, 190), outline=(250, 204, 21, 160), width=3)
+
+    for i, line in enumerate(lines):
+        tb_line = draw.textbbox((0, 0), line, font=font_bold_md)
+        line_w = tb_line[2] - tb_line[0]
+        # Alternate white and bright electric yellow for high engagement
+        fill_col = (250, 204, 21) if i % 2 == 1 else (255, 255, 255)
+        draw.text(((W - line_w) // 2, start_y + i * line_h), line, font=font_bold_md, fill=fill_col)
+
+    # Sub-footer banner
+    footer_text = "WELCOME TO CURIOUS BYTE • LEARN MORE"
+    tb_foot = draw.textbbox((0, 0), footer_text, font=font_reg_md)
+    foot_y = q_box_y2 + 70
+    draw.text(((W - (tb_foot[2] - tb_foot[0])) // 2, foot_y), footer_text, font=font_reg_md, fill=(148, 163, 184))
+
+    # Accent decorative bottom line
+    draw.line((W//2 - 180, foot_y + 55, W//2 + 180, foot_y + 55), fill=(56, 189, 248, 200), width=3)
+
+    # Save final frame
+    card = card.convert("RGB")
+    card.save(output_path, "JPEG", quality=95)
+    return output_path
+
 def fetch_ai_image(prompt: str, output_path: str, retries: int = 3) -> str:
     """Download an AI generated visual matching the prompt."""
     os.makedirs(os.path.dirname(output_path), exist_ok=True)

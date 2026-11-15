@@ -305,6 +305,14 @@ def synthesize_scene_visuals(story_beats: list, short_id: str, topic: str = "", 
         beat_name = beat.get("beat_name", f"Scene {scene_num}")
         keyword = beat.get("search_keyword", "")
 
+        # Mandatory Branded Opening Intro Card with Logo & Question for Scene 1
+        if idx == 1 or scene_num == 1:
+            from video_engine.ai_visualizer import ensure_branded_intro_card
+            q_text = beat.get("narration", "") or topic
+            ensure_branded_intro_card(question_text=q_text, topic=topic, output_path=out_file)
+            if os.path.exists(out_file) and os.path.getsize(out_file) > 10000:
+                return scene_num, out_file, "Branded Question & Logo Intro", "Curious Byte Intro"
+
         # Mandatory Branded Channel Logo Outro for final scene (Like, Subscribe & Share)
         narration = beat.get("narration", "").lower()
         is_outro = (idx == total_beats) or (scene_num == total_beats) or ("subscribe" in narration and "like" in narration)

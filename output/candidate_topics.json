@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-11-14T23:43:32.780081",
-  "total_candidates": 97,
+  "updated_at": "2026-11-15T11:31:44.205624",
+  "total_candidates": 98,
   "candidates": [
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists discover a bizarre paradox among endangered penguins",
+      "viral_potential_score": 72,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261112230458.htm"
+    },
     {
       "source": "ScienceDaily",
       "pillar": "Catastrophic Earth & Natural Anomalies",
@@ -26,9 +33,30 @@
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "Hitler sent his official photographer to secretly photograph Stalin earlobes to determine his ancestry",
+      "viral_potential_score": 66,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xwg683/til_hitler_sent_his_official_photographer_to/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
       "topic": "that Elvis Presley did 636 sold out shows in Las Vegas and never once performed his song \u201cViva Las Vegas\u201d",
       "viral_potential_score": 66,
       "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvqs2h/til_that_elvis_presley_did_636_sold_out_shows_in/"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Euclid discovers ancient cosmic beacons from the dawn of time, shining like a trillion suns",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261112230504.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Dinosaurs may have been eating seaweed 100 million years ago",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261112230502.htm"
     },
     {
       "source": "ScienceDaily",
@@ -129,18 +157,11 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084009.htm"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists discover Europe's ancient forests were nothing like we imagined",
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "Is this iconic black hole image accurate? New study delivers an independent result",
       "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Human bodies produce 2 billion metric tons of CO2 a year just by staying alive",
-      "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104012305.htm"
+      "source_url": "https://phys.org/news/2026-11-iconic-black-hole-image-accurate.html"
     },
     {
       "source": "Phys.org Space",
@@ -180,6 +201,27 @@
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "The United States Tomb of the Unknown Soldier has been continuously guarded 24 hours a day, 7 days a week, without interruption since July 2, 1937.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xwl3v2/til_the_united_states_tomb_of_the_unknown_soldier/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "that video game Jill of the Jungle  by Epic Megagames was the last video game that company's founder Tim Sweeney who still is Epic's CEO ever designed.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xweyun/til_that_video_game_jill_of_the_jungle_1992_by/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "Woodstock from \"The Peanuts\" was unnamed until June 22, 1970. He is named after the Woodstock festival.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xwn6he/til_woodstock_from_the_peanuts_was_unnamed_until/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
       "topic": "Blowing out candles on a cake increases the amount of bacteria on the surface frosting by 1400%",
       "viral_potential_score": 60,
       "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvj2h3/til_blowing_out_candles_on_a_cake_increases_the/"
@@ -194,30 +236,16 @@
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that Grover Cleveland was the only US President to get married in the White House, and the only President to have a baby born there as well",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvdd2k/til_that_grover_cleveland_was_the_only_us/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
       "topic": "that chickens produce about a quarter pound of manure per day",
       "viral_potential_score": 60,
       "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvydci/til_that_chickens_produce_about_a_quarter_pound/"
     },
     {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "the album Chinese Democracy took fifteen years to make, cost $15 million, involved ten producers, and features nine guitarists.",
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Alzheimer\u2019s may start shrinking two brain regions years before memory loss",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvse5i/til_the_album_chinese_democracy_took_fifteen/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "the first white athlete to officially break the 10-second barrier in the 100 m sprint did so in 2010.",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xw8051/til_the_first_white_athlete_to_officially_break/"
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm"
     },
     {
       "source": "ScienceDaily",
@@ -225,6 +253,13 @@
       "topic": "Scientists find a simple daily routine linked to less pain and depression",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261113231624.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Physicists use laser light to unlock a crystal's hidden electrical powers",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261112230500.htm"
     },
     {
       "source": "ScienceDaily",
@@ -386,41 +421,6 @@
       "topic": "Scientists discover why some mosquitoes love you and others don't",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174541.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "A hidden limit of space and time could unlock electronics 100,000 times faster",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174537.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "A nuclear blast could save Earth from an asteroid, but there's a catch",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174532.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Mysterious gas leaks suggest Mars may still be volcanically alive",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174525.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists discover a surprising link between acorns and lyme disease",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174518.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Stronger flu shot linked to nearly 55% lower Alzheimer's risk",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261105224609.htm"
     }
   ]
 }

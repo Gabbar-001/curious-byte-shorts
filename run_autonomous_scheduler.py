@@ -17,11 +17,11 @@ import time
 import argparse
 from datetime import datetime, timedelta, timezone
 
-# UTF-8 stdout configuration for Windows
+# UTF-8 stdout configuration for Windows with line buffering
 if sys.platform == "win32":
     try:
-        sys.stdout.reconfigure(encoding='utf-8')
-        sys.stderr.reconfigure(encoding='utf-8')
+        sys.stdout.reconfigure(encoding='utf-8', line_buffering=True)
+        sys.stderr.reconfigure(encoding='utf-8', line_buffering=True)
     except Exception:
         pass
 

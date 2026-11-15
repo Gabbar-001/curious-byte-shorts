@@ -83,13 +83,21 @@ CORE MANDATES:
    - Scene 5 [0:17-0:22]: Beat 3A - The Scientific Conflict / Impossible Evidence
    - Scene 6 [0:22-0:27]: Beat 3B - Macro-scale visual shift & stakes
    - Scene 7 [0:27-0:32]: Beat 4A - The Astonishing Revelation
-   - Scene 8 [0:32-0:37]: Beat 4B - Deep-time / Universal perspective
-   - Scene 9 [0:37-0:42]: Beat 5A - The Payoff (Direct answer to the opening hook)
-   - Scene 10 [0:42-0:45]: Beat 5B - Mandatory Outro CTA: You MUST explicitly say: "Hit subscribe to Curious Byte right now so you don't miss tomorrow's mystery, and drop a like if your mind was blown!"
+   - Scene 8 [0:32-0:36]: Beat 4B - Deep-time / Universal perspective
+   - Scene 9 [0:36-0:41]: Beat 5A - DIRECT IN-VIDEO QUESTION TO VIEWER (CRITICAL):
+     Deliver the climax payoff, and IMMEDIATELY ask the viewer a direct, provocative question OUT LOUD in the narration to spark comments!
+     The narrator MUST literally ask the question to the viewer:
+     Examples:
+     • "So tell me in the comments: Who do you think actually won this battle, Messi or Ronaldo?"
+     • "Have you ever felt this weird brain glitch? Comment YES or NO below!"
+     • "Why do you think Kerala gets all the clouds while Tamil Nadu stays dry? Drop your theory in the comments!"
+     • "Now tell me: Which phone camera would you choose? Comment below!"
+   - Scene 10 [0:41-0:45]: Beat 5B - Mandatory Outro CTA (Comment + Subscribe):
+     You MUST explicitly say: "Drop your answer in the comments right now! Hit subscribe to Curious Byte so you never miss tomorrow's mystery, and drop a like if your mind was blown!"
 4. INFINITE LOOP RE-WATCH MECHANISM:
    The transition from Scene 9 through Scene 10 must lead logically and tonally back into the opening words of Scene 1, encouraging re-watches.
-5. DEBATE-BAIT PINNED COMMENT:
-   Include "pinned_debate_comment": A controversial, thought-provoking question designed to start a battle of opinions in the comment section.
+5. DEBATE-BAIT QUESTION (BOTH IN-VIDEO & PINNED COMMENT):
+   Include "pinned_debate_comment": A controversial, thought-provoking question that is asked directly in Scene 9 of the video AND pinned in the comment section.
 6. A/B TITLE TESTING SUITE:
    Generate 3 to 5 high-CTR alternative titles (under 60 characters each, including '#Shorts').
 7. SCENE PROMPTS (100% STYLIZED 3D CGI - ZERO FACES, ZERO TEXT):
@@ -389,13 +397,30 @@ Enforce all 6 Hook Archetypes, the 5-Beat Micro-Story Structure across 10 scenes
             print(f"  • Only {len(beats)} beats returned. Need at least 8. Retrying...")
             continue
 
-        # Programmatic Guarantee: Enforce Scene 10 Branded CTA Outro & voiceover
-        cta_outro = "Hit subscribe to Curious Byte right now so you don't miss tomorrow's mystery, and drop a like if your mind was blown!"
+        # Programmatic Guarantee: Enforce In-Video Direct Question in Scene 9 & Comment/Subscribe CTA in Scene 10
+        debate_q = concept_data.get("pinned_debate_comment") or concept_data.get("debate_question") or "What do you think about this?"
+        clean_q = debate_q.split("\n")[0].strip()
+        if not clean_q.endswith("?"):
+            clean_q += "?"
+
         if beats:
-            last_beat = beats[-1]
-            last_text = last_beat.get("narration", "").strip()
-            if not any(k in last_text.lower() for k in ["subscribe", "sub"]):
-                last_beat["narration"] = f"{last_text.rstrip('.')}! {cta_outro}".strip()
+            # Scene 9 (Penultimate Scene): Speak the question directly out loud to the audience
+            if len(beats) >= 9:
+                scene9_beat = beats[-2] if len(beats) >= 10 else beats[-1]
+                s9_text = scene9_beat.get("narration", "").strip()
+                # If scene 9 doesn't ask a direct question to the viewer, inject it cleanly
+                if not any(k in s9_text.lower() for k in ["comment", "tell me", "what do you", "who do you", "which do you", "?", "yes or no"]):
+                    scene9_beat["narration"] = f"{s9_text.rstrip('.')}! Tell me in the comments: {clean_q}".strip()
+
+            # Scene 10 (Final Outro Scene): Re-iterate comment CTA & branded subscribe callout
+            scene10_beat = beats[-1]
+            s10_text = scene10_beat.get("narration", "").strip()
+            cta_outro = "Drop your answer in the comments right now! Hit subscribe to Curious Byte so you don't miss tomorrow's mystery, and drop a like if your mind was blown!"
+            if not any(k in s10_text.lower() for k in ["comment", "answer"]):
+                scene10_beat["narration"] = f"{s10_text.rstrip('.')}! {cta_outro}".strip()
+            elif not any(k in s10_text.lower() for k in ["subscribe", "sub"]):
+                scene10_beat["narration"] = f"{s10_text.rstrip('.')}! Hit subscribe to Curious Byte right now, and drop a like if your mind was blown!".strip()
+
             concept_data["full_voiceover_script"] = " ".join(b.get("narration", "") for b in beats)
 
         date_str = datetime.now().strftime("%Y-%m-%d")

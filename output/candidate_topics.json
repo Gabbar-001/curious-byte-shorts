@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-15T11:31:44.205624",
-  "total_candidates": 98,
+  "updated_at": "2026-11-15T17:52:01.297211",
+  "total_candidates": 99,
   "candidates": [
     {
       "source": "ScienceDaily",
@@ -208,9 +208,9 @@
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that video game Jill of the Jungle  by Epic Megagames was the last video game that company's founder Tim Sweeney who still is Epic's CEO ever designed.",
+      "topic": "that in 2012, a group of juvenile gorillas were seen successfully disarming poachers' traps and snares, as well as warning nearby humans away from it.",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xweyun/til_that_video_game_jill_of_the_jungle_1992_by/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xwr62i/til_that_in_2012_a_group_of_juvenile_gorillas/"
     },
     {
       "source": "r/todayilearned",
@@ -222,23 +222,30 @@
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Blowing out candles on a cake increases the amount of bacteria on the surface frosting by 1400%",
+      "topic": "that Winston Churchill won the 1953 Nobel Prize in Literature",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvj2h3/til_blowing_out_candles_on_a_cake_increases_the/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xwruqo/til_that_winston_churchill_won_the_1953_nobel/"
     },
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "owning a pet rabbit is illegal in Queensland, Australia, where rabbits have been a destructive invasive species since being introduced in the 19th century.",
+      "topic": "that video game Jill of the Jungle  by Epic Megagames was the last video game that company's founder Tim Sweeney who still is Epic's CEO ever designed.",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvrm0a/til_owning_a_pet_rabbit_is_illegal_in_queensland/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xweyun/til_that_video_game_jill_of_the_jungle_1992_by/"
     },
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that chickens produce about a quarter pound of manure per day",
+      "topic": "the Honda Super Cub is the most produced  motorcycle of all time, starting production in 1958 and surpassing 100 million units by 2017",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvydci/til_that_chickens_produce_about_a_quarter_pound/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xwohpq/til_the_honda_super_cub_is_the_most_produced_and/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "that glass for televisions is made by pouring liquid glass into a trough until it overflows both sides, and catching the sheet that forms in mid-air",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xwrv6w/til_that_glass_for_televisions_is_made_by_pouring/"
     },
     {
       "source": "ScienceDaily",
@@ -414,13 +421,6 @@
       "topic": "Astronomers discover hidden alien planet in James Webb images",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233028.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists discover why some mosquitoes love you and others don't",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174541.htm"
     }
   ]
 }

@@ -1,23 +1,23 @@
 {
-  "last_updated": "2026-11-16T12:22:22.699764+00:00",
-  "total_videos_analyzed": 401,
-  "total_channel_views": 8029,
+  "last_updated": "2026-11-16T22:15:05.591010+00:00",
+  "total_videos_analyzed": 449,
+  "total_channel_views": 9741,
   "median_views": 2,
   "pillar_analytics": {
     "General Science & Curiosities": {
-      "video_count": 401,
-      "total_views": 8029,
-      "avg_views_per_video": 20.0,
-      "avg_velocity_per_hour": 0.14,
-      "raw_performance_score": 16.8,
+      "video_count": 449,
+      "total_views": 9741,
+      "avg_views_per_video": 21.7,
+      "avg_velocity_per_hour": 0.15,
+      "raw_performance_score": 18.2,
       "recommended_allocation_pct": 45.0
     }
   },
   "hook_analytics": {
     "Shock": {
-      "attempts": 401,
-      "avg_views": 20.0,
-      "win_rate_pct": 43.1
+      "attempts": 449,
+      "avg_views": 21.7,
+      "win_rate_pct": 46.8
     }
   },
   "breakout_hits": [
@@ -50,10 +50,10 @@
       "hook": ""
     },
     {
-      "title": "Why Roman Concrete Never Cracks #Shorts",
-      "topic": "Why Roman Concrete Never Cracks #Shorts",
+      "title": "The Universe Could End Before You Finish This Sentence #Shorts",
+      "topic": "The Universe Could End Before You Finish This Sentence #Shorts",
       "pillar": "General Science & Curiosities",
-      "views": 476,
+      "views": 485,
       "hook": ""
     }
   ],

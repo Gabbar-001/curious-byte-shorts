@@ -1,23 +1,23 @@
 {
-  "last_updated": "2026-11-15T12:22:03.709639+00:00",
-  "total_videos_analyzed": 359,
-  "total_channel_views": 9449,
-  "median_views": 3,
+  "last_updated": "2026-11-16T12:22:22.699764+00:00",
+  "total_videos_analyzed": 401,
+  "total_channel_views": 8029,
+  "median_views": 2,
   "pillar_analytics": {
     "General Science & Curiosities": {
-      "video_count": 359,
-      "total_views": 9449,
-      "avg_views_per_video": 26.3,
-      "avg_velocity_per_hour": 0.21,
-      "raw_performance_score": 22.6,
+      "video_count": 401,
+      "total_views": 8029,
+      "avg_views_per_video": 20.0,
+      "avg_velocity_per_hour": 0.14,
+      "raw_performance_score": 16.8,
       "recommended_allocation_pct": 45.0
     }
   },
   "hook_analytics": {
     "Shock": {
-      "attempts": 359,
-      "avg_views": 26.3,
-      "win_rate_pct": 40.4
+      "attempts": 401,
+      "avg_views": 20.0,
+      "win_rate_pct": 43.1
     }
   },
   "breakout_hits": [
@@ -46,14 +46,14 @@
       "title": "The Stone Chamber That Triggers Your Brain #Shorts",
       "topic": "The Stone Chamber That Triggers Your Brain #Shorts",
       "pillar": "General Science & Curiosities",
-      "views": 534,
+      "views": 538,
       "hook": ""
     },
     {
-      "title": "The Universe Could End Before You Finish This Sentence #Shorts",
-      "topic": "The Universe Could End Before You Finish This Sentence #Shorts",
+      "title": "Why Roman Concrete Never Cracks #Shorts",
+      "topic": "Why Roman Concrete Never Cracks #Shorts",
       "pillar": "General Science & Curiosities",
-      "views": 485,
+      "views": 476,
       "hook": ""
     }
   ],

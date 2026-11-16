@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-15T17:52:01.297211",
-  "total_candidates": 99,
+  "updated_at": "2026-11-16T17:52:19.807763",
+  "total_candidates": 98,
   "candidates": [
     {
       "source": "ScienceDaily",
@@ -26,23 +26,23 @@
     {
       "source": "ScienceDaily",
       "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists just found dinosaur blood that survived 115 million years",
-      "viral_potential_score": 72,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm"
+      "topic": "The secret to building Moon bases may be hiding in emergency blankets",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085549.htm"
     },
     {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Hitler sent his official photographer to secretly photograph Stalin earlobes to determine his ancestry",
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "An ancient virus may help explain what makes the human brain different",
       "viral_potential_score": 66,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xwg683/til_hitler_sent_his_official_photographer_to/"
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202230.htm"
     },
     {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that Elvis Presley did 636 sold out shows in Las Vegas and never once performed his song \u201cViva Las Vegas\u201d",
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Uranus and Neptune\u2019s bizarre magnetic fields may finally be explained",
       "viral_potential_score": 66,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xvqs2h/til_that_elvis_presley_did_636_sold_out_shows_in/"
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202204.htm"
     },
     {
       "source": "ScienceDaily",
@@ -150,11 +150,11 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261105224553.htm"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists wipe out deadly brain tumors in every mouse tested with new cancer therapy",
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "New observations challenge evidence for an 'outsize' black hole in the early universe",
       "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084009.htm"
+      "source_url": "https://phys.org/news/2026-11-evidence-outsize-black-hole-early.html"
     },
     {
       "source": "Phys.org Space",
@@ -185,25 +185,39 @@
       "source_url": "https://phys.org/news/2026-11-black-hole-rapidly-star.html"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Centaurus A in the spotlight: Plasma simulations reproduce black hole jets' mysterious bright edges",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-centaurus-spotlight-plasma-simulations-black.html"
-    },
-    {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Earliest known compact quasar pair poses a black hole growth puzzle",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-earliest-compact-quasar-pair-poses.html"
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "I learned that Antarctica has a full-time professional fire department and as of 2025 maintains 55 staff.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xxfztp/til_i_learned_that_antarctica_has_a_fulltime/"
     },
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "The United States Tomb of the Unknown Soldier has been continuously guarded 24 hours a day, 7 days a week, without interruption since July 2, 1937.",
+      "topic": "a 1974 U.S. Senate race in New Hampshire was so close  that the Senate declared the seat vacant, forcing a do-over election the following year",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xwl3v2/til_the_united_states_tomb_of_the_unknown_soldier/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xxg9s2/til_a_1974_us_senate_race_in_new_hampshire_was_so/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "that Chinese men in Hong Kong could legally take concubines according to the legal code of the Qing Dynasty until 1971.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xx3mym/til_that_chinese_men_in_hong_kong_could_legally/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "in the aftermath of the failed Bay of Pigs invasion, the US and Cuba agreed to settle for $53 million of baby food and medicine in exchange for prisoners.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xx436m/til_in_the_aftermath_of_the_failed_bay_of_pigs/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "Australia's giant Gippsland earthworm can reach 3 metres  long",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xxk256/til_australias_giant_gippsland_earthworm_can/"
     },
     {
       "source": "r/todayilearned",
@@ -215,37 +229,37 @@
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Woodstock from \"The Peanuts\" was unnamed until June 22, 1970. He is named after the Woodstock festival.",
+      "topic": "there are 154 \"Grand Masters of Memory\" with feats needed to achieve this title like memorising 1,400 random digits in an hour.",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xwn6he/til_woodstock_from_the_peanuts_was_unnamed_until/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xxfuu5/til_there_are_154_grand_masters_of_memory_with/"
     },
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that Winston Churchill won the 1953 Nobel Prize in Literature",
+      "topic": "The United States Tomb of the Unknown Soldier has been continuously guarded 24 hours a day, 7 days a week, without interruption since July 2, 1937.",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xwruqo/til_that_winston_churchill_won_the_1953_nobel/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xwl3v2/til_the_united_states_tomb_of_the_unknown_soldier/"
     },
     {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that video game Jill of the Jungle  by Epic Megagames was the last video game that company's founder Tim Sweeney who still is Epic's CEO ever designed.",
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Vitamin C could help block cancer-linked chemicals in your stomach, study finds",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xweyun/til_that_video_game_jill_of_the_jungle_1992_by/"
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202236.htm"
     },
     {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "the Honda Super Cub is the most produced  motorcycle of all time, starting production in 1958 and surpassing 100 million units by 2017",
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Physicists defy expectations by controlling the magnetic heart of a single atom",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xwohpq/til_the_honda_super_cub_is_the_most_produced_and/"
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm"
     },
     {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that glass for televisions is made by pouring liquid glass into a trough until it overflows both sides, and catching the sheet that forms in mid-air",
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xwrv6w/til_that_glass_for_televisions_is_made_by_pouring/"
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm"
     },
     {
       "source": "ScienceDaily",
@@ -253,6 +267,20 @@
       "topic": "Alzheimer\u2019s may start shrinking two brain regions years before memory loss",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A common osteoporosis drug blocked spinal damage in a surprising new study",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261113232105.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A simple supplement could help your immune system fight cancer and viral infections",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261113232000.htm"
     },
     {
       "source": "ScienceDaily",
@@ -393,34 +421,6 @@
       "topic": "Scientists discover that necks didn't evolve for the reason we thought",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233101.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists finally discover why we learn to love bitter coffee",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233100.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "NASA reveals bold new plan to return astronauts to the Moon in 2028",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233054.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "A radical theory says the universe is twice as old as we thought",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233040.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Astronomers discover hidden alien planet in James Webb images",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233028.htm"
     }
   ]
 }

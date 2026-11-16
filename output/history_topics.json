@@ -2513,5 +2513,245 @@
     "topic": "The 'Spatial Mismatch' or 'Staircase Illusion' Glitch: Why you suddenly feel like you've missed a step on a flat floor.",
     "id": "ai_15850",
     "timestamp": "2026-11-16T01:40:16.301700"
+  },
+  {
+    "topic": "The 'Involuntary Phone-Check' Glitch: Why you reflexively check your screen for non-existent notifications",
+    "id": "ai_13168",
+    "timestamp": "2026-11-16T17:52:29.467767"
+  },
+  {
+    "topic": "The 'Alphabetical Order' Brain Glitch: Why your brain creates invisible 'folders' for memories",
+    "id": "ai_31144",
+    "timestamp": "2026-11-16T17:54:39.399458"
+  },
+  {
+    "topic": "The 'Kohli vs. Sachin' Chasing Paradox: Why Stats Lie About Pressure",
+    "id": "ai_47770",
+    "timestamp": "2026-11-16T17:56:26.004229"
+  },
+  {
+    "topic": "The 'Apple vs. Samsung' Camera Sensor Myth: Why 12MP often beats 200MP",
+    "id": "ai_67468",
+    "timestamp": "2026-11-16T17:58:30.698840"
+  },
+  {
+    "topic": "The 'Phantom Vibration' Glitch: Why your brain creates fake alerts",
+    "id": "ai_52356",
+    "timestamp": "2026-11-16T18:00:24.877741"
+  },
+  {
+    "topic": "The 'Sleep Startle' or Hypnic Jerk",
+    "id": "ai_78225",
+    "timestamp": "2026-11-16T18:02:37.690332"
+  },
+  {
+    "topic": "The 'Home Field Advantage' Math: Why Home Teams Actually Have An Unfair Psychological Edge",
+    "id": "ai_40737",
+    "timestamp": "2026-11-16T18:04:49.650176"
+  },
+  {
+    "topic": "The 'Musical Earworm' Glitch: Why your brain gets stuck in a feedback loop with a song you don't even like.",
+    "id": "ai_11207",
+    "timestamp": "2026-11-16T18:07:28.279168"
+  },
+  {
+    "topic": "The 'D\u00e9j\u00e0 Vu' Loop Glitch: Why your brain creates a fake memory of the present",
+    "id": "ai_73854",
+    "timestamp": "2026-11-16T18:09:24.199766"
+  },
+  {
+    "topic": "The 'Phantom Phone-Grip' Paradox: Why your hand automatically squeezes tighter when your phone slips",
+    "id": "ai_85253",
+    "timestamp": "2026-11-16T18:11:26.850683"
+  },
+  {
+    "topic": "The 'Involuntary Sleep-Sensation' Glitch: Why you feel like you're falling",
+    "id": "ai_37129",
+    "timestamp": "2026-11-16T18:13:26.704770"
+  },
+  {
+    "topic": "The 'Involuntary Eye-Jump' Glitch (Saccadic Masking) vs. Why you can't tickle yourself",
+    "id": "ai_44111",
+    "timestamp": "2026-11-16T18:15:05.701263"
+  },
+  {
+    "topic": "The 'Chewing Sounds' Rage (Misophonia): Why your brain hates the sound of someone chewing",
+    "id": "ai_21365",
+    "timestamp": "2026-11-16T18:16:58.399073"
+  },
+  {
+    "topic": "The 6-Second Goalkeeper Trap",
+    "id": "ai_97830",
+    "timestamp": "2026-11-16T18:18:35.778443"
+  },
+  {
+    "topic": "The 'Ball-Tampering' Cricket Paradox: Why using sweat is legal but using a bottle is a crime",
+    "id": "ai_80025",
+    "timestamp": "2026-11-16T18:20:43.517504"
+  },
+  {
+    "topic": "The 'Doorway Amnesia' Glitch: Why you walk into a room and instantly forget why you went there.",
+    "id": "ai_79498",
+    "timestamp": "2026-11-16T18:22:45.402227"
+  },
+  {
+    "topic": "The 'Vocal Self-Cringe' Glitch: Why your own recorded voice sounds like a stranger",
+    "id": "ai_59444",
+    "timestamp": "2026-11-16T18:25:06.274549"
+  },
+  {
+    "topic": "The 'D\u00e9j\u00e0 Vu' Glitch: Why your brain creates a fake memory of the present",
+    "id": "ai_51006",
+    "timestamp": "2026-11-16T18:26:41.491758"
+  },
+  {
+    "topic": "The 'Third-Person Perspective' Glitch: Why you sometimes feel like you're watching yourself from behind.",
+    "id": "ai_50379",
+    "timestamp": "2026-11-16T18:28:32.802664"
+  },
+  {
+    "topic": "The 'Spatial Mismatch' (Staircase Illusion) Glitch: Why your brain creates a fake step that isn't there.",
+    "id": "ai_79158",
+    "timestamp": "2026-11-16T18:30:25.317673"
+  },
+  {
+    "topic": "The 'Involuntary Eye-Jump' Glitch (Saccadic Masking): Why your brain deletes reality while your eyes are moving.",
+    "id": "ai_64747",
+    "timestamp": "2026-11-16T18:32:20.922321"
+  },
+  {
+    "topic": "The 'Involuntary Eye-Blink' Sync: Why you blink when you feel awkward",
+    "id": "ai_34297",
+    "timestamp": "2026-11-16T18:34:07.057271"
+  },
+  {
+    "topic": "The Western Ghats Rain Shadow Effect",
+    "id": "ai_64223",
+    "timestamp": "2026-11-16T18:36:08.624195"
+  },
+  {
+    "topic": "The 'Hidden' Red Card Rule: Why a player can be sent off for a move that doesn't touch the ball or the opponent.",
+    "id": "ai_72133",
+    "timestamp": "2026-11-16T18:38:19.240486"
+  },
+  {
+    "topic": "The 'Grocery Store Aisles' Decision Fatigue Glitch",
+    "id": "ai_63284",
+    "timestamp": "2026-11-16T18:40:09.385611"
+  },
+  {
+    "topic": "The 'Yellow Card' Paradox: Why professional footballers get booked for celebrating too much",
+    "id": "ai_58447",
+    "timestamp": "2026-11-16T18:42:11.367890"
+  },
+  {
+    "topic": "The 'Sleep-Twitch' / Hypnic Jerk (Variated as the 'Internal Gravity' Glitch)",
+    "id": "ai_75575",
+    "timestamp": "2026-11-16T18:44:18.849114"
+  },
+  {
+    "topic": "The 'Cricket Pitch-Invader' Immunity: Why a 12th man can actually stop a boundary",
+    "id": "ai_41666",
+    "timestamp": "2026-11-16T18:46:15.533696"
+  },
+  {
+    "topic": "The 'Olympics vs. Football' paradox: Why China dominates the Summer Games but struggles at the World Cup",
+    "id": "ai_96369",
+    "timestamp": "2026-11-16T18:48:30.314859"
+  },
+  {
+    "topic": "The 'Hidden' Cricket Rule: Why a fielder can be penalized 5 runs for just existing in the wrong place.",
+    "id": "ai_22620",
+    "timestamp": "2026-11-16T18:50:26.943603"
+  },
+  {
+    "topic": "The 'Reflexive Mirror' Glitch: Why you yawn when you see others yawn",
+    "id": "ai_85671",
+    "timestamp": "2026-11-16T18:52:34.791402"
+  },
+  {
+    "topic": "The 'Cognitive Backspace' Glitch: Why you suddenly lose your train of thought mid-sentence.",
+    "id": "ai_43963",
+    "timestamp": "2026-11-16T18:54:19.700089"
+  },
+  {
+    "topic": "The 'Ronaldo vs Messi' International Trophy Paradox",
+    "id": "ai_42802",
+    "timestamp": "2026-11-16T18:56:12.784764"
+  },
+  {
+    "topic": "The 'Reading Text on Screen' Brain Glitch: Why you accidentally read everything twice",
+    "id": "ai_36144",
+    "timestamp": "2026-11-16T18:58:14.024579"
+  },
+  {
+    "topic": "The 'Involuntary Mirror-Touch' Synesthesia Glitch: Why you physically cringe when someone else gets hurt on screen.",
+    "id": "ai_53998",
+    "timestamp": "2026-11-16T19:00:08.325771"
+  },
+  {
+    "topic": "The 'Involuntary Mirroring' Glitch: Why you reflexively match the physical movements of your sports hero",
+    "id": "ai_98071",
+    "timestamp": "2026-11-16T19:02:01.074929"
+  },
+  {
+    "topic": "The 'Hidden' Cricket Rule: The 5-Run Penalty for Fielding with a Helmet",
+    "id": "ai_34528",
+    "timestamp": "2026-11-16T19:03:48.990819"
+  },
+  {
+    "topic": "The 'Involuntary Mirror-Touch' Synesthesia Glitch: Why you physically feel pain when you see others get hurt on screen.",
+    "id": "ai_10159",
+    "timestamp": "2026-11-16T19:05:24.429934"
+  },
+  {
+    "topic": "The 'Grocery Store Aisles' Decision Fatigue Glitch: Why you spend 10 minutes picking the wrong cereal.",
+    "id": "ai_77074",
+    "timestamp": "2026-11-16T19:07:22.873288"
+  },
+  {
+    "topic": "The 'Physics of Pressure' - Kohli vs. Sachin ODI Chasing Paradox",
+    "id": "ai_35797",
+    "timestamp": "2026-11-16T19:09:31.343116"
+  },
+  {
+    "topic": "The 'Wait-Why-Did-I-Come-Here' Glitch (The Gateway Effect)",
+    "id": "ai_83534",
+    "timestamp": "2026-11-16T19:11:43.247991"
+  },
+  {
+    "topic": "The 'Wait-Why-Is-My-Finger-Floating' Glitch (Proprioceptive Drift)",
+    "id": "ai_28001",
+    "timestamp": "2026-11-16T19:13:40.130308"
+  },
+  {
+    "topic": "iPhone vs Samsung Camera Sensor Paradox",
+    "id": "ai_48917",
+    "timestamp": "2026-11-16T19:15:58.773714"
+  },
+  {
+    "topic": "The 'Phantom Vibration' Syndrome: Why your pocket lies to you",
+    "id": "ai_92515",
+    "timestamp": "2026-11-16T19:17:59.504396"
+  },
+  {
+    "topic": "The 'Hidden' Cricket Rule: Why the Wicket-Keeper can legally take the bails off BEFORE the ball reaches the stumps.",
+    "id": "ai_59839",
+    "timestamp": "2026-11-16T19:20:18.426033"
+  },
+  {
+    "topic": "The 'Involuntary Mirroring' Glitch: Why you reflexively match the physical movements of your sports hero",
+    "id": "ai_25632",
+    "timestamp": "2026-11-16T19:22:02.162208"
+  },
+  {
+    "topic": "The 'Phantom Phone' Syndrome: Why your brain creates fake vibrations in your pocket.",
+    "id": "ai_60618",
+    "timestamp": "2026-11-16T19:24:05.019281"
+  },
+  {
+    "topic": "The 'Cricket Boundary' Illusion: Why some stadiums are 'batter-friendly' killers",
+    "id": "ai_56673",
+    "timestamp": "2026-11-16T19:25:57.610766"
   }
 ]

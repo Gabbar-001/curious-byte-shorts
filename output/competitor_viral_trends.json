@@ -1,22 +1,32 @@
 {
-  "scanned_at": "2026-11-17T17:52:17.935695",
-  "total_viral_shorts_tracked": 40,
+  "scanned_at": "2026-11-18T02:32:11.385763",
+  "total_viral_shorts_tracked": 36,
   "top_performing_breakouts": [
     {
-      "video_id": "sNhhvQGsMEc",
-      "title": "The Fermi Paradox \u2014 Where Are All The Aliens? (1/2)",
-      "views": 35532071,
-      "view_text": "35,532,071 views",
+      "video_id": "PaErPyEnDvk",
+      "title": "What\u2019s Hiding at the Most Solitary Place on Earth? The Deep Sea",
+      "views": 25822088,
+      "view_text": "25,822,088 views",
       "channel": "Kurzgesagt \u2013 In a Nutshell",
-      "published_ago": "11y ago",
-      "url": "https://www.youtube.com/shorts/sNhhvQGsMEc",
-      "search_niche": "shorts space paradoxes"
+      "published_ago": "7y ago",
+      "url": "https://www.youtube.com/shorts/PaErPyEnDvk",
+      "search_niche": "shorts deep ocean mysteries"
+    },
+    {
+      "video_id": "mzeN0BXR4e0",
+      "title": "Why Deep Sea Creatures Get Creepier the Deeper You Go",
+      "views": 17286891,
+      "view_text": "17,286,891 views",
+      "channel": "Mr. Science",
+      "published_ago": "1y ago",
+      "url": "https://www.youtube.com/shorts/mzeN0BXR4e0",
+      "search_niche": "shorts deep ocean mysteries"
     },
     {
       "video_id": "wwSzpaTHyS8",
       "title": "Did The Future Already Happen? - The Paradox of Time",
-      "views": 15266934,
-      "view_text": "15,266,934 views",
+      "views": 15268173,
+      "view_text": "15,268,173 views",
       "channel": "Kurzgesagt \u2013 In a Nutshell",
       "published_ago": "2y ago",
       "url": "https://www.youtube.com/shorts/wwSzpaTHyS8",
@@ -25,28 +35,18 @@
     {
       "video_id": "isdLel273rQ",
       "title": "The Paradox of an Infinite Universe",
-      "views": 12730699,
-      "view_text": "12,730,699 views",
+      "views": 12732955,
+      "view_text": "12,732,955 views",
       "channel": "Kurzgesagt \u2013 In a Nutshell",
       "published_ago": "2y ago",
       "url": "https://www.youtube.com/shorts/isdLel273rQ",
       "search_niche": "shorts space paradoxes"
     },
     {
-      "video_id": "ufSDOHKIjVU",
-      "title": "5 Ancient Mysteries We Still Haven't Solved",
-      "views": 9176265,
-      "view_text": "9,176,265 views",
-      "channel": "Sideprojects",
-      "published_ago": "5y ago",
-      "url": "https://www.youtube.com/shorts/ufSDOHKIjVU",
-      "search_niche": "shorts ancient history mysteries"
-    },
-    {
       "video_id": "XayNKY944lY",
       "title": "Solution to the Grandfather Paradox",
-      "views": 8184594,
-      "view_text": "8,184,594 views",
+      "views": 8184683,
+      "view_text": "8,184,683 views",
       "channel": "minutephysics",
       "published_ago": "10y ago",
       "url": "https://www.youtube.com/shorts/XayNKY944lY",
@@ -55,61 +55,71 @@
     {
       "video_id": "HRHePsBcKGM",
       "title": "Scary Sounds Of Space! (Part - 1)",
-      "views": 7507971,
-      "view_text": "7,507,971 views",
+      "views": 7514223,
+      "view_text": "7,514,223 views",
       "channel": "Science Of Infinity",
       "published_ago": "2y ago",
       "url": "https://www.youtube.com/shorts/HRHePsBcKGM",
       "search_niche": "shorts terrifying earth facts"
     },
     {
+      "video_id": "FkQWpQd9Zdo",
+      "title": "27 Facts That Will Make You Question Your Existence",
+      "views": 6396144,
+      "view_text": "6,396,144 views",
+      "channel": "BuzzFeedVideo",
+      "published_ago": "8y ago",
+      "url": "https://www.youtube.com/shorts/FkQWpQd9Zdo",
+      "search_niche": "shorts terrifying earth facts"
+    },
+    {
+      "video_id": "U5GdEk3kOfg",
+      "title": "The Most Terrifying Things in Our Universe",
+      "views": 6168112,
+      "view_text": "6,168,112 views",
+      "channel": "Good Enough",
+      "published_ago": "2y ago",
+      "url": "https://www.youtube.com/shorts/U5GdEk3kOfg",
+      "search_niche": "shorts terrifying earth facts"
+    },
+    {
       "video_id": "h8GqaAp3cGs",
       "title": "Einstein's twin paradox explained - Amber Stuver",
-      "views": 5916791,
-      "view_text": "5,916,791 views",
+      "views": 5917051,
+      "view_text": "5,917,051 views",
       "channel": "TED-Ed",
       "published_ago": "7y ago",
       "url": "https://www.youtube.com/shorts/h8GqaAp3cGs",
       "search_niche": "shorts space paradoxes"
     },
     {
-      "video_id": "byrNchwzYqg",
-      "title": "Scary Sounds Of Space! (Part - 2)",
-      "views": 4448595,
-      "view_text": "4,448,595 views",
-      "channel": "Science Of Infinity",
-      "published_ago": "2y ago",
-      "url": "https://www.youtube.com/shorts/byrNchwzYqg",
-      "search_niche": "shorts terrifying earth facts"
+      "video_id": "ENj_cFwIbIk",
+      "title": "20 Strangest Historical Coincidences Ever That Will Creep You Out",
+      "views": 5628191,
+      "view_text": "5,628,191 views",
+      "channel": "Epicano",
+      "published_ago": "1y ago",
+      "url": "https://www.youtube.com/shorts/ENj_cFwIbIk",
+      "search_niche": "shorts ancient history mysteries"
     },
     {
       "video_id": "NbNPBcUgDTs",
       "title": "Brian Cox Explains The Fermi Paradox",
-      "views": 4265490,
-      "view_text": "4,265,490 views",
+      "views": 4266338,
+      "view_text": "4,266,338 views",
       "channel": "Science Time",
       "published_ago": "1y ago",
       "url": "https://www.youtube.com/shorts/NbNPBcUgDTs",
       "search_niche": "shorts space paradoxes"
     },
     {
-      "video_id": "8FxTgaHnbXE",
-      "title": "50 Science Facts that Will Shock You",
-      "views": 3280531,
-      "view_text": "3,280,531 views",
-      "channel": "Sideprojects",
+      "video_id": "dSgP3J4fD6U",
+      "title": "15 Minutes of ACTUALLY Unbelievable Space Facts",
+      "views": 3331176,
+      "view_text": "3,331,176 views",
+      "channel": "AstroKobi",
       "published_ago": "2y ago",
-      "url": "https://www.youtube.com/shorts/8FxTgaHnbXE",
-      "search_niche": "shorts science facts mind blowing"
-    },
-    {
-      "video_id": "dezjOSl0fuM",
-      "title": "The 18 Most Scary Sounds Ever Captured In Space!",
-      "views": 3256949,
-      "view_text": "3,256,949 views",
-      "channel": "Darkness Beyond",
-      "published_ago": "1y ago",
-      "url": "https://www.youtube.com/shorts/dezjOSl0fuM",
+      "url": "https://www.youtube.com/shorts/dSgP3J4fD6U",
       "search_niche": "shorts terrifying earth facts"
     },
     {
@@ -123,10 +133,20 @@
       "search_niche": "shorts terrifying earth facts"
     },
     {
+      "video_id": "S3CLtYgmrsA",
+      "title": "Ancient Aliens: Da Vinci's MIND-BLOWING Secrets Revealed | History",
+      "views": 2819616,
+      "view_text": "2,819,616 views",
+      "channel": "HISTORY",
+      "published_ago": "2y ago",
+      "url": "https://www.youtube.com/shorts/S3CLtYgmrsA",
+      "search_niche": "shorts ancient history mysteries"
+    },
+    {
       "video_id": "b2m5iWBVemU",
       "title": "Joe Rogan's Best Ancient Civilization Podcasts",
-      "views": 2647477,
-      "view_text": "2,647,477 views",
+      "views": 2648508,
+      "view_text": "2,648,508 views",
       "channel": "Favourite Podcasts",
       "published_ago": "2y ago",
       "url": "https://www.youtube.com/shorts/b2m5iWBVemU",
@@ -135,108 +155,68 @@
     {
       "video_id": "_JhNGvTKNU4",
       "title": "Space is Terrifying",
-      "views": 2644450,
-      "view_text": "2,644,450 views",
+      "views": 2644767,
+      "view_text": "2,644,767 views",
       "channel": "Crescendex",
       "published_ago": "3y ago",
       "url": "https://www.youtube.com/shorts/_JhNGvTKNU4",
       "search_niche": "shorts terrifying earth facts"
     },
     {
-      "video_id": "FIulHC8K1Zw",
-      "title": "3 Hours Of Mind-Blowing Space Facts To Fall Asleep To",
-      "views": 2547220,
-      "view_text": "2,547,220 views",
-      "channel": "Naked Science",
-      "published_ago": "2y ago",
-      "url": "https://www.youtube.com/shorts/FIulHC8K1Zw",
-      "search_niche": "shorts science facts mind blowing"
+      "video_id": "6P3s7YRiBvA",
+      "title": "Terrifying versions of Earth that actually Existed",
+      "views": 2496309,
+      "view_text": "2,496,309 views",
+      "channel": "Captain Cipher",
+      "published_ago": "4mo ago",
+      "url": "https://www.youtube.com/shorts/6P3s7YRiBvA",
+      "search_niche": "shorts terrifying earth facts"
     },
     {
       "video_id": "PMFE_I6xseA",
       "title": "Saturn Is The Scariest Planet In Our Solar System",
-      "views": 2465398,
-      "view_text": "2,465,398 views",
+      "views": 2467910,
+      "view_text": "2,467,910 views",
       "channel": "The Space Race",
       "published_ago": "8mo ago",
       "url": "https://www.youtube.com/shorts/PMFE_I6xseA",
       "search_niche": "shorts terrifying earth facts"
     },
     {
-      "video_id": "gZsO_2Jmkb8",
-      "title": "Why Jupiter is The Scariest Planet (It\u2019s Not Peaceful)",
-      "views": 2267446,
-      "view_text": "2,267,446 views",
-      "channel": "Cosmicus",
-      "published_ago": "9mo ago",
-      "url": "https://www.youtube.com/shorts/gZsO_2Jmkb8",
-      "search_niche": "shorts terrifying earth facts"
-    },
-    {
       "video_id": "aGCUV6rH99U",
       "title": "The Ancient Mysteries of the Anunnaki",
-      "views": 2080049,
-      "view_text": "2,080,049 views",
+      "views": 2080332,
+      "view_text": "2,080,332 views",
       "channel": "JRE Clips",
       "published_ago": "2y ago",
       "url": "https://www.youtube.com/shorts/aGCUV6rH99U",
       "search_niche": "shorts ancient history mysteries"
     },
     {
-      "video_id": "HnjhhJXzJYc",
-      "title": "101 Amazing Mind Blowing Facts You didn't know! | Part 1 |",
-      "views": 1989812,
-      "view_text": "1,989,812 views",
-      "channel": "101 Amazing Facts",
-      "published_ago": "1y ago",
-      "url": "https://www.youtube.com/shorts/HnjhhJXzJYc",
-      "search_niche": "shorts science facts mind blowing"
-    },
-    {
-      "video_id": "bMU4O7qZOv4",
-      "title": "Ancient Mysteries That Were Finally Solved",
-      "views": 1954081,
-      "view_text": "1,954,081 views",
-      "channel": "Trust Me Bro",
-      "published_ago": "1y ago",
-      "url": "https://www.youtube.com/shorts/bMU4O7qZOv4",
-      "search_niche": "shorts ancient history mysteries"
-    },
-    {
-      "video_id": "fVjDBXOjLx0",
-      "title": "The \u2018Lost\u2019 City of Atlantis | COLOSSAL MYSTERIES",
-      "views": 1857364,
-      "view_text": "1,857,364 views",
-      "channel": "Colossal Cranium",
-      "published_ago": "7y ago",
-      "url": "https://www.youtube.com/shorts/fVjDBXOjLx0",
-      "search_niche": "shorts ancient history mysteries"
-    },
-    {
       "video_id": "ZK0eolwMlX0",
       "title": "Ancient Sites that Defy Explanation | Ancient Aliens | Compilation",
-      "views": 1767068,
-      "view_text": "1,767,068 views",
+      "views": 1768742,
+      "view_text": "1,768,742 views",
       "channel": "HISTORY",
       "published_ago": "4mo ago",
       "url": "https://www.youtube.com/shorts/ZK0eolwMlX0",
       "search_niche": "shorts ancient history mysteries"
     },
     {
-      "video_id": "NulUsNMldgw",
-      "title": "Mind-Blowing Science Experiments | Best of Season 1 | Science Max",
-      "views": 1704957,
-      "view_text": "1,704,957 views",
-      "channel": "Scholastic After School",
-      "published_ago": "3y ago",
-      "url": "https://www.youtube.com/shorts/NulUsNMldgw",
-      "search_niche": "shorts science facts mind blowing"
+      "video_id": "ATPbkZSVFh0",
+      "title": "6 Most Mysterious Discoveries Scientists Cant Explain",
+      "views": 1760732,
+      "view_text": "1,760,732 views",
+      "channel": "MindFold",
+      "published_ago": "1y ago",
+      "url": "https://www.youtube.com/shorts/ATPbkZSVFh0",
+      "search_niche": "shorts ancient history mysteries"
     },
     {
       "video_id": "9tYfQtrTdTA",
       "title": "The Greatest Ancient Mysteries Ever Discussed on Joe Rogan Podcast",
-      "views": 1550434,
-      "view_text": "1,550,434 views",
+      "views": 1552510,
+      "view_text": "1,552,510 views",
       "channel": "JRE Collection ( Fan Channel) and 2 more",
       "published_ago": "5mo ago",
       "url": "https://www.youtube.com/shorts/9tYfQtrTdTA",
@@ -245,90 +225,117 @@
     {
       "video_id": "BXBi0aaHGDA",
       "title": "The UnXplained: Shocking Ancient Mysteries Will Blow Your Mind! | History",
-      "views": 1464253,
-      "view_text": "1,464,253 views",
+      "views": 1464537,
+      "view_text": "1,464,537 views",
       "channel": "HISTORY",
       "published_ago": "2y ago",
       "url": "https://www.youtube.com/shorts/BXBi0aaHGDA",
       "search_niche": "shorts ancient history mysteries"
+    },
+    {
+      "video_id": "nR_JN5cE06s",
+      "title": "Body Secrets I Learned On YouTube Shorts!",
+      "views": 1300984,
+      "view_text": "1,300,984 views",
+      "channel": "Foltyn Reacts Top Videos",
+      "published_ago": "1mo ago",
+      "url": "https://www.youtube.com/shorts/nR_JN5cE06s",
+      "search_niche": "shorts human body bizarre facts"
+    },
+    {
+      "video_id": "O6aju9scF3k",
+      "title": "8 Incredible Deep Sea Oddities!",
+      "views": 1186179,
+      "view_text": "1,186,179 views",
+      "channel": "Be Smart",
+      "published_ago": "11y ago",
+      "url": "https://www.youtube.com/shorts/O6aju9scF3k",
+      "search_niche": "shorts deep ocean mysteries"
     }
   ],
   "curated_intercept_pool": [
     {
-      "proven_title": "The Fermi Paradox \u2014 Where Are All The Aliens? (1/2)",
-      "views": 35532071,
-      "view_text": "35,532,071 views",
-      "url": "https://www.youtube.com/shorts/sNhhvQGsMEc",
+      "proven_title": "What\u2019s Hiding at the Most Solitary Place on Earth? The Deep Sea",
+      "views": 25822088,
+      "view_text": "25,822,088 views",
+      "url": "https://www.youtube.com/shorts/PaErPyEnDvk",
+      "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
+    },
+    {
+      "proven_title": "Why Deep Sea Creatures Get Creepier the Deeper You Go",
+      "views": 17286891,
+      "view_text": "17,286,891 views",
+      "url": "https://www.youtube.com/shorts/mzeN0BXR4e0",
       "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
     },
     {
       "proven_title": "Did The Future Already Happen? - The Paradox of Time",
-      "views": 15266934,
-      "view_text": "15,266,934 views",
+      "views": 15268173,
+      "view_text": "15,268,173 views",
       "url": "https://www.youtube.com/shorts/wwSzpaTHyS8",
       "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
     },
     {
       "proven_title": "The Paradox of an Infinite Universe",
-      "views": 12730699,
-      "view_text": "12,730,699 views",
+      "views": 12732955,
+      "view_text": "12,732,955 views",
       "url": "https://www.youtube.com/shorts/isdLel273rQ",
       "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
     },
     {
-      "proven_title": "5 Ancient Mysteries We Still Haven't Solved",
-      "views": 9176265,
-      "view_text": "9,176,265 views",
-      "url": "https://www.youtube.com/shorts/ufSDOHKIjVU",
-      "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
-    },
-    {
       "proven_title": "Solution to the Grandfather Paradox",
-      "views": 8184594,
-      "view_text": "8,184,594 views",
+      "views": 8184683,
+      "view_text": "8,184,683 views",
       "url": "https://www.youtube.com/shorts/XayNKY944lY",
       "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
     },
     {
       "proven_title": "Scary Sounds Of Space! (Part - 1)",
-      "views": 7507971,
-      "view_text": "7,507,971 views",
+      "views": 7514223,
+      "view_text": "7,514,223 views",
       "url": "https://www.youtube.com/shorts/HRHePsBcKGM",
       "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
     },
     {
+      "proven_title": "27 Facts That Will Make You Question Your Existence",
+      "views": 6396144,
+      "view_text": "6,396,144 views",
+      "url": "https://www.youtube.com/shorts/FkQWpQd9Zdo",
+      "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
+    },
+    {
+      "proven_title": "The Most Terrifying Things in Our Universe",
+      "views": 6168112,
+      "view_text": "6,168,112 views",
+      "url": "https://www.youtube.com/shorts/U5GdEk3kOfg",
+      "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
+    },
+    {
       "proven_title": "Einstein's twin paradox explained - Amber Stuver",
-      "views": 5916791,
-      "view_text": "5,916,791 views",
+      "views": 5917051,
+      "view_text": "5,917,051 views",
       "url": "https://www.youtube.com/shorts/h8GqaAp3cGs",
       "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
     },
     {
-      "proven_title": "Scary Sounds Of Space! (Part - 2)",
-      "views": 4448595,
-      "view_text": "4,448,595 views",
-      "url": "https://www.youtube.com/shorts/byrNchwzYqg",
+      "proven_title": "20 Strangest Historical Coincidences Ever That Will Creep You Out",
+      "views": 5628191,
+      "view_text": "5,628,191 views",
+      "url": "https://www.youtube.com/shorts/ENj_cFwIbIk",
       "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
     },
     {
       "proven_title": "Brian Cox Explains The Fermi Paradox",
-      "views": 4265490,
-      "view_text": "4,265,490 views",
+      "views": 4266338,
+      "view_text": "4,266,338 views",
       "url": "https://www.youtube.com/shorts/NbNPBcUgDTs",
       "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
     },
     {
-      "proven_title": "50 Science Facts that Will Shock You",
-      "views": 3280531,
-      "view_text": "3,280,531 views",
-      "url": "https://www.youtube.com/shorts/8FxTgaHnbXE",
-      "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
-    },
-    {
-      "proven_title": "The 18 Most Scary Sounds Ever Captured In Space!",
-      "views": 3256949,
-      "view_text": "3,256,949 views",
-      "url": "https://www.youtube.com/shorts/dezjOSl0fuM",
+      "proven_title": "15 Minutes of ACTUALLY Unbelievable Space Facts",
+      "views": 3331176,
+      "view_text": "3,331,176 views",
+      "url": "https://www.youtube.com/shorts/dSgP3J4fD6U",
       "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
     },
     {
@@ -339,24 +346,17 @@
       "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
     },
     {
+      "proven_title": "Ancient Aliens: Da Vinci's MIND-BLOWING Secrets Revealed | History",
+      "views": 2819616,
+      "view_text": "2,819,616 views",
+      "url": "https://www.youtube.com/shorts/S3CLtYgmrsA",
+      "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
+    },
+    {
       "proven_title": "Joe Rogan's Best Ancient Civilization Podcasts",
-      "views": 2647477,
-      "view_text": "2,647,477 views",
+      "views": 2648508,
+      "view_text": "2,648,508 views",
       "url": "https://www.youtube.com/shorts/b2m5iWBVemU",
-      "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
-    },
-    {
-      "proven_title": "Space is Terrifying",
-      "views": 2644450,
-      "view_text": "2,644,450 views",
-      "url": "https://www.youtube.com/shorts/_JhNGvTKNU4",
-      "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
-    },
-    {
-      "proven_title": "3 Hours Of Mind-Blowing Space Facts To Fall Asleep To",
-      "views": 2547220,
-      "view_text": "2,547,220 views",
-      "url": "https://www.youtube.com/shorts/FIulHC8K1Zw",
       "intercept_angle": "Create an original, fact-checked Curious Byte 3D CGI edition elevating this core phenomenon."
     }
   ]

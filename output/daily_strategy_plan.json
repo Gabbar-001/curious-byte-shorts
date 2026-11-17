@@ -1,6 +1,6 @@
 {
-  "ai_executive_summary": "We are intensifying our 'Social-Validation' strategy by focusing on high-friction topics that force viewers to tag friends, ensuring the content functions as a 'relatable mirror' rather than an educational lecture.",
-  "self_learning_reflection": "Previous attempts confirm that while 'wonder' attracts clicks, 'relatable frustration' drives comments; we are abandoning all complex narrative arcs in favor of instant gratification.",
+  "ai_executive_summary": "We are pivoting to 'Aggressive Relatability' by replacing educational fluff with high-friction social triggers that demand immediate user engagement. Every piece of content is engineered to force a 'tag-your-friend' moment by highlighting universal annoyances and polarizing rivalries.",
+  "self_learning_reflection": "Previous attempts at science were ignored; viewers only engage when the content mirrors their own life or sparks a 'my-team-is-better' debate. Moving away from 'Curious Byte' (science) toward 'Curious Relatable' (human behavior) is essential for escaping the 0-view trap.",
   "strategic_pillar_weights": {
     "Mind-Blowing Head-to-Head Comparisons & Versus Battles": 25,
     "Crazy Sports Mysteries & Bizarre Rules": 25,
@@ -9,12 +9,12 @@
   },
   "primary_hook_archetype": "High-Stakes Negation",
   "recommended_topics_to_produce": [
-    "The 50km 'Weather Border': Why you can drive from a drowning storm in Kerala into a sun-baked drought in Karnataka and how the Ghats act as a literal weather wall.",
-    "The 'Timed Out' Rule: Why cricket's most controversial law is the ultimate way to humiliate a rival batter and why professional teams still haven't figured out how to counter it.",
-    "The 'Hypnic Jerk' Glitch: Why your brain thinks you're falling off a cliff the second you drift off to sleep, causing that embarrassing full-body twitch."
+    "The 50km 'Weather Wall': Why crossing the border from Kerala into Karnataka feels like entering a different planet's climate zone.",
+    "The 'Hidden' Goalkeeper Secret: Why referees intentionally ignore the 6-second rule in every match\u2014and why your team has been getting robbed for years.",
+    "The 'Doorway Amnesia' Glitch: Why you walk into a room and instantly forget why, and how your brain is actually 'deleting' files to save space."
   ],
-  "infinite_loop_directive": "End every Short with a question that mirrors the opening hook, creating a seamless restart loop: 'Did you know you do this? Tag someone who always twitches when they fall asleep.'",
-  "debate_bait_strategy": "Intentionally pin a comment asking: 'Is this the most annoying quirk/rule in existence?' to trigger a flood of 'Yes, and here is why...' replies.",
+  "infinite_loop_directive": "Ensure the final frame ends on a direct question about the viewer's personal experience, prompting an immediate loop back to the start for confirmation of their own behavior.",
+  "debate_bait_strategy": "End with a polarizing prompt: 'Which side of this rivalry do you represent?' or 'Tell me which friend of yours does this stupid thing every single day.'",
   "projected_24h_view_target": 500,
-  "date": "2026-11-17"
+  "date": "2026-11-18"
 }

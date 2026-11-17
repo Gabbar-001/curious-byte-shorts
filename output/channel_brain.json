@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-11-17T12:22:25.082926+00:00",
-  "total_videos_analyzed": 480,
+  "last_updated": "2026-11-17T21:02:19.497701+00:00",
+  "total_videos_analyzed": 497,
   "total_channel_views": 0,
   "median_views": 0,
   "pillar_analytics": {
     "General Science & Curiosities": {
-      "video_count": 480,
+      "video_count": 497,
       "total_views": 0,
       "avg_views_per_video": 0.0,
       "avg_velocity_per_hour": 0.0,
@@ -15,7 +15,7 @@
   },
   "hook_analytics": {
     "Shock": {
-      "attempts": 480,
+      "attempts": 497,
       "avg_views": 0.0,
       "win_rate_pct": 0.0
     }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-17T03:45:02.498937",
-  "total_candidates": 99,
+  "updated_at": "2026-11-17T17:52:22.461493",
+  "total_candidates": 98,
   "candidates": [
     {
       "source": "ScienceDaily",
@@ -17,18 +17,18 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261112025540.htm"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Ancient Siberian tomb reveals surprising secrets of cannabis use 2,800 years ago",
-      "viral_potential_score": 72,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174528.htm"
-    },
-    {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
       "topic": "that the psychic staring effect, where you can feel someone's gaze on you, has never held up to rigorous research.",
       "viral_potential_score": 66,
       "source_url": "https://www.reddit.com/r/todayilearned/comments/1xxzxij/til_that_the_psychic_staring_effect_where_you_can/"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A material just one atom thick reveals a strange quantum secret",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085554.htm"
     },
     {
       "source": "ScienceDaily",
@@ -145,6 +145,13 @@
     {
       "source": "Phys.org Space",
       "pillar": "Space & Universal Paradoxes",
+      "topic": "Early black holes may have grown through productive chaos",
+      "viral_potential_score": 66,
+      "source_url": "https://phys.org/news/2026-11-early-black-holes-grown-productive.html"
+    },
+    {
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
       "topic": "Written in sand: How dunes reveal the secrets of planetary winds",
       "viral_potential_score": 66,
       "source_url": "https://phys.org/news/2026-11-written-sand-dunes-reveal-secrets.html"
@@ -171,18 +178,39 @@
       "source_url": "https://phys.org/news/2026-11-supermassive-neutron-star-mass-gap.html"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Space dust particles point to ancient heavy-oxygen water reservoir in the Kuiper belt",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-space-particles-ancient-heavy-oxygen.html"
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "that dogs can smell when a human is stressed, detecting changes in breath and sweat with over 93% accuracy.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xy7xjl/til_that_dogs_can_smell_when_a_human_is_stressed/"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "A suspected black hole turns out to be a rapidly spinning star",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-black-hole-rapidly-star.html"
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "that the estranged husband of the CEO of Wildberries attempted an armed takeover of the company's headquarters in 2024",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xy3erw/til_that_the_estranged_husband_of_the_ceo_of/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "The average American consumes about 4500 calories on Thanksgiving Day",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xyh9rs/til_the_average_american_consumes_about_4500/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "that humans can also be born with a cloaca. A cloacal anomaly happens when the urethra, rectum, and vagina all merge into one canal.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xyar7w/til_that_humans_can_also_be_born_with_a_cloaca_a/"
+    },
+    {
+      "source": "r/todayilearned",
+      "pillar": "Dark Science & Human Body Mysteries",
+      "topic": "the Earth is over 3 million miles closer to the Sun in January than it is in July.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xyftmu/til_the_earth_is_over_3_million_miles_closer_to/"
     },
     {
       "source": "r/todayilearned",
@@ -194,51 +222,9 @@
     {
       "source": "r/todayilearned",
       "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that in the 1980's, a pod of killer whales used dead salmon as hats.",
+      "topic": "that Ireland have a statue in Dublin of a Nazi collaborator. He died on a German U-boat during the Second World War after falling ill.",
       "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xxzrd3/til_that_in_the_1980s_a_pod_of_killer_whales_used/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "I learned that Antarctica has a full-time professional fire department and as of 2025 maintains 55 staff.",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xxfztp/til_i_learned_that_antarctica_has_a_fulltime/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "a 1974 U.S. Senate race in New Hampshire was so close  that the Senate declared the seat vacant, forcing a do-over election the following year",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xxg9s2/til_a_1974_us_senate_race_in_new_hampshire_was_so/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "that the Voyager 1 was launched 16 days after Voyager 2 but will touch the unprecedented milestone of 1 light day 9 years before it due to trajectory",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xxxnrh/til_that_the_voyager_1_was_launched_16_days_after/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "about Ming of Harlem, a 425 lb Siberian-Bengal tiger raised with a 5 foot alligator named Al in a housing project in New York City for 5 years.",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xxrzvb/til_about_ming_of_harlem_a_425_lb_siberianbengal/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "in 1884, the French airship La France made the first fully controlled free flight, powered by an electric motor. It flew about 8 km in 23 minutes.",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xxtmty/til_in_1884_the_french_airship_la_france_made_the/"
-    },
-    {
-      "source": "r/todayilearned",
-      "pillar": "Dark Science & Human Body Mysteries",
-      "topic": "Australia's giant Gippsland earthworm can reach 3 metres  long",
-      "viral_potential_score": 60,
-      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xxk256/til_australias_giant_gippsland_earthworm_can/"
+      "source_url": "https://www.reddit.com/r/todayilearned/comments/1xyipff/til_that_ireland_have_a_statue_in_dublin_of_a/"
     },
     {
       "source": "ScienceDaily",
@@ -246,6 +232,34 @@
       "topic": "NASA smashed into an asteroid. Now Hera has revealed a strange new world",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A mysterious twist in the universe\u2019s oldest light could reveal new physics",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "The hidden language of psychopathy is not what scientists expected",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023346.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists tracked kids for 8 years. What they found about screen time was surprising",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261116014725.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "ESA\u2019s Hera spacecraft is flying rectangles around NASA\u2019s asteroid crash site",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085545.htm"
     },
     {
       "source": "ScienceDaily",
@@ -407,20 +421,6 @@
       "topic": "Why heart attacks can still happen even when bad cholesterol is low",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205415.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "The mystery of how hair knows where to grow may finally be solved",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205413.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "NASA\u2019s Parker Solar Probe discovers a hidden pattern in the Sun\u2019s chaotic magnetic fields",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205411.htm"
     }
   ]
 }

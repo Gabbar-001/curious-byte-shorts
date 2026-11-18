@@ -1,6 +1,6 @@
 {
-  "ai_executive_summary": "We are pivoting to 'Aggressive Relatability' by replacing educational fluff with high-friction social triggers that demand immediate user engagement. Every piece of content is engineered to force a 'tag-your-friend' moment by highlighting universal annoyances and polarizing rivalries.",
-  "self_learning_reflection": "Previous attempts at science were ignored; viewers only engage when the content mirrors their own life or sparks a 'my-team-is-better' debate. Moving away from 'Curious Byte' (science) toward 'Curious Relatable' (human behavior) is essential for escaping the 0-view trap.",
+  "ai_executive_summary": "We are doubling down on 'High-Velocity Relatability' by stripping away all academic nuance to focus exclusively on triggers that demand an immediate 'Me!' or 'Tag your teammate' reaction. Our strategy centers on physicalizing the mental glitches we all experience and the rivalries we all argue about.",
+  "self_learning_reflection": "Previous attempts at educational content failed because they required cognitive labor; current 'glitch/rivalry' topics create instant emotional validation, which is the key to breaking the 10k-view barrier.",
   "strategic_pillar_weights": {
     "Mind-Blowing Head-to-Head Comparisons & Versus Battles": 25,
     "Crazy Sports Mysteries & Bizarre Rules": 25,
@@ -9,12 +9,12 @@
   },
   "primary_hook_archetype": "High-Stakes Negation",
   "recommended_topics_to_produce": [
-    "The 50km 'Weather Wall': Why crossing the border from Kerala into Karnataka feels like entering a different planet's climate zone.",
-    "The 'Hidden' Goalkeeper Secret: Why referees intentionally ignore the 6-second rule in every match\u2014and why your team has been getting robbed for years.",
-    "The 'Doorway Amnesia' Glitch: Why you walk into a room and instantly forget why, and how your brain is actually 'deleting' files to save space."
+    "The 50km 'Weather Wall': Why your weather app lies to you when you cross from Kerala into Karnataka, and why the Western Ghats are basically a giant climate shield.",
+    "The 'Phantom Goal' Rule: Why the 6-second goalkeeper rule exists in FIFA laws but is basically a 'legal myth' that every referee ignores on purpose.",
+    "The 'Voice Cringe' Glitch: Why you hate the sound of your own voice on recordings and why your brain is technically lying to you about how you actually sound."
   ],
-  "infinite_loop_directive": "Ensure the final frame ends on a direct question about the viewer's personal experience, prompting an immediate loop back to the start for confirmation of their own behavior.",
-  "debate_bait_strategy": "End with a polarizing prompt: 'Which side of this rivalry do you represent?' or 'Tell me which friend of yours does this stupid thing every single day.'",
+  "infinite_loop_directive": "Ensure the last word of the video transitions back to the hook by asking a question that requires the viewer to loop the video to check if they missed the 'real' reason.",
+  "debate_bait_strategy": "End each Short by asking a polarizing 'Which side are you on?' question that forces fans of opposing sports teams or regions to flood the comments to defend their position.",
   "projected_24h_view_target": 500,
   "date": "2026-11-18"
 }

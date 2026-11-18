@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T17:52:10.401113",
+  "updated_at": "2026-11-19T02:31:48.120787",
   "total_candidates": 90,
   "candidates": [
     {
@@ -15,6 +15,20 @@
       "topic": "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings",
       "viral_potential_score": 72,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261112025540.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Bizarre deep-sea fish with a see-through head captured in stunning 4K",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261117033917.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "More than a billion years of Earth's history vanished. Scientists may finally know why",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023403.htm"
     },
     {
       "source": "ScienceDaily",
@@ -115,27 +129,6 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233047.htm"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "DNA on the Shroud of Turin reveals centuries of hidden secrets",
-      "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108202703.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists find deadly virus DNA hidden in 1,000-year-old manuscripts",
-      "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174545.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "An ancient ocean full of giant predators reveals a surprising twist in evolution",
-      "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174535.htm"
-    },
-    {
       "source": "Phys.org Space",
       "pillar": "Space & Universal Paradoxes",
       "topic": "Early black holes may have grown through productive chaos",
@@ -166,6 +159,13 @@
     {
       "source": "ScienceDaily",
       "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "New discovery reveals what may be holding back room-temperature superconductors",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
       "topic": "NASA smashed into an asteroid. Now Hera has revealed a strange new world",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm"
@@ -183,6 +183,13 @@
       "topic": "The hidden language of psychopathy is not what scientists expected",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023346.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Autistic brains look surprisingly similar on average. Then scientists looked closer.",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023344.htm"
     },
     {
       "source": "ScienceDaily",
@@ -208,6 +215,13 @@
     {
       "source": "ScienceDaily",
       "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "125,000 years ago, hippos roamed what is now the vast Arabian Desert",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085537.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
       "topic": "A hidden biological divide may help explain Alzheimer\u2019s and chronic pain",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085535.htm"
@@ -222,9 +236,23 @@
     {
       "source": "ScienceDaily",
       "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A little-known protein could be a powerful weapon against Alzheimer\u2019s",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202233.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
       "topic": "Physicists defy expectations by controlling the magnetic heart of a single atom",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "MIT discovers that aging weakens the brain\u2019s nighttime cleaning system",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
     },
     {
       "source": "ScienceDaily",
@@ -393,34 +421,6 @@
       "topic": "Alzheimer\u2019s may have early warning signs outside the brain",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists discover that necks didn't evolve for the reason we thought",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233101.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists finally discover why we learn to love bitter coffee",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233100.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "NASA reveals bold new plan to return astronauts to the Moon in 2028",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233054.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "A radical theory says the universe is twice as old as we thought",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233040.htm"
     }
   ]
 }

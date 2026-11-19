@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T02:31:48.120787",
+  "updated_at": "2026-11-20T02:14:49.780903",
   "total_candidates": 90,
   "candidates": [
     {
@@ -15,6 +15,20 @@
       "topic": "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings",
       "viral_potential_score": 72,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261112025540.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Why do farts smell so bad? The secret is brewing in your gut",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261118065521.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "This strange creature lived 309 million years ago, long before the dinosaurs",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261117033928.htm"
     },
     {
       "source": "ScienceDaily",
@@ -115,20 +129,6 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "237-million-year-old fossils reveal a bizarre armored sea amphibian",
-      "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205409.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "After 40 years, CERN finds evidence of a one-in-10-billion particle decay",
-      "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233047.htm"
-    },
-    {
       "source": "Phys.org Space",
       "pillar": "Space & Universal Paradoxes",
       "topic": "Early black holes may have grown through productive chaos",
@@ -143,18 +143,53 @@
       "source_url": "https://phys.org/news/2026-11-written-sand-dunes-reveal-secrets.html"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "New observations challenge evidence for an 'outsize' black hole in the early universe",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-evidence-outsize-black-hole-early.html"
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists tested 212 plant-based foods. Every single one contained fungal toxins",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261118073749.htm"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Is this iconic black hole image accurate? New study delivers an independent result",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-iconic-black-hole-image-accurate.html"
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "This 6-million-year-old whale may have had the most crooked face in mammal history",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261118065528.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Is free will an illusion? New brain research reveals a surprising twist",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261118065524.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Something strange is living beneath the skin of deep-sea pigs",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261118065512.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Why hydrogen flames can glow orange, then turn nearly invisible",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261118065509.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Too much exercise could leave your brain stuck in overdrive",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261117033923.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Stonehenge\u2019s six-ton mystery deepens as scientists narrow their search",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261117033914.htm"
     },
     {
       "source": "ScienceDaily",
@@ -386,41 +421,6 @@
       "topic": "Why heart attacks can still happen even when bad cholesterol is low",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205415.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "The mystery of how hair knows where to grow may finally be solved",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205413.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "NASA\u2019s Parker Solar Probe discovers a hidden pattern in the Sun\u2019s chaotic magnetic fields",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205411.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "NASA\u2019s CHAPEA Mars crew finally emerges after more than a year in isolation",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205406.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists uncover a 192-year-old mystery hidden in a mangled silver coin",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205359.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Alzheimer\u2019s may have early warning signs outside the brain",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm"
     }
   ]
 }

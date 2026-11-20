@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-11-20T17:52:36.290870",
+  "updated_at": "2026-11-21T01:59:27.100218",
   "total_candidates": 90,
   "candidates": [
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Two massive stars may be secretly feeding the Milky Way\u2019s supermassive black hole",
+      "viral_potential_score": 72,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm"
+    },
     {
       "source": "ScienceDaily",
       "pillar": "Catastrophic Earth & Natural Anomalies",
@@ -122,11 +129,11 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042556.htm"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists discover a giant 66-pound rodent that lived 34 million years ago",
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "Venus-like conditions reveal how minerals could preserve traces of ancient water",
       "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm"
+      "source_url": "https://phys.org/news/2026-11-venus-conditions-reveal-minerals-ancient.html"
     },
     {
       "source": "Phys.org Space",
@@ -136,11 +143,18 @@
       "source_url": "https://phys.org/news/2026-11-tiny-primordial-black-holes.html"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Early black holes may have grown through productive chaos",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-early-black-holes-grown-productive.html"
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261119194530.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists turn Moon dust into LEGO-like bricks for future lunar bases",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261119194525.htm"
     },
     {
       "source": "ScienceDaily",
@@ -155,6 +169,13 @@
       "topic": "Scientists tested 212 plant-based foods. Every single one contained fungal toxins",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261118073749.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A 3-million-year-old child just made human evolution far more complicated",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261118065531.htm"
     },
     {
       "source": "ScienceDaily",
@@ -400,27 +421,6 @@
       "topic": "AI-powered bionic eye breakthrough could help the blind see again",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Earth's fiery birth may have created hundreds of oceans' worth of water",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "NASA reveals Earth's ozone hole has grown to a size not seen in a decade",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042546.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "A massive new simulation reveals how the universe emerged from darkness",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm"
     }
   ]
 }

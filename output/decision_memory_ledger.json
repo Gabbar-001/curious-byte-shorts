@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T17:52:39.200075",
+  "updated_at": "2026-11-21T01:59:29.473409",
   "history": [
     {
       "timestamp": "2026-11-09T15:40:45.327131",
@@ -401,6 +401,23 @@
         "The 50km 'Weather Wall': Why your weather app is literally lying to you when you cross from the Kerala monsoon into the Karnataka rain shadow.",
         "The 'Mankad' Betrayal: Why cricket's most hated dismissal is actually 100% legal, and why your friends who cry 'Spirit of the Game' are just losing.",
         "The 'Phantom Vibration' Syndrome: Why your brain creates a fake notification buzz in your pocket and why it proves you are addicted to your phone."
+      ],
+      "pillar_weights": {
+        "Mind-Blowing Head-to-Head Comparisons & Versus Battles": 25,
+        "Crazy Sports Mysteries & Bizarre Rules": 25,
+        "Everyday Human Body Glitches & Quirks": 25,
+        "Hilarious Human Behavior & Bizarre Object Secrets": 25
+      }
+    },
+    {
+      "timestamp": "2026-11-21T01:59:29.473243",
+      "date": "2026-11-21",
+      "ai_executive_summary": "We are doubling down on 'High-Friction Relatability' by stripping all abstract concepts and replacing them with visceral, debate-inducing content that forces viewers to tag their friends. The goal is to turn our comment section into a battlefield for sports fans and a support group for people experiencing common human glitches.",
+      "primary_hook_archetype": "High-Stakes Negation",
+      "recommended_topics": [
+        "The 50km 'Weather Wall': Why crossing the border from Kerala into the Karnataka rain shadow is a meteorological lie that ruins your travel plans.",
+        "The 'Hidden' Cricket Rule: Why the 'Mankad' dismissal is the most 'legal' crime in cricket and why your 'Spirit of the Game' argument is officially dead.",
+        "The 'Doorway Amnesia' Glitch: Why your brain literally deletes your current mission the second you walk through a door, and why you\u2019re essentially a living video game with lag."
       ],
       "pillar_weights": {
         "Mind-Blowing Head-to-Head Comparisons & Versus Battles": 25,

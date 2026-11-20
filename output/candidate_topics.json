@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T02:14:49.780903",
+  "updated_at": "2026-11-20T17:52:36.290870",
   "total_candidates": 90,
   "candidates": [
     {
@@ -131,16 +131,23 @@
     {
       "source": "Phys.org Space",
       "pillar": "Space & Universal Paradoxes",
+      "topic": "If tiny 'primordial' black holes exist, here's how we might find them",
+      "viral_potential_score": 66,
+      "source_url": "https://phys.org/news/2026-11-tiny-primordial-black-holes.html"
+    },
+    {
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
       "topic": "Early black holes may have grown through productive chaos",
       "viral_potential_score": 66,
       "source_url": "https://phys.org/news/2026-11-early-black-holes-grown-productive.html"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Written in sand: How dunes reveal the secrets of planetary winds",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-written-sand-dunes-reveal-secrets.html"
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Experimental compound burns fat without sacrificing muscle",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261118073918.htm"
     },
     {
       "source": "ScienceDaily",
@@ -414,13 +421,6 @@
       "topic": "A massive new simulation reveals how the universe emerged from darkness",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Why heart attacks can still happen even when bad cholesterol is low",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205415.htm"
     }
   ]
 }

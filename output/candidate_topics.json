@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T01:59:27.100218",
+  "updated_at": "2026-11-21T17:52:16.116708",
   "total_candidates": 90,
   "candidates": [
     {
@@ -141,6 +141,20 @@
       "topic": "If tiny 'primordial' black holes exist, here's how we might find them",
       "viral_potential_score": 66,
       "source_url": "https://phys.org/news/2026-11-tiny-primordial-black-holes.html"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "NASA\u2019s Voyager 1 is now so far away that light takes 24 hours to reach it",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm"
     },
     {
       "source": "ScienceDaily",
@@ -407,20 +421,6 @@
       "topic": "The Sun unleashed a monster storm. Earth may have made it worse",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261111005905.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Crows can make decisions twice as fast as humans, scientists discover",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261111005850.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "AI-powered bionic eye breakthrough could help the blind see again",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm"
     }
   ]
 }

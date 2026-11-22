@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T17:52:16.116708",
+  "updated_at": "2026-11-22T00:54:56.461469",
   "total_candidates": 90,
   "candidates": [
     {
@@ -108,27 +108,6 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261111005908.htm"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Dark energy may have flipped from negative to positive 9.5 billion years ago",
-      "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261111005901.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Where are all the males? Ancient human fossils reveal a startling mystery",
-      "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042558.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "A butterfly that fooled scientists for 200 years finally reveals its secrets",
-      "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042556.htm"
-    },
-    {
       "source": "Phys.org Space",
       "pillar": "Space & Universal Paradoxes",
       "topic": "Venus-like conditions reveal how minerals could preserve traces of ancient water",
@@ -141,6 +120,20 @@
       "topic": "If tiny 'primordial' black holes exist, here's how we might find them",
       "viral_potential_score": 66,
       "source_url": "https://phys.org/news/2026-11-tiny-primordial-black-holes.html"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Time may be far stranger than we realize. Scientists have a way to test it",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261120075558.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A giant star swallowed another star. James Webb reveals the aftermath",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm"
     },
     {
       "source": "ScienceDaily",
@@ -159,6 +152,27 @@
     {
       "source": "ScienceDaily",
       "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Who was buried in Westminster Abbey's Roman coffin? A 150-year mystery may be solved",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261119194553.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Even scientists can't agree on what science actually is",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261119194541.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A 50-year-old theory about evolution may have been wrong all along",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261119194538.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
       "topic": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261119194530.htm"
@@ -169,6 +183,13 @@
       "topic": "Scientists turn Moon dust into LEGO-like bricks for future lunar bases",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261119194525.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists say the human family tree may need a radical rewrite",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261118074039.htm"
     },
     {
       "source": "ScienceDaily",
@@ -400,27 +421,6 @@
       "topic": "Scientists discover a hidden danger of viral infections that vaccines may prevent",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261112025531.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "A new treasure map reveals where Earth's lost prehistoric life may be hiding",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261112025529.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Superheated magma could fuel towering lava fountains",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261111221811.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "The Sun unleashed a monster storm. Earth may have made it worse",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261111005905.htm"
     }
   ]
 }

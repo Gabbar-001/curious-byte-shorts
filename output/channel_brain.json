@@ -1,23 +1,23 @@
 {
-  "last_updated": "2026-11-21T12:22:21.100800+00:00",
-  "total_videos_analyzed": 679,
-  "total_channel_views": 10625,
+  "last_updated": "2026-11-21T19:24:59.469705+00:00",
+  "total_videos_analyzed": 687,
+  "total_channel_views": 10681,
   "median_views": 2,
   "pillar_analytics": {
     "General Science & Curiosities": {
-      "video_count": 679,
-      "total_views": 10625,
-      "avg_views_per_video": 15.6,
-      "avg_velocity_per_hour": 0.08,
-      "raw_performance_score": 12.5,
+      "video_count": 687,
+      "total_views": 10681,
+      "avg_views_per_video": 15.5,
+      "avg_velocity_per_hour": 0.07,
+      "raw_performance_score": 12.2,
       "recommended_allocation_pct": 45.0
     }
   },
   "hook_analytics": {
     "Shock": {
-      "attempts": 679,
-      "avg_views": 15.6,
-      "win_rate_pct": 48.0
+      "attempts": 687,
+      "avg_views": 15.5,
+      "win_rate_pct": 47.6
     }
   },
   "breakout_hits": [

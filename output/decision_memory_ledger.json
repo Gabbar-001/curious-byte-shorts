@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T17:52:20.271618",
+  "updated_at": "2026-11-23T01:18:26.957028",
   "history": [
     {
       "timestamp": "2026-11-09T15:40:45.327131",
@@ -469,6 +469,23 @@
         "The iPhone vs. Samsung 'Battery Lie': Why your battery percentage hits 1% and stays there for 20 minutes, and which phone brand is actually gaslighting you.",
         "The 'Hidden' Throw-in Rule: Why every single professional football player has been taking illegal throw-ins for years and why the ref is just letting it happen.",
         "The 'Bed Falling' Twitch: Why your brain creates a fake 'falling' sensation right as you sleep, and why it's basically a BIOS error in your human hardware."
+      ],
+      "pillar_weights": {
+        "Mind-Blowing Head-to-Head Comparisons & Versus Battles": 25,
+        "Crazy Sports Mysteries & Bizarre Rules": 25,
+        "Everyday Human Body Glitches & Quirks": 25,
+        "Hilarious Human Behavior & Bizarre Object Secrets": 25
+      }
+    },
+    {
+      "timestamp": "2026-11-23T01:18:26.956886",
+      "date": "2026-11-23",
+      "ai_executive_summary": "We are doubling down on 'High-Friction Relatability' by framing common life annoyances and sports biases as intentional systemic flaws. By removing all abstract content, we force the viewer to engage through immediate personal validation or aggressive gatekeeping in the comments.",
+      "primary_hook_archetype": "High-Stakes Negation",
+      "recommended_topics": [
+        "The '1% Battery' Gaslight: Why Samsung and iPhone have been lying to you about your battery percentage for years and who actually dies first.",
+        "The 'Offside' Illusion: Why your favorite team's striker has been breaking the rules for years and why the referee is legally blind.",
+        "The 'Hypnic Jerk' Glitch: Why your body feels like it's falling off a cliff right before you fall asleep and why it's technically a 'system reboot' error."
       ],
       "pillar_weights": {
         "Mind-Blowing Head-to-Head Comparisons & Versus Battles": 25,

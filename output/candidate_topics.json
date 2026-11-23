@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T17:52:17.565570",
+  "updated_at": "2026-11-23T01:18:24.159112",
   "total_candidates": 90,
   "candidates": [
     {
@@ -106,6 +106,13 @@
       "topic": "NASA\u2019s Perseverance confirms a key ingredient for life hidden in ancient Mars rocks",
       "viral_potential_score": 66,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261111005908.htm"
+    },
+    {
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "JWST finds a possible black hole that grew faster than its host galaxy in the early universe",
+      "viral_potential_score": 66,
+      "source_url": "https://phys.org/news/2026-11-jwst-black-hole-grew-faster.html"
     },
     {
       "source": "Phys.org Space",
@@ -414,13 +421,6 @@
       "topic": "Stanford scientists discover hidden brain signals that predict Alzheimer\u2019s years before symptoms",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists discover a hidden danger of viral infections that vaccines may prevent",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261112025531.htm"
     }
   ]
 }

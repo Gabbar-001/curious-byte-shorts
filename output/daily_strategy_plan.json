@@ -1,6 +1,6 @@
 {
-  "ai_executive_summary": "We are pivoting to 'Aggressive Validation' by turning everyday frustrations into 'glitch' content that forces viewers to share out of pure disbelief. By eliminating all abstract science, we ensure maximum retention through instant, gut-level relatability.",
-  "self_learning_reflection": "Previous data shows viewers engage most when their daily reality is challenged or validated; 'The Voice Cringe' and sports-rule debates create high-friction comment sections that drive the algorithm more effectively than static facts.",
+  "ai_executive_summary": "We are doubling down on 'High-Friction Relatability' by framing common life annoyances and sports biases as intentional systemic flaws. By removing all abstract content, we force the viewer to engage through immediate personal validation or aggressive gatekeeping in the comments.",
+  "self_learning_reflection": "Previous data shows that 'body glitches' and 'sports rules' generate the highest comment-to-view ratio. Users don't want to learn science; they want to feel like they've uncovered a 'glitch' in their daily reality or their favorite sport, fueling immediate social sharing.",
   "strategic_pillar_weights": {
     "Mind-Blowing Head-to-Head Comparisons & Versus Battles": 25,
     "Crazy Sports Mysteries & Bizarre Rules": 25,
@@ -9,12 +9,12 @@
   },
   "primary_hook_archetype": "High-Stakes Negation",
   "recommended_topics_to_produce": [
-    "The iPhone vs. Samsung 'Battery Lie': Why your battery percentage hits 1% and stays there for 20 minutes, and which phone brand is actually gaslighting you.",
-    "The 'Hidden' Throw-in Rule: Why every single professional football player has been taking illegal throw-ins for years and why the ref is just letting it happen.",
-    "The 'Bed Falling' Twitch: Why your brain creates a fake 'falling' sensation right as you sleep, and why it's basically a BIOS error in your human hardware."
+    "The '1% Battery' Gaslight: Why Samsung and iPhone have been lying to you about your battery percentage for years and who actually dies first.",
+    "The 'Offside' Illusion: Why your favorite team's striker has been breaking the rules for years and why the referee is legally blind.",
+    "The 'Hypnic Jerk' Glitch: Why your body feels like it's falling off a cliff right before you fall asleep and why it's technically a 'system reboot' error."
   ],
-  "infinite_loop_directive": "End the video with a direct question that references the hook: 'Now that you know your brain is gaslighting you, tag a friend who is currently suffering from this glitch.'",
-  "debate_bait_strategy": "Explicitly state that a popular practice (like a specific sports move or tech habit) is 'technically cheating' or 'a total lie' to trigger instant 'Um, actually' responses from fans and users.",
+  "infinite_loop_directive": "Ensure the final frame contains a 'Call-to-Action' that references the opening hook (e.g., 'If your phone battery died while watching this, tag the friend who ruins your charging cable.'), creating a seamless loop back to the initial frustration.",
+  "debate_bait_strategy": "Directly challenge the viewer's favorite brand or sports team by calling their success an 'undeserved fluke' or a 'legalized cheat,' forcing fans to defend their honor in the comments section.",
   "projected_24h_view_target": 500,
-  "date": "2026-11-22"
+  "date": "2026-11-23"
 }

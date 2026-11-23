@@ -1,23 +1,23 @@
 {
-  "last_updated": "2026-11-22T19:48:26.965071+00:00",
+  "last_updated": "2026-11-23T12:22:29.571231+00:00",
   "total_videos_analyzed": 687,
-  "total_channel_views": 10845,
+  "total_channel_views": 10942,
   "median_views": 3,
   "pillar_analytics": {
     "General Science & Curiosities": {
       "video_count": 687,
-      "total_views": 10845,
-      "avg_views_per_video": 15.8,
-      "avg_velocity_per_hour": 0.07,
-      "raw_performance_score": 12.5,
+      "total_views": 10942,
+      "avg_views_per_video": 15.9,
+      "avg_velocity_per_hour": 0.06,
+      "raw_performance_score": 12.3,
       "recommended_allocation_pct": 45.0
     }
   },
   "hook_analytics": {
     "Shock": {
       "attempts": 687,
-      "avg_views": 15.8,
-      "win_rate_pct": 40.9
+      "avg_views": 15.9,
+      "win_rate_pct": 42.5
     }
   },
   "breakout_hits": [
@@ -57,7 +57,38 @@
       "hook": ""
     }
   ],
-  "underperforming_patterns": [],
+  "underperforming_patterns": [
+    {
+      "title": "Why Eating Ice Cream Instantly Hacks Your Brain! #Shorts",
+      "topic": "Why Eating Ice Cream Instantly Hacks Your Brain! #Shorts",
+      "pillar": "General Science & Curiosities",
+      "views": 0
+    },
+    {
+      "title": "Why FIFA's Most Broken Rule is Secretly a Cheat #Shorts",
+      "topic": "Why FIFA's Most Broken Rule is Secretly a Cheat #Shorts",
+      "pillar": "General Science & Curiosities",
+      "views": 0
+    },
+    {
+      "title": "Why You Forget Everything As Soon As You Walk In A Room #Shorts",
+      "topic": "Why You Forget Everything As Soon As You Walk In A Room #Shorts",
+      "pillar": "General Science & Curiosities",
+      "views": 0
+    },
+    {
+      "title": "Why Your Eyes Are Lying To You! \ud83d\udc41\ufe0f\u2728 #Shorts",
+      "topic": "Why Your Eyes Are Lying To You! \ud83d\udc41\ufe0f\u2728 #Shorts",
+      "pillar": "General Science & Curiosities",
+      "views": 0
+    },
+    {
+      "title": "Why Your Brain Thinks You're Falling While Sleeping #Shorts",
+      "topic": "Why Your Brain Thinks You're Falling While Sleeping #Shorts",
+      "pillar": "General Science & Curiosities",
+      "views": 0
+    }
+  ],
   "spin_off_recommendations": [
     {
       "parent_title": "The Secret Frequency of the Hypogeum #Shorts",
@@ -87,5 +118,5 @@
       ]
     }
   ],
-  "ai_strategic_directive": "=== REAL-TIME CURIOUS BYTE CHANNEL INTELLIGENCE DIRECTIVE ===\n1. AUDIENCE CRAVING: Your audience generates 3x-5x higher engagement on: General Science & Curiosities. Prioritize these themes.\n2. WINNING HOOK ARCHETYPE: 'Shock Hook' is your channel's highest-converting opener. Deliver a visceral, high-stakes curiosity gap in the first 2 seconds.\n3. PROVEN BREAKOUT WINNERS (Model your upcoming scripts on these):\n   \u2022 'The Secret Frequency of the Hypogeum #Shorts' (949 views) / 'The Invisible Monster Pulling Our Galaxy #Shorts' (695 views) / 'The Universe Could End Before You Finish This Sentence #Shorts' (631 views)\n4. UNDERPERFORMING PATTERNS (Avoid these angles):\n   \u2022 Generic abstract facts without physical stakes\n5. RETENTION MANDATE: Keep narrative cuts under 4.5 seconds per beat. Never explain academic theory without immediate visual proof."
+  "ai_strategic_directive": "=== REAL-TIME CURIOUS BYTE CHANNEL INTELLIGENCE DIRECTIVE ===\n1. AUDIENCE CRAVING: Your audience generates 3x-5x higher engagement on: General Science & Curiosities. Prioritize these themes.\n2. WINNING HOOK ARCHETYPE: 'Shock Hook' is your channel's highest-converting opener. Deliver a visceral, high-stakes curiosity gap in the first 2 seconds.\n3. PROVEN BREAKOUT WINNERS (Model your upcoming scripts on these):\n   \u2022 'The Secret Frequency of the Hypogeum #Shorts' (949 views) / 'The Invisible Monster Pulling Our Galaxy #Shorts' (695 views) / 'The Universe Could End Before You Finish This Sentence #Shorts' (631 views)\n4. UNDERPERFORMING PATTERNS (Avoid these angles):\n   \u2022 'Why Eating Ice Cream Instantly Hacks Your Brain! #Shorts', 'Why FIFA's Most Broken Rule is Secretly a Cheat #Shorts'\n5. RETENTION MANDATE: Keep narrative cuts under 4.5 seconds per beat. Never explain academic theory without immediate visual proof."
 }

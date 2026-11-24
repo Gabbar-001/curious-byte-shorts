@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T17:52:25.371095",
+  "updated_at": "2026-11-24T05:38:18.104686",
   "total_candidates": 90,
   "candidates": [
     {
@@ -113,6 +113,20 @@
       "topic": "Euclid discovers ancient cosmic beacons from the dawn of time, shining like a trillion suns",
       "viral_potential_score": 66,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261112230504.htm"
+    },
+    {
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "ALMA resolves the gravitational reach of a black hole in the early universe",
+      "viral_potential_score": 66,
+      "source_url": "https://phys.org/news/2026-11-alma-gravitational-black-hole-early.html"
+    },
+    {
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "Astronomers catch a gas cloud dimming a black hole's glow for weeks",
+      "viral_potential_score": 66,
+      "source_url": "https://phys.org/news/2026-11-astronomers-gas-cloud-dimming-black.html"
     },
     {
       "source": "Phys.org Space",
@@ -407,20 +421,6 @@
       "topic": "Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Hidden ecosystem: Scientists discover 245 animals living inside a single deep-sea rock",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202133.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Alzheimer\u2019s may start shrinking two brain regions years before memory loss",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm"
     }
   ]
 }

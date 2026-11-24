@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-11-24T05:38:18.104686",
+  "updated_at": "2026-11-24T17:52:24.787507",
   "total_candidates": 90,
   "candidates": [
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Earth's core may be leaking a 4.5-billion-year-old secret",
+      "viral_potential_score": 72,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261123005336.htm"
+    },
     {
       "source": "ScienceDaily",
       "pillar": "Catastrophic Earth & Natural Anomalies",
@@ -29,6 +36,20 @@
       "topic": "Two monster black holes from the dawn of time defy explanation",
       "viral_potential_score": 66,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060342.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Earth\u2019s ancient oceans may have fooled scientists about its oxygen history",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060340.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Ancient rocks from the Moon\u2019s far side rewrite the Solar System\u2019s violent past",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261121221136.htm"
     },
     {
       "source": "ScienceDaily",
@@ -108,11 +129,11 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202204.htm"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Euclid discovers ancient cosmic beacons from the dawn of time, shining like a trillion suns",
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "New quasar record tightens constraints on black hole formation scenarios",
       "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261112230504.htm"
+      "source_url": "https://phys.org/news/2026-11-quasar-tightens-constraints-black-hole.html"
     },
     {
       "source": "Phys.org Space",
@@ -143,11 +164,18 @@
       "source_url": "https://phys.org/news/2026-11-venus-conditions-reveal-minerals-ancient.html"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "If tiny 'primordial' black holes exist, here's how we might find them",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-tiny-primordial-black-holes.html"
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "2,200-year-old Roman shipwreck reveals an ingenious waterproofing trick",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261123232342.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Earth's next ice age may have already begun. Global warming stopped it",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261123005350.htm"
     },
     {
       "source": "ScienceDaily",
@@ -393,34 +421,6 @@
       "topic": "Vitamin C could help block cancer-linked chemicals in your stomach, study finds",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202236.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "A little-known protein could be a powerful weapon against Alzheimer\u2019s",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202233.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Physicists defy expectations by controlling the magnetic heart of a single atom",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "MIT discovers that aging weakens the brain\u2019s nighttime cleaning system",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm"
     }
   ]
 }

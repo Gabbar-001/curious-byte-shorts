@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T04:02:38.668150",
+  "updated_at": "2026-11-25T17:52:15.446176",
   "total_candidates": 90,
   "candidates": [
     {
@@ -8,6 +8,13 @@
       "topic": "Earth's core may be leaking a 4.5-billion-year-old secret",
       "viral_potential_score": 72,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261123005336.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A black hole the size of an atom could destroy an entire star",
+      "viral_potential_score": 72,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060332.htm"
     },
     {
       "source": "ScienceDaily",
@@ -29,6 +36,13 @@
       "topic": "Two massive stars may be secretly feeding the Milky Way\u2019s supermassive black hole",
       "viral_potential_score": 72,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "A space telescope hunting for dark matter just discovered something unexpected",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm"
     },
     {
       "source": "ScienceDaily",
@@ -115,20 +129,6 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085549.htm"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "An ancient virus may help explain what makes the human brain different",
-      "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202230.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Uranus and Neptune\u2019s bizarre magnetic fields may finally be explained",
-      "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202204.htm"
-    },
-    {
       "source": "Phys.org Space",
       "pillar": "Space & Universal Paradoxes",
       "topic": "Water signals could guide future efforts to image supermassive black hole shadows",
@@ -171,11 +171,18 @@
       "source_url": "https://phys.org/news/2026-11-jwst-black-hole-grew-faster.html"
     },
     {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Venus-like conditions reveal how minerals could preserve traces of ancient water",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-venus-conditions-reveal-minerals-ancient.html"
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Physicists trap antimatter in a breakthrough that could explain why the universe exists",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261124055849.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "What is a thought made of? Why human consciousness may be beyond AI\u2019s reach",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261124055712.htm"
     },
     {
       "source": "ScienceDaily",
@@ -190,6 +197,20 @@
       "topic": "Earth's next ice age may have already begun. Global warming stopped it",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261123005350.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Physicists just sent an unblockable message through a brick wall using gravity",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261123005343.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "New nose drops restore youthful memory and fight Alzheimer\u2019s in aging mice",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261123005337.htm"
     },
     {
       "source": "ScienceDaily",
@@ -218,6 +239,13 @@
       "topic": "A galactic shock wave could rewrite the map of the Milky Way",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060329.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Einstein\u2019s 120-year-old theory may be missing something big about the Big Bang",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261121221119.htm"
     },
     {
       "source": "ScienceDaily",
@@ -393,34 +421,6 @@
       "topic": "Autistic brains look surprisingly similar on average. Then scientists looked closer.",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023344.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists tracked kids for 8 years. What they found about screen time was surprising",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261116014725.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "ESA\u2019s Hera spacecraft is flying rectangles around NASA\u2019s asteroid crash site",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085545.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "NASA is offering $1 million for bold ideas to help build a Moon base",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085542.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "125,000 years ago, hippos roamed what is now the vast Arabian Desert",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085537.htm"
     }
   ]
 }

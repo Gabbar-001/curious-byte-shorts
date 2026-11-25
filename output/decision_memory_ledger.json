@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T17:52:26.581630",
+  "updated_at": "2026-11-25T04:02:44.208779",
   "history": [
     {
       "timestamp": "2026-11-09T15:40:45.327131",
@@ -543,6 +543,23 @@
         "Ancient Wonders & Archaeological Enigmas": 30,
         "Space & Universal Paradoxes": 10,
         "Dark Science & Human Body Mysteries": 10
+      }
+    },
+    {
+      "timestamp": "2026-11-25T04:02:44.208575",
+      "date": "2026-11-25",
+      "ai_executive_summary": "We are purging all abstract deep-sea and science content to fully commit to 'Aggressive Relatability,' targeting the viewer's daily frustrations to drive comments and shares. By focusing on systemic 'glitches' in tech, sports, and the human body, we create a sense of 'shared secret' discovery that demands immediate social validation.",
+      "primary_hook_archetype": "High-Stakes Negation",
+      "recommended_topics": [
+        "The 100km 'Weather Wall': Why your weather app is lying when you cross from Kerala to the Karnataka/Telangana rain shadow and why it ruins your weekend plans every time.",
+        "The 'Hidden' Goalkeeper Rule: Why every professional goalie has been taking illegal goal kicks for years and why the referee is literally just choosing to ignore the physics of the game.",
+        "The 'Phantom Vibration' Syndrome: Why your brain is hallucinating text messages when your phone isn't even in your pocket and why your nervous system is essentially a buggy OS update."
+      ],
+      "pillar_weights": {
+        "Mind-Blowing Head-to-Head Comparisons & Versus Battles": 25,
+        "Crazy Sports Mysteries & Bizarre Rules": 25,
+        "Everyday Human Body Glitches & Quirks": 25,
+        "Hilarious Human Behavior & Bizarre Object Secrets": 25
       }
     }
   ]

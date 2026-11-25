@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T17:52:24.787507",
+  "updated_at": "2026-11-25T04:02:38.668150",
   "total_candidates": 90,
   "candidates": [
     {
@@ -127,6 +127,20 @@
       "topic": "Uranus and Neptune\u2019s bizarre magnetic fields may finally be explained",
       "viral_potential_score": 66,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202204.htm"
+    },
+    {
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "Water signals could guide future efforts to image supermassive black hole shadows",
+      "viral_potential_score": 66,
+      "source_url": "https://phys.org/news/2026-11-future-efforts-image-supermassive-black.html"
+    },
+    {
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "Four radiation belts surrounded Earth for weeks after 2024 solar superstorm",
+      "viral_potential_score": 66,
+      "source_url": "https://phys.org/news/2026-11-belts-earth-weeks-solar-superstorm.html"
     },
     {
       "source": "Phys.org Space",
@@ -407,20 +421,6 @@
       "topic": "125,000 years ago, hippos roamed what is now the vast Arabian Desert",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085537.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "A hidden biological divide may help explain Alzheimer\u2019s and chronic pain",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085535.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Vitamin C could help block cancer-linked chemicals in your stomach, study finds",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202236.htm"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T03:18:39.713277",
+  "updated_at": "2026-11-26T17:52:11.753631",
   "total_candidates": 90,
   "candidates": [
     {
@@ -8,6 +8,13 @@
       "topic": "Earth's core may be leaking a 4.5-billion-year-old secret",
       "viral_potential_score": 72,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261123005336.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Astronomers may have discovered a black hole born before the first stars",
+      "viral_potential_score": 72,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm"
     },
     {
       "source": "ScienceDaily",
@@ -36,6 +43,13 @@
       "topic": "Two massive stars may be secretly feeding the Milky Way\u2019s supermassive black hole",
       "viral_potential_score": 72,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Deep beneath Australia, hidden caves could unlock the secrets of alien worlds",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261124055901.htm"
     },
     {
       "source": "ScienceDaily",
@@ -162,6 +176,27 @@
       "topic": "New quasar record tightens constraints on black hole formation scenarios",
       "viral_potential_score": 66,
       "source_url": "https://phys.org/news/2026-11-quasar-tightens-constraints-black-hole.html"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "This 345-million-year-old fossil had scientists fooled for decades",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261125045307.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "The surprising reason women seem better at multitasking than men",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261125045306.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists discover mysterious lakes more than a mile beneath the Red Sea",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261125045259.htm"
     },
     {
       "source": "ScienceDaily",
@@ -386,41 +421,6 @@
       "topic": "New discovery reveals what may be holding back room-temperature superconductors",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "NASA smashed into an asteroid. Now Hera has revealed a strange new world",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "A mysterious twist in the universe\u2019s oldest light could reveal new physics",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "The hidden language of psychopathy is not what scientists expected",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023346.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Autistic brains look surprisingly similar on average. Then scientists looked closer.",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023344.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Scientists tracked kids for 8 years. What they found about screen time was surprising",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261116014725.htm"
     }
   ]
 }

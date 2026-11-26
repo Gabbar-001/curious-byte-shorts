@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T17:53:20.997040",
+  "updated_at": "2026-11-26T03:18:42.474086",
   "history": [
     {
       "timestamp": "2026-11-09T15:40:45.327131",
@@ -571,6 +571,23 @@
         "The 'Rain Shadow' Scam: Why your weather app lies to you when you cross from Kerala into the dry zone of Karnataka and why you should never trust a forecast.",
         "The 6-Second Goalkeeper 'Ghost Rule': Why professional football goalies have been cheating the clock for decades and why referees refuse to punish them.",
         "The 'Doorway Amnesia' Glitch: Why your brain deletes your memory the second you walk into a new room and why you\u2019re basically running on outdated firmware."
+      ],
+      "pillar_weights": {
+        "Mind-Blowing Head-to-Head Comparisons & Versus Battles": 25,
+        "Crazy Sports Mysteries & Bizarre Rules": 25,
+        "Everyday Human Body Glitches & Quirks": 25,
+        "Hilarious Human Behavior & Bizarre Object Secrets": 25
+      }
+    },
+    {
+      "timestamp": "2026-11-26T03:18:42.473407",
+      "date": "2026-11-26",
+      "ai_executive_summary": "We are doubling down on 'Systemic Glitch' narratives to trigger immediate user-to-user debates, focusing on high-friction daily annoyances that make viewers feel like they are finally 'in on the secret.' By stripping away complex science, we transform the channel into a community hub for shared relatable frustration.",
+      "primary_hook_archetype": "High-Stakes Negation",
+      "recommended_topics": [
+        "The 'Rain Shadow' Travel Scam: Why crossing from Kerala into Karnataka instantly kills your weather app's accuracy and why it\u2019s not just a glitch, it\u2019s geography trolling you.",
+        "The Cricket 'Pitch-Tamper' Myth: Why the home team ground staff are legally allowed to 'doctor' the grass to sabotage your favorite batter's stats.",
+        "The 'Voice Cringe' Glitch: Why you hate the sound of your own voice on recordings and why your brain is technically gaslighting you about how you sound to everyone else."
       ],
       "pillar_weights": {
         "Mind-Blowing Head-to-Head Comparisons & Versus Battles": 25,

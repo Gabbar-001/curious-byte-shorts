@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-11-26T12:22:29.414991+00:00",
+  "last_updated": "2026-11-26T21:41:05.756153+00:00",
   "total_videos_analyzed": 687,
-  "total_channel_views": 11120,
+  "total_channel_views": 11064,
   "median_views": 3,
   "pillar_analytics": {
     "General Science & Curiosities": {
       "video_count": 687,
-      "total_views": 11120,
-      "avg_views_per_video": 16.2,
+      "total_views": 11064,
+      "avg_views_per_video": 16.1,
       "avg_velocity_per_hour": 0.05,
       "raw_performance_score": 12.3,
       "recommended_allocation_pct": 45.0
@@ -16,8 +16,8 @@
   "hook_analytics": {
     "Shock": {
       "attempts": 687,
-      "avg_views": 16.2,
-      "win_rate_pct": 45.4
+      "avg_views": 16.1,
+      "win_rate_pct": 44.7
     }
   },
   "breakout_hits": [
@@ -65,8 +65,8 @@
       "views": 0
     },
     {
-      "title": "Why FIFA's Most Broken Rule is Secretly a Cheat #Shorts",
-      "topic": "Why FIFA's Most Broken Rule is Secretly a Cheat #Shorts",
+      "title": "Why China Can\u2019t Master Football #Shorts",
+      "topic": "Why China Can\u2019t Master Football #Shorts",
       "pillar": "General Science & Curiosities",
       "views": 0
     },
@@ -83,8 +83,8 @@
       "views": 0
     },
     {
-      "title": "Why Your Brain Thinks You're Falling While Sleeping #Shorts",
-      "topic": "Why Your Brain Thinks You're Falling While Sleeping #Shorts",
+      "title": "Why your mouth mimics scissors? #Shorts",
+      "topic": "Why your mouth mimics scissors? #Shorts",
       "pillar": "General Science & Curiosities",
       "views": 0
     }
@@ -118,5 +118,5 @@
       ]
     }
   ],
-  "ai_strategic_directive": "=== REAL-TIME CURIOUS BYTE CHANNEL INTELLIGENCE DIRECTIVE ===\n1. AUDIENCE CRAVING: Your audience generates 3x-5x higher engagement on: General Science & Curiosities. Prioritize these themes.\n2. WINNING HOOK ARCHETYPE: 'Shock Hook' is your channel's highest-converting opener. Deliver a visceral, high-stakes curiosity gap in the first 2 seconds.\n3. PROVEN BREAKOUT WINNERS (Model your upcoming scripts on these):\n   \u2022 'The Secret Frequency of the Hypogeum #Shorts' (949 views) / 'The Invisible Monster Pulling Our Galaxy #Shorts' (696 views) / 'The Universe Could End Before You Finish This Sentence #Shorts' (631 views)\n4. UNDERPERFORMING PATTERNS (Avoid these angles):\n   \u2022 'Why Eating Ice Cream Instantly Hacks Your Brain! #Shorts', 'Why FIFA's Most Broken Rule is Secretly a Cheat #Shorts'\n5. RETENTION MANDATE: Keep narrative cuts under 4.5 seconds per beat. Never explain academic theory without immediate visual proof."
+  "ai_strategic_directive": "=== REAL-TIME CURIOUS BYTE CHANNEL INTELLIGENCE DIRECTIVE ===\n1. AUDIENCE CRAVING: Your audience generates 3x-5x higher engagement on: General Science & Curiosities. Prioritize these themes.\n2. WINNING HOOK ARCHETYPE: 'Shock Hook' is your channel's highest-converting opener. Deliver a visceral, high-stakes curiosity gap in the first 2 seconds.\n3. PROVEN BREAKOUT WINNERS (Model your upcoming scripts on these):\n   \u2022 'The Secret Frequency of the Hypogeum #Shorts' (949 views) / 'The Invisible Monster Pulling Our Galaxy #Shorts' (696 views) / 'The Universe Could End Before You Finish This Sentence #Shorts' (631 views)\n4. UNDERPERFORMING PATTERNS (Avoid these angles):\n   \u2022 'Why Eating Ice Cream Instantly Hacks Your Brain! #Shorts', 'Why China Can\u2019t Master Football #Shorts'\n5. RETENTION MANDATE: Keep narrative cuts under 4.5 seconds per beat. Never explain academic theory without immediate visual proof."
 }

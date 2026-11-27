@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T17:52:11.753631",
+  "updated_at": "2026-11-27T03:11:01.449699",
   "total_candidates": 90,
   "candidates": [
     {
@@ -141,6 +141,13 @@
       "topic": "The secret to building Moon bases may be hiding in emergency blankets",
       "viral_potential_score": 66,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085549.htm"
+    },
+    {
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "Scientists discover quasar formed within a mere 630 million years of the Big Bang, setting a record",
+      "viral_potential_score": 66,
+      "source_url": "https://phys.org/news/2026-11-scientists-quasar-mere-million-years.html"
     },
     {
       "source": "Phys.org Space",
@@ -414,13 +421,6 @@
       "topic": "Stonehenge\u2019s six-ton mystery deepens as scientists narrow their search",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261117033914.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "New discovery reveals what may be holding back room-temperature superconductors",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm"
     }
   ]
 }

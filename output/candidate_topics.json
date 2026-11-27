@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T03:11:01.449699",
+  "updated_at": "2026-11-27T17:52:06.818396",
   "total_candidates": 90,
   "candidates": [
     {
@@ -43,6 +43,20 @@
       "topic": "Two massive stars may be secretly feeding the Milky Way\u2019s supermassive black hole",
       "viral_potential_score": 72,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "The narwhal\u2019s legendary \u201cunicorn horn\u201d holds a remarkable engineering secret",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261126063316.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "These bizarre prehistoric mammals may have been misunderstood for 150 years",
+      "viral_potential_score": 66,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261125045310.htm"
     },
     {
       "source": "ScienceDaily",
@@ -129,20 +143,6 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023403.htm"
     },
     {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "A material just one atom thick reveals a strange quantum secret",
-      "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085554.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "The secret to building Moon bases may be hiding in emergency blankets",
-      "viral_potential_score": 66,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085549.htm"
-    },
-    {
       "source": "Phys.org Space",
       "pillar": "Space & Universal Paradoxes",
       "topic": "Scientists discover quasar formed within a mere 630 million years of the Big Bang, setting a record",
@@ -187,6 +187,20 @@
     {
       "source": "ScienceDaily",
       "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists turn one of the world\u2019s hardest-to-recycle plastics into high-performance lubricating oil",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261126033501.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists identify two ages when children may be most vulnerable to screen time",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261126033220.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
       "topic": "This 345-million-year-old fossil had scientists fooled for decades",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261125045307.htm"
@@ -201,9 +215,23 @@
     {
       "source": "ScienceDaily",
       "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "For decades, scientists may have misunderstood how brain cells work",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261125045302.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
       "topic": "Scientists discover mysterious lakes more than a mile beneath the Red Sea",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261125045259.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Scientists discover signs of a hidden extinction crisis deep beneath the ocean",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261125045249.htm"
     },
     {
       "source": "ScienceDaily",
@@ -393,34 +421,6 @@
       "topic": "Is free will an illusion? New brain research reveals a surprising twist",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261118065524.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Something strange is living beneath the skin of deep-sea pigs",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261118065512.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Why hydrogen flames can glow orange, then turn nearly invisible",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261118065509.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Too much exercise could leave your brain stuck in overdrive",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261117033923.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Stonehenge\u2019s six-ton mystery deepens as scientists narrow their search",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261117033914.htm"
     }
   ]
 }

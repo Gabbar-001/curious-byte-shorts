@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T17:52:06.818396",
+  "updated_at": "2026-11-28T02:56:06.157839",
   "total_candidates": 90,
   "candidates": [
     {
@@ -162,27 +162,6 @@
       "topic": "Webb discovers farthest 'little red dot' from universe's first 500 million years",
       "viral_potential_score": 66,
       "source_url": "https://phys.org/news/2026-11-webb-farthest-red-dot-universe.html"
-    },
-    {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Water signals could guide future efforts to image supermassive black hole shadows",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-future-efforts-image-supermassive-black.html"
-    },
-    {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "Four radiation belts surrounded Earth for weeks after 2024 solar superstorm",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-belts-earth-weeks-solar-superstorm.html"
-    },
-    {
-      "source": "Phys.org Space",
-      "pillar": "Space & Universal Paradoxes",
-      "topic": "New quasar record tightens constraints on black hole formation scenarios",
-      "viral_potential_score": 66,
-      "source_url": "https://phys.org/news/2026-11-quasar-tightens-constraints-black-hole.html"
     },
     {
       "source": "ScienceDaily",
@@ -421,6 +400,27 @@
       "topic": "Is free will an illusion? New brain research reveals a surprising twist",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261118065524.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Something strange is living beneath the skin of deep-sea pigs",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261118065512.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Why hydrogen flames can glow orange, then turn nearly invisible",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261118065509.htm"
+    },
+    {
+      "source": "ScienceDaily",
+      "pillar": "Catastrophic Earth & Natural Anomalies",
+      "topic": "Too much exercise could leave your brain stuck in overdrive",
+      "viral_potential_score": 60,
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261117033923.htm"
     }
   ]
 }

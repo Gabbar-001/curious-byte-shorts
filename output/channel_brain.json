@@ -1,23 +1,23 @@
 {
-  "last_updated": "2026-11-27T12:22:09.223322+00:00",
+  "last_updated": "2026-11-27T21:26:08.554664+00:00",
   "total_videos_analyzed": 687,
-  "total_channel_views": 10926,
-  "median_views": 2,
+  "total_channel_views": 11193,
+  "median_views": 3,
   "pillar_analytics": {
     "General Science & Curiosities": {
       "video_count": 687,
-      "total_views": 10926,
-      "avg_views_per_video": 15.9,
+      "total_views": 11193,
+      "avg_views_per_video": 16.3,
       "avg_velocity_per_hour": 0.04,
-      "raw_performance_score": 11.9,
+      "raw_performance_score": 12.2,
       "recommended_allocation_pct": 45.0
     }
   },
   "hook_analytics": {
     "Shock": {
       "attempts": 687,
-      "avg_views": 15.9,
-      "win_rate_pct": 49.9
+      "avg_views": 16.3,
+      "win_rate_pct": 46.3
     }
   },
   "breakout_hits": [
@@ -59,20 +59,8 @@
   ],
   "underperforming_patterns": [
     {
-      "title": "Your Brain is Gaslighting You: The D\u00e9j\u00e0 Vu Glitch #Shorts",
-      "topic": "Your Brain is Gaslighting You: The D\u00e9j\u00e0 Vu Glitch #Shorts",
-      "pillar": "General Science & Curiosities",
-      "views": 0
-    },
-    {
       "title": "Why Eating Ice Cream Instantly Hacks Your Brain! #Shorts",
       "topic": "Why Eating Ice Cream Instantly Hacks Your Brain! #Shorts",
-      "pillar": "General Science & Curiosities",
-      "views": 0
-    },
-    {
-      "title": "Why FIFA's Most Broken Rule is Secretly a Cheat #Shorts",
-      "topic": "Why FIFA's Most Broken Rule is Secretly a Cheat #Shorts",
       "pillar": "General Science & Curiosities",
       "views": 0
     },
@@ -83,8 +71,20 @@
       "views": 0
     },
     {
-      "title": "Why Kohli vs. Sachin is a Statistical Hallucination #Shorts",
-      "topic": "Why Kohli vs. Sachin is a Statistical Hallucination #Shorts",
+      "title": "Why Your Eyes Are Lying To You! \ud83d\udc41\ufe0f\u2728 #Shorts",
+      "topic": "Why Your Eyes Are Lying To You! \ud83d\udc41\ufe0f\u2728 #Shorts",
+      "pillar": "General Science & Curiosities",
+      "views": 0
+    },
+    {
+      "title": "Why your mouth mimics scissors? #Shorts",
+      "topic": "Why your mouth mimics scissors? #Shorts",
+      "pillar": "General Science & Curiosities",
+      "views": 0
+    },
+    {
+      "title": "Why Your Brain Deletes Your Passwords #Shorts",
+      "topic": "Why Your Brain Deletes Your Passwords #Shorts",
       "pillar": "General Science & Curiosities",
       "views": 0
     }
@@ -118,5 +118,5 @@
       ]
     }
   ],
-  "ai_strategic_directive": "=== REAL-TIME CURIOUS BYTE CHANNEL INTELLIGENCE DIRECTIVE ===\n1. AUDIENCE CRAVING: Your audience generates 3x-5x higher engagement on: General Science & Curiosities. Prioritize these themes.\n2. WINNING HOOK ARCHETYPE: 'Shock Hook' is your channel's highest-converting opener. Deliver a visceral, high-stakes curiosity gap in the first 2 seconds.\n3. PROVEN BREAKOUT WINNERS (Model your upcoming scripts on these):\n   \u2022 'The Secret Frequency of the Hypogeum #Shorts' (949 views) / 'The Invisible Monster Pulling Our Galaxy #Shorts' (696 views) / 'The Universe Could End Before You Finish This Sentence #Shorts' (631 views)\n4. UNDERPERFORMING PATTERNS (Avoid these angles):\n   \u2022 'Your Brain is Gaslighting You: The D\u00e9j\u00e0 Vu Glitch #Shorts', 'Why Eating Ice Cream Instantly Hacks Your Brain! #Shorts'\n5. RETENTION MANDATE: Keep narrative cuts under 4.5 seconds per beat. Never explain academic theory without immediate visual proof."
+  "ai_strategic_directive": "=== REAL-TIME CURIOUS BYTE CHANNEL INTELLIGENCE DIRECTIVE ===\n1. AUDIENCE CRAVING: Your audience generates 3x-5x higher engagement on: General Science & Curiosities. Prioritize these themes.\n2. WINNING HOOK ARCHETYPE: 'Shock Hook' is your channel's highest-converting opener. Deliver a visceral, high-stakes curiosity gap in the first 2 seconds.\n3. PROVEN BREAKOUT WINNERS (Model your upcoming scripts on these):\n   \u2022 'The Secret Frequency of the Hypogeum #Shorts' (949 views) / 'The Invisible Monster Pulling Our Galaxy #Shorts' (696 views) / 'The Universe Could End Before You Finish This Sentence #Shorts' (631 views)\n4. UNDERPERFORMING PATTERNS (Avoid these angles):\n   \u2022 'Why Eating Ice Cream Instantly Hacks Your Brain! #Shorts', 'Why You Forget Everything As Soon As You Walk In A Room #Shorts'\n5. RETENTION MANDATE: Keep narrative cuts under 4.5 seconds per beat. Never explain academic theory without immediate visual proof."
 }

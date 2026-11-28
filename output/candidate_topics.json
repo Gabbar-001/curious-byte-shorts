@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T02:56:06.157839",
+  "updated_at": "2026-11-28T17:52:23.820723",
   "total_candidates": 90,
   "candidates": [
     {
@@ -141,6 +141,13 @@
       "topic": "More than a billion years of Earth's history vanished. Scientists may finally know why",
       "viral_potential_score": 66,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023403.htm"
+    },
+    {
+      "source": "Phys.org Space",
+      "pillar": "Space & Universal Paradoxes",
+      "topic": "Event Horizon Telescope views the dynamics and geometry of a black hole jet in extreme detail",
+      "viral_potential_score": 66,
+      "source_url": "https://phys.org/news/2026-11-event-horizon-telescope-views-dynamics.html"
     },
     {
       "source": "Phys.org Space",
@@ -414,13 +421,6 @@
       "topic": "Why hydrogen flames can glow orange, then turn nearly invisible",
       "viral_potential_score": 60,
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261118065509.htm"
-    },
-    {
-      "source": "ScienceDaily",
-      "pillar": "Catastrophic Earth & Natural Anomalies",
-      "topic": "Too much exercise could leave your brain stuck in overdrive",
-      "viral_potential_score": 60,
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261117033923.htm"
     }
   ]
 }
